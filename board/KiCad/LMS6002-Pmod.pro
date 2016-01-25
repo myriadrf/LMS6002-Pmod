@@ -1,4 +1,4 @@
-update=Mo 25 Jan 2016 11:10:05 CET
+update=Mo 25 Jan 2016 12:01:31 CET
 version=1
 last_client=kicad
 [pcbnew]
@@ -60,3 +60,4 @@ LibName28=contrib
 LibName29=valves
 LibName30=lib/ice40_1k4k_tq144
 LibName31=lib/myriad
+LibName32=lib/pmod
