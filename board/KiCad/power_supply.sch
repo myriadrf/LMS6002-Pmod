@@ -240,4 +240,52 @@ Connection ~ 4600 1700
 Wire Wire Line
 	4600 2300 4600 2650
 Connection ~ 4600 2500
+Wire Notes Line
+	2550 3150 2550 2200
+Wire Notes Line
+	2550 2200 4000 2200
+Wire Notes Line
+	4000 2200 4000 3150
+Wire Notes Line
+	4000 3150 2550 3150
+Text Notes 3350 1400 0    60   ~ 0
+Over current/voltage protection
+Wire Notes Line
+	3250 1200 4850 1200
+Wire Notes Line
+	4850 1200 4850 2300
+Wire Notes Line
+	4850 2300 4150 2300
+Wire Notes Line
+	4150 2300 4150 1950
+Wire Notes Line
+	4150 1950 3450 1950
+Wire Notes Line
+	3450 1950 3450 1500
+Wire Notes Line
+	3450 1500 3250 1500
+Wire Notes Line
+	3250 1500 3250 1200
+Wire Notes Line
+	5800 1200 7900 1200
+Wire Notes Line
+	5800 2300 8550 2300
+Wire Notes Line
+	5800 2300 5800 1200
+Text Notes 5900 2150 0    60   ~ 0
+Select 1V2 LDO input between 5V and 3V3 from PMOD
+Wire Notes Line
+	8550 2300 8550 1200
+Wire Notes Line
+	8550 1200 7950 1200
+Text Notes 5600 3800 0    60   ~ 0
+LDO to generate 1.2V supply voltage for iCE40
+Wire Notes Line
+	4900 2450 4900 3900
+Wire Notes Line
+	4900 3900 8100 3900
+Wire Notes Line
+	8100 3900 8100 2450
+Wire Notes Line
+	8100 2450 4900 2450
 $EndSCHEMATC
