@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:LMS6002-Pmod-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -69,22 +68,20 @@ Wire Wire Line
 Wire Wire Line
 	2400 2500 3050 2500
 Wire Wire Line
-	3450 2500 3900 2500
+	3450 2500 4600 2500
 Connection ~ 3300 1700
 $Comp
 L GND #PWR6
 U 1 1 56A748C9
-P 3900 2650
-F 0 "#PWR6" H 3900 2650 30  0001 C CNN
-F 1 "GND" H 3900 2580 30  0001 C CNN
-F 2 "" H 3900 2650 60  0000 C CNN
-F 3 "" H 3900 2650 60  0000 C CNN
-	1    3900 2650
+P 4600 2650
+F 0 "#PWR6" H 4600 2650 30  0001 C CNN
+F 1 "GND" H 4600 2580 30  0001 C CNN
+F 2 "" H 4600 2650 60  0000 C CNN
+F 3 "" H 4600 2650 60  0000 C CNN
+	1    4600 2650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3900 2500 3900 2650
-Text GLabel 3900 1700 2    60   Input ~ 0
+Text GLabel 5000 1700 2    60   Input ~ 0
 5V
 $Comp
 L BARREL_JACK CON1
@@ -211,4 +208,36 @@ F 3 "" H 5700 3350 60  0000 C CNN
 	1    5700 3350
 	1    0    0    -1  
 $EndComp
+Text Notes 2650 2950 0    60   ~ 0
+Reverse-polarity protection
+$Comp
+L FUSE F?
+U 1 1 56AB7E87
+P 4150 1700
+F 0 "F?" H 4250 1750 50  0000 C CNN
+F 1 "2A-0603" H 4150 1550 50  0000 C CNN
+F 2 "" H 4150 1700 50  0000 C CNN
+F 3 "" H 4150 1700 50  0000 C CNN
+	1    4150 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L ZENER D?
+U 1 1 56AB7F42
+P 4600 2100
+F 0 "D?" H 4600 2200 50  0000 C CNN
+F 1 "5V-SOD-123F" H 4600 2000 50  0000 C CNN
+F 2 "" H 4600 2100 50  0000 C CNN
+F 3 "" H 4600 2100 50  0000 C CNN
+	1    4600 2100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4400 1700 5000 1700
+Wire Wire Line
+	4600 1900 4600 1700
+Connection ~ 4600 1700
+Wire Wire Line
+	4600 2300 4600 2650
+Connection ~ 4600 2500
 $EndSCHEMATC
