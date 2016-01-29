@@ -155,14 +155,7 @@ Wire Wire Line
 	6400 2050 6700 2050
 Connection ~ 6700 2050
 Connection ~ 6700 1850
-Wire Wire Line
-	6400 1550 7150 1550
-Wire Wire Line
-	7150 1250 7150 1650
 Connection ~ 7150 1250
-Wire Wire Line
-	7150 1650 6400 1650
-Connection ~ 7150 1550
 Wire Wire Line
 	6400 2350 6700 2350
 Connection ~ 6700 2350
