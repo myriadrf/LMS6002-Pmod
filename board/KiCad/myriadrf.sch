@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:LMS6002-Pmod-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -36,7 +37,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 4
+Sheet 4 5
 Title ""
 Date ""
 Rev ""
@@ -63,4 +64,128 @@ F 9 "FX10B_80S_8" H 5600 6581 60  0000 C CNN "Component Value"
 	1    5600 3750
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	6400 1250 7250 1250
+Wire Wire Line
+	6500 1250 6500 1350
+Wire Wire Line
+	6500 1350 6400 1350
+Wire Wire Line
+	4550 1250 4800 1250
+Wire Wire Line
+	4700 1250 4700 1350
+Wire Wire Line
+	4700 1350 4800 1350
+Text GLabel 7250 1250 2    60   Input ~ 0
+5V
+Text GLabel 4550 1250 0    60   Input ~ 0
+5V
+Connection ~ 4700 1250
+Connection ~ 6500 1250
+$Comp
+L GND #PWR?
+U 1 1 56AB8EA2
+P 4400 1450
+F 0 "#PWR?" H 4400 1200 50  0001 C CNN
+F 1 "GND" H 4400 1300 50  0000 C CNN
+F 2 "" H 4400 1450 60  0000 C CNN
+F 3 "" H 4400 1450 60  0000 C CNN
+	1    4400 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 56AB8EB8
+P 7350 1450
+F 0 "#PWR?" H 7350 1200 50  0001 C CNN
+F 1 "GND" H 7350 1300 50  0000 C CNN
+F 2 "" H 7350 1450 60  0000 C CNN
+F 3 "" H 7350 1450 60  0000 C CNN
+	1    7350 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 1450 4800 1450
+Wire Wire Line
+	6400 1450 7350 1450
+Wire Wire Line
+	4800 1850 4500 1850
+Wire Wire Line
+	4500 1450 4500 6500
+Connection ~ 4500 1450
+Wire Wire Line
+	6400 1850 6700 1850
+Wire Wire Line
+	6700 1450 6700 6500
+Connection ~ 6700 1450
+Wire Wire Line
+	4500 3150 4800 3150
+Connection ~ 4500 1850
+Wire Wire Line
+	6400 3150 6700 3150
+Wire Wire Line
+	6700 4450 6400 4450
+Connection ~ 6700 3150
+Wire Wire Line
+	6700 5750 6400 5750
+Connection ~ 6700 4450
+Connection ~ 6700 5750
+Wire Wire Line
+	4500 4450 4800 4450
+Connection ~ 4500 3150
+Wire Wire Line
+	4500 5750 4800 5750
+Connection ~ 4500 4450
+Connection ~ 4500 5750
+Wire Wire Line
+	4800 2050 4500 2050
+Connection ~ 4500 2050
+Wire Wire Line
+	6400 2050 6700 2050
+Connection ~ 6700 2050
+Connection ~ 6700 1850
+Wire Wire Line
+	6400 1550 7150 1550
+Wire Wire Line
+	7150 1250 7150 1650
+Connection ~ 7150 1250
+Wire Wire Line
+	7150 1650 6400 1650
+Connection ~ 7150 1550
+Wire Wire Line
+	6400 2350 6700 2350
+Connection ~ 6700 2350
+Wire Wire Line
+	4800 2350 4500 2350
+Connection ~ 4500 2350
+Wire Wire Line
+	6400 2850 6700 2850
+Connection ~ 6700 2850
+Wire Wire Line
+	4800 2850 4500 2850
+Connection ~ 4500 2850
+Wire Wire Line
+	6400 3650 6700 3650
+Connection ~ 6700 3650
+Wire Wire Line
+	4800 3650 4500 3650
+Connection ~ 4500 3650
+Wire Wire Line
+	6400 4150 6700 4150
+Connection ~ 6700 4150
+Wire Wire Line
+	4800 4150 4500 4150
+Connection ~ 4500 4150
+Wire Wire Line
+	6400 4950 6700 4950
+Connection ~ 6700 4950
+Wire Wire Line
+	4800 4950 4500 4950
+Connection ~ 4500 4950
+Wire Wire Line
+	4800 5150 4500 5150
+Connection ~ 4500 5150
+Wire Wire Line
+	6400 5250 6700 5250
+Connection ~ 6700 5250
 $EndSCHEMATC

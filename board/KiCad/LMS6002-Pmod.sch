@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:LMS6002-Pmod-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -36,7 +37,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 4
+Sheet 1 5
 Title ""
 Date ""
 Rev ""
@@ -63,5 +64,11 @@ S 7700 1250 1300 1400
 U 56A5F93B
 F0 "MyriadRF" 60
 F1 "myriadrf.sch" 60
+$EndSheet
+$Sheet
+S 1900 3050 1650 1400
+U 56A67CE4
+F0 "power_supply" 50
+F1 "power_supply.sch" 50
 $EndSheet
 $EndSCHEMATC
