@@ -121,13 +121,9 @@ Wire Wire Line
 	6400 1450 7350 1450
 Wire Wire Line
 	4800 1850 4500 1850
-Wire Wire Line
-	4500 1450 4500 6500
 Connection ~ 4500 1450
 Wire Wire Line
 	6400 1850 6700 1850
-Wire Wire Line
-	6700 1450 6700 6500
 Connection ~ 6700 1450
 Wire Wire Line
 	4500 3150 4800 3150
@@ -264,4 +260,24 @@ Entry Bus Bus
 	7250 3800 7350 3900
 Entry Bus Bus
 	3900 2300 4000 2400
+Wire Wire Line
+	6400 2450 7150 2450
+Text GLabel 7150 2450 2    60   Input ~ 0
+TXIQSEL
+Wire Wire Line
+	6400 3750 7850 3750
+Text GLabel 7850 3750 2    60   Input ~ 0
+RXIQSEL
+Wire Wire Line
+	4500 5750 4500 1450
+Wire Wire Line
+	6700 5750 6700 1450
+Wire Wire Line
+	4800 6350 4500 6350
+Text GLabel 4500 6350 0    60   Input ~ 0
+RXEN
+Wire Wire Line
+	6400 6350 7200 6350
+Text GLabel 7200 6350 2    60   Input ~ 0
+TXEN
 $EndSCHEMATC
