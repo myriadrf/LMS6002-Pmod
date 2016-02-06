@@ -458,4 +458,82 @@ Text Label 4750 1950 0    60   ~ 0
 DIQ1_D10
 Text Label 4750 2050 0    60   ~ 0
 DIQ1_D11
+Wire Wire Line
+	4700 2350 5200 2350
+Wire Wire Line
+	4700 2450 5200 2450
+Wire Wire Line
+	4700 2550 5200 2550
+Wire Wire Line
+	4700 2650 5200 2650
+Wire Wire Line
+	4700 2750 5200 2750
+Wire Wire Line
+	4700 2850 5200 2850
+Wire Wire Line
+	4700 2950 5200 2950
+Wire Wire Line
+	4700 3050 5200 3050
+Wire Wire Line
+	4700 3150 5200 3150
+Wire Wire Line
+	4700 3250 5200 3250
+Wire Wire Line
+	4700 3350 5200 3350
+Wire Wire Line
+	4700 2250 5200 2250
+Entry Wire Line
+	5200 2250 5300 2350
+Entry Wire Line
+	5200 2350 5300 2450
+Entry Wire Line
+	5200 2450 5300 2550
+Entry Wire Line
+	5200 2550 5300 2650
+Entry Wire Line
+	5200 2650 5300 2750
+Entry Wire Line
+	5200 2750 5300 2850
+Entry Wire Line
+	5200 2850 5300 2950
+Entry Wire Line
+	5200 2950 5300 3050
+Entry Wire Line
+	5200 3050 5300 3150
+Entry Wire Line
+	5200 3150 5300 3250
+Entry Wire Line
+	5200 3250 5300 3350
+Entry Wire Line
+	5200 3350 5300 3450
+Wire Bus Line
+	5300 2350 5300 3500
+Entry Bus Bus
+	5300 3500 5400 3600
+Text GLabel 5400 3600 2    60   Input ~ 0
+DIQ2
+Text Label 4750 2250 0    60   ~ 0
+DIQ2_D0
+Text Label 4750 2350 0    60   ~ 0
+DIQ2_D1
+Text Label 4750 2450 0    60   ~ 0
+DIQ2_D2
+Text Label 4750 2550 0    60   ~ 0
+DIQ2_D3
+Text Label 4750 2650 0    60   ~ 0
+DIQ2_D4
+Text Label 4750 2750 0    60   ~ 0
+DIQ2_D5
+Text Label 4750 2850 0    60   ~ 0
+DIQ2_D6
+Text Label 4750 2950 0    60   ~ 0
+DIQ2_D7
+Text Label 4750 3050 0    60   ~ 0
+DIQ2_D8
+Text Label 4750 3150 0    60   ~ 0
+DIQ2_D9
+Text Label 4750 3250 0    60   ~ 0
+DIQ2_D10
+Text Label 4750 3350 0    60   ~ 0
+DIQ2_D11
 $EndSCHEMATC

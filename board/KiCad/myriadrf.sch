@@ -239,7 +239,7 @@ DIQ1_D6
 Text Label 6800 3450 0    60   ~ 0
 DIQ1_D8
 Text Label 6800 3550 0    60   ~ 0
-DID1_D10
+DIQ1_D10
 Text Label 4150 2650 0    60   ~ 0
 DIQ1_D1
 Text Label 4150 2750 0    60   ~ 0
@@ -263,11 +263,11 @@ Entry Bus Bus
 Wire Wire Line
 	6400 2450 7150 2450
 Text GLabel 7150 2450 2    60   Input ~ 0
-TXIQSEL
+DIQ1_SEL
 Wire Wire Line
 	6400 3750 7850 3750
 Text GLabel 7850 3750 2    60   Input ~ 0
-RXIQSEL
+DIQ2_SEL
 Wire Wire Line
 	4500 5750 4500 1450
 Wire Wire Line
@@ -280,4 +280,112 @@ Wire Wire Line
 	6400 6350 7200 6350
 Text GLabel 7200 6350 2    60   Input ~ 0
 TXEN
+Wire Bus Line
+	7250 4050 7250 5100
+Wire Wire Line
+	6400 3950 7150 3950
+Entry Wire Line
+	7150 3950 7250 4050
+Entry Wire Line
+	7150 4050 7250 4150
+Entry Wire Line
+	7150 4250 7250 4350
+Wire Wire Line
+	6400 4050 7150 4050
+Wire Wire Line
+	6400 4250 7150 4250
+Wire Wire Line
+	6400 4650 7150 4650
+Wire Wire Line
+	6400 4750 7150 4750
+Wire Wire Line
+	6400 4850 7150 4850
+Entry Wire Line
+	7150 4650 7250 4750
+Entry Wire Line
+	7150 4750 7250 4850
+Entry Wire Line
+	7150 4850 7250 4950
+Text Label 6800 3950 0    60   ~ 0
+DIQ2_D0
+Text Label 6800 4050 0    60   ~ 0
+DIQ2_D2
+Text Label 6800 4250 0    60   ~ 0
+DIQ2_D4
+Text Label 6800 4650 0    60   ~ 0
+DIQ2_D6
+Text Label 6800 4750 0    60   ~ 0
+DIQ2_D8
+Text Label 6800 4850 0    60   ~ 0
+DIQ2_D10
+Entry Bus Bus
+	7250 5100 7350 5200
+Text GLabel 7350 5200 2    60   Input ~ 0
+DIQ2
+Wire Wire Line
+	4800 3950 4100 3950
+Wire Wire Line
+	4800 4050 4100 4050
+Wire Wire Line
+	4800 4250 4100 4250
+Wire Wire Line
+	4800 4650 4100 4650
+Wire Wire Line
+	4800 4750 4100 4750
+Wire Wire Line
+	4800 4850 4100 4850
+Entry Wire Line
+	4000 3850 4100 3950
+Entry Wire Line
+	4000 3950 4100 4050
+Entry Wire Line
+	4000 4150 4100 4250
+Entry Wire Line
+	4000 4550 4100 4650
+Entry Wire Line
+	4000 4650 4100 4750
+Entry Wire Line
+	4000 4750 4100 4850
+Wire Bus Line
+	4000 4750 4000 3850
+Entry Bus Bus
+	3900 3750 4000 3850
+Text GLabel 3900 3750 0    60   Input ~ 0
+DIQ2
+Text Label 4150 3950 0    60   ~ 0
+DIQ2_D1
+Text Label 4150 4050 0    60   ~ 0
+DIQ2_D3
+Text Label 4150 4250 0    60   ~ 0
+DIQ2_D5
+Text Label 4150 4650 0    60   ~ 0
+DIQ2_D7
+Text Label 4150 4750 0    60   ~ 0
+DIQ2_D9
+Text Label 4150 4850 0    60   ~ 0
+DIQ2_D11
+Wire Wire Line
+	6400 5050 6800 5050
+Wire Wire Line
+	4800 5050 4350 5050
+Text GLabel 6800 5050 2    60   Input ~ 0
+FCLK2
+Text GLabel 4350 5050 0    60   Input ~ 0
+FCLK1
+Wire Wire Line
+	6400 5350 6850 5350
+Wire Wire Line
+	6400 5450 6850 5450
+Wire Wire Line
+	6400 5550 6850 5550
+Text GLabel 6850 5350 2    60   Input ~ 0
+RFDIO_GPIO0
+Text GLabel 6850 5450 2    60   Input ~ 0
+RFDIO_GPIO1
+Text GLabel 6850 5550 2    60   Input ~ 0
+RFDIO_GPIO2
+Wire Wire Line
+	4800 5350 4350 5350
+Text GLabel 4350 5350 0    60   Input ~ 0
+RFDIO_RESET
 $EndSCHEMATC
