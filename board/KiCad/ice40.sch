@@ -536,4 +536,80 @@ Text Label 4750 3250 0    60   ~ 0
 DIQ2_D10
 Text Label 4750 3350 0    60   ~ 0
 DIQ2_D11
+Wire Wire Line
+	1700 3050 1850 3050
+Wire Wire Line
+	1850 3050 1850 3150
+Wire Wire Line
+	1850 3150 1700 3150
+Wire Wire Line
+	1700 3450 1850 3450
+Wire Wire Line
+	1850 3450 1850 3550
+Wire Wire Line
+	1850 3550 1700 3550
+Wire Wire Line
+	1700 4800 2050 4800
+Wire Wire Line
+	1700 4900 2050 4900
+Text GLabel 2050 4800 2    60   Input ~ 0
+RXEN
+Text GLabel 2050 4900 2    60   Input ~ 0
+TXEN
+Wire Wire Line
+	1700 5000 2050 5000
+Wire Wire Line
+	1700 5100 2050 5100
+Text GLabel 2050 5000 2    60   Input ~ 0
+DIQ1_SEL
+Text GLabel 2050 5100 2    60   Input ~ 0
+DIQ2_SEL
+Wire Wire Line
+	1700 5200 2050 5200
+Wire Wire Line
+	1700 5300 2050 5300
+Text GLabel 2050 5200 2    60   Input ~ 0
+FCLK1
+Text GLabel 2050 5300 2    60   Input ~ 0
+FCLK2
+Wire Wire Line
+	1700 1150 1950 1150
+Text GLabel 1950 1150 2    60   Input ~ 0
+ICE_CLK_IN
+Wire Wire Line
+	1700 5400 2050 5400
+Wire Wire Line
+	1700 5500 2050 5500
+Wire Wire Line
+	1700 5600 2050 5600
+Wire Wire Line
+	1700 5700 2050 5700
+Text GLabel 2050 5400 2    60   Input ~ 0
+RFDIO_RESET
+Text GLabel 2050 5500 2    60   Input ~ 0
+RFDIO_GPIO0
+Text GLabel 2050 5600 2    60   Input ~ 0
+RFDIO_GPIO1
+Text GLabel 2050 5700 2    60   Input ~ 0
+RFDIO_GPIO2
+Text GLabel 2050 5800 2    60   Input ~ 0
+RFDIO_SPI_MOSI
+Text GLabel 2050 5900 2    60   Input ~ 0
+RFDIO_SPI_MISO
+Text GLabel 2050 6000 2    60   Input ~ 0
+RFDIO_SPI_CLK
+Text GLabel 2050 6100 2    60   Input ~ 0
+RFDIO_SPI_EN
+Wire Wire Line
+	1700 5800 2050 5800
+Wire Wire Line
+	1700 5900 2050 5900
+Wire Wire Line
+	1700 6000 2050 6000
+Wire Wire Line
+	1700 6100 2050 6100
+Wire Wire Line
+	1700 6200 2050 6200
+Text GLabel 2050 6200 2    60   Input ~ 0
+RFDIO_REF_CLK_IN
 $EndSCHEMATC

@@ -388,4 +388,24 @@ Wire Wire Line
 	4800 5350 4350 5350
 Text GLabel 4350 5350 0    60   Input ~ 0
 RFDIO_RESET
+Wire Wire Line
+	4800 5450 4350 5450
+Text GLabel 4350 5450 0    60   Input ~ 0
+RFDIO_SPI_MOSI
+Wire Wire Line
+	4800 5550 4350 5550
+Text GLabel 4350 5550 0    60   Input ~ 0
+RFDIO_SPI_MISO
+Wire Wire Line
+	4800 5950 4350 5950
+Text GLabel 4350 5950 0    60   Input ~ 0
+RFDIO_SPI_CLK
+Wire Wire Line
+	4800 6050 4350 6050
+Text GLabel 4350 6050 0    60   Input ~ 0
+RFDIO_SPI_EN
+Wire Wire Line
+	6400 6150 6800 6150
+Text GLabel 6800 6150 2    60   Input ~ 0
+RFDIO_REF_CLK_IN
 $EndSCHEMATC
