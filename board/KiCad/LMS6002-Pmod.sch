@@ -36,7 +36,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 5
+Sheet 1 6
 Title ""
 Date ""
 Rev ""
@@ -69,5 +69,11 @@ S 1900 3050 1650 1400
 U 56A67CE4
 F0 "power_supply" 50
 F1 "power_supply.sch" 50
+$EndSheet
+$Sheet
+S 5050 3050 1550 1400
+U 56BBAE88
+F0 "SPI_Interface" 60
+F1 "SPI_Interface.sch" 60
 $EndSheet
 $EndSCHEMATC
