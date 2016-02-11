@@ -19,3 +19,9 @@
 
  * http://de.farnell.com/multicomp/mc06cf-002/sicherung-smd-0603-2a/dp/1841012
  * http://www.farnell.com/datasheets/1693108.pdf
+ 
+* Oscillator - LTC1799
+
+ * http://www.farnell.com/datasheets/1596314.pdf
+ * http://de.farnell.com/linear-technology/ltc1799cs5-trmpbf/oszillator-1khz-30mhz-tsot23-5/dp/1663863
+ 
