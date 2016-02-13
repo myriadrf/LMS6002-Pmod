@@ -300,7 +300,7 @@ F 3 "" H 3450 6100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 2000 5350 0    60   Input ~ 0
-3V3_PMOD
+5V_LDO_IN
 $Comp
 L C C?
 U 1 1 56BD346E
@@ -384,7 +384,7 @@ Wire Wire Line
 Wire Wire Line
 	4100 5950 4150 5950
 Text GLabel 4250 5550 2    60   Input ~ 0
-3V3_PMOD
+5V_LDO_IN
 Wire Wire Line
 	4150 5750 4000 5750
 Wire Wire Line
@@ -395,4 +395,14 @@ Text GLabel 4250 5350 2    60   Input ~ 0
 ICE_CLK_IN
 Wire Wire Line
 	3900 5350 4250 5350
+Wire Notes Line
+	1250 4900 5100 4900
+Wire Notes Line
+	5100 4900 5100 6500
+Wire Notes Line
+	5100 6500 1250 6500
+Wire Notes Line
+	1250 6500 1250 4900
+Text Notes 2750 6400 0    60   ~ 0
+Clock generation
 $EndSCHEMATC

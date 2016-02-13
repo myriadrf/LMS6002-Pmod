@@ -136,6 +136,30 @@ X ~ 2 0 -150 110 U 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
+# D_Schottky_Small
+#
+DEF D_Schottky_Small D 0 10 N N 1 F N
+F0 "D" -50 80 50 H V L CNN
+F1 "D_Schottky_Small" -280 -80 50 H V L CNN
+F2 "" 0 0 60 V V C CNN
+F3 "" 0 0 60 V V C CNN
+$FPLIST
+ Diode_*
+ D-Pak_TO252AA
+ *SingleDiode
+ *SingleDiode*
+ *_Diode_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0  -30 -40  -30 40 N
+P 3 0 1 0  -30 -40  -20 -40  -20 -30 N
+P 3 0 1 0  -30 40  -40 40  -40 30 N
+P 4 0 1 0  30 -40  -30 0  30 40  30 -40 F
+X K 1 -100 0 70 R 50 50 1 1 P
+X A 2 100 0 70 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # FUSE
 #
 DEF FUSE F 0 10 Y Y 1 F N
@@ -472,6 +496,29 @@ DRAW
 S -40 -100 40 100 0 1 10 N
 X ~ 1 0 150 50 D 60 60 1 1 P
 X ~ 2 0 -150 50 U 60 60 1 1 P
+ENDDRAW
+ENDDEF
+#
+# SW_Tactile
+#
+DEF ~SW_Tactile SW 0 0 N N 1 F N
+F0 "SW" 0 75 60 H V C CNN
+F1 "SW_Tactile" 25 200 60 H I C CNN
+F2 "SW_B3U-1000P" 50 325 60 H I C CNN
+F3 "" 0 -25 60 H V C CNN
+F4 "B3U-1000P" 25 525 60 H I C CNN "Manufacturer Part Number"
+F5 "Digi-Key" 25 750 60 H I C CNN "Vendor"
+F6 "Omron Electronics Inc-EMC Div" -25 650 60 H I C CNN "Manufacturer"
+F7 "SW1020CT-ND" 50 825 60 H I C CNN "Vendor Part Number"
+F8 "SWITCH, TACTILE, SPST-NO, 0.05A, 12V," 50 425 60 H I C CNN "Description"
+F9 "SW_Tactile" 0 -75 60 H V C CNN "Component Value"
+DRAW
+C -40 0 10 0 1 0 N
+C 40 0 10 0 1 0 N
+P 2 0 1 0  -40 25  40 25 N
+P 4 0 1 0  10 25  10 35  -10 35  -10 25 N
+X Base 1 -75 0 24 R 40 40 1 1 I
+X Coll 2 75 0 24 L 40 40 1 1 I
 ENDDRAW
 ENDDEF
 #

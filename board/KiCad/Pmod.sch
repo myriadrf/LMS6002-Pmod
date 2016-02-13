@@ -262,4 +262,20 @@ Text GLabel 5600 4650 0    60   Input ~ 0
 Wire Wire Line
 	5600 4650 5850 4650
 Connection ~ 5850 4650
+Wire Notes Line
+	4100 3100 5800 3100
+Wire Notes Line
+	5800 3100 5800 4400
+Wire Notes Line
+	5800 4400 4100 4400
+Wire Notes Line
+	4100 4400 4100 3100
+Wire Notes Line
+	6000 3100 7700 3100
+Wire Notes Line
+	7700 3100 7700 4400
+Wire Notes Line
+	7700 4400 6000 4400
+Wire Notes Line
+	6000 4400 6000 3100
 $EndSCHEMATC
