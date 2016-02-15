@@ -52,7 +52,7 @@ U 1 1 56A5F944
 P 5600 3750
 F 0 "J1" H 5600 6687 60  0000 C CNN
 F 1 "FX10B_80S_8" H 5580 6720 60  0001 C CNN
-F 2 "" H 5590 6840 60  0001 C CNN
+F 2 "pmod:FX10B_80S_8" H 5590 6840 60  0001 C CNN
 F 3 "" H 5600 3750 60  0000 C CNN
 F 4 "CONN RECEPT, 80POS, W/O, POST, SMD," H 5630 6950 60  0001 C CNN "Description"
 F 5 "Digi-Key" H 5610 7280 60  0001 C CNN "Vendor"
@@ -68,10 +68,10 @@ Text GLabel 7250 1250 2    60   Input ~ 0
 Text GLabel 4550 1250 0    60   Input ~ 0
 5V
 $Comp
-L GND #PWR12
+L GND #PWR13
 U 1 1 56AB8EA2
 P 4400 1450
-F 0 "#PWR12" H 4400 1200 50  0001 C CNN
+F 0 "#PWR13" H 4400 1200 50  0001 C CNN
 F 1 "GND" H 4400 1300 50  0000 C CNN
 F 2 "" H 4400 1450 60  0000 C CNN
 F 3 "" H 4400 1450 60  0000 C CNN
@@ -79,28 +79,16 @@ F 3 "" H 4400 1450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR13
+L GND #PWR28
 U 1 1 56AB8EB8
 P 7350 1450
-F 0 "#PWR13" H 7350 1200 50  0001 C CNN
+F 0 "#PWR28" H 7350 1200 50  0001 C CNN
 F 1 "GND" H 7350 1300 50  0000 C CNN
 F 2 "" H 7350 1450 60  0000 C CNN
 F 3 "" H 7350 1450 60  0000 C CNN
 	1    7350 1450
 	1    0    0    -1  
 $EndComp
-Entry Wire Line
-	7150 2650 7250 2750
-Entry Wire Line
-	7150 2750 7250 2850
-Entry Wire Line
-	7150 2950 7250 3050
-Entry Wire Line
-	7150 3350 7250 3450
-Entry Wire Line
-	7150 3450 7250 3550
-Entry Wire Line
-	7150 3550 7250 3650
 Wire Wire Line
 	6400 1250 7250 1250
 Wire Wire Line
@@ -212,54 +200,6 @@ Wire Wire Line
 	4800 3450 4100 3450
 Wire Wire Line
 	4800 3550 4100 3550
-Wire Bus Line
-	7250 2750 7250 3800
-Entry Wire Line
-	4000 2550 4100 2650
-Entry Wire Line
-	4000 2650 4100 2750
-Entry Wire Line
-	4000 2850 4100 2950
-Entry Wire Line
-	4000 3250 4100 3350
-Entry Wire Line
-	4000 3350 4100 3450
-Entry Wire Line
-	4000 3450 4100 3550
-Wire Bus Line
-	4000 3450 4000 2400
-Text Label 6800 2650 0    60   ~ 0
-DIQ1_D0
-Text Label 6800 2750 0    60   ~ 0
-DIQ1_D2
-Text Label 6800 2950 0    60   ~ 0
-DIQ1_D4
-Text Label 6800 3350 0    60   ~ 0
-DIQ1_D6
-Text Label 6800 3450 0    60   ~ 0
-DIQ1_D8
-Text Label 6800 3550 0    60   ~ 0
-DIQ1_D10
-Text Label 4150 2650 0    60   ~ 0
-DIQ1_D1
-Text Label 4150 2750 0    60   ~ 0
-DIQ1_D3
-Text Label 4150 2950 0    60   ~ 0
-DIQ1_D5
-Text Label 4150 3350 0    60   ~ 0
-DIQ1_D7
-Text Label 4150 3450 0    60   ~ 0
-DIQ1_D9
-Text Label 4150 3550 0    60   ~ 0
-DIQ1_D11
-Text GLabel 7350 3900 2    60   Input ~ 0
-DIQ1
-Text GLabel 3900 2300 0    60   Input ~ 0
-DIQ1
-Entry Bus Bus
-	7250 3800 7350 3900
-Entry Bus Bus
-	3900 2300 4000 2400
 Wire Wire Line
 	6400 2450 7150 2450
 Text GLabel 7150 2450 2    60   Input ~ 0
@@ -280,16 +220,8 @@ Wire Wire Line
 	6400 6350 7200 6350
 Text GLabel 7200 6350 2    60   Input ~ 0
 TXEN
-Wire Bus Line
-	7250 4050 7250 5100
 Wire Wire Line
 	6400 3950 7150 3950
-Entry Wire Line
-	7150 3950 7250 4050
-Entry Wire Line
-	7150 4050 7250 4150
-Entry Wire Line
-	7150 4250 7250 4350
 Wire Wire Line
 	6400 4050 7150 4050
 Wire Wire Line
@@ -300,28 +232,6 @@ Wire Wire Line
 	6400 4750 7150 4750
 Wire Wire Line
 	6400 4850 7150 4850
-Entry Wire Line
-	7150 4650 7250 4750
-Entry Wire Line
-	7150 4750 7250 4850
-Entry Wire Line
-	7150 4850 7250 4950
-Text Label 6800 3950 0    60   ~ 0
-DIQ2_D0
-Text Label 6800 4050 0    60   ~ 0
-DIQ2_D2
-Text Label 6800 4250 0    60   ~ 0
-DIQ2_D4
-Text Label 6800 4650 0    60   ~ 0
-DIQ2_D6
-Text Label 6800 4750 0    60   ~ 0
-DIQ2_D8
-Text Label 6800 4850 0    60   ~ 0
-DIQ2_D10
-Entry Bus Bus
-	7250 5100 7350 5200
-Text GLabel 7350 5200 2    60   Input ~ 0
-DIQ2
 Wire Wire Line
 	4800 3950 4100 3950
 Wire Wire Line
@@ -334,36 +244,6 @@ Wire Wire Line
 	4800 4750 4100 4750
 Wire Wire Line
 	4800 4850 4100 4850
-Entry Wire Line
-	4000 3850 4100 3950
-Entry Wire Line
-	4000 3950 4100 4050
-Entry Wire Line
-	4000 4150 4100 4250
-Entry Wire Line
-	4000 4550 4100 4650
-Entry Wire Line
-	4000 4650 4100 4750
-Entry Wire Line
-	4000 4750 4100 4850
-Wire Bus Line
-	4000 4750 4000 3850
-Entry Bus Bus
-	3900 3750 4000 3850
-Text GLabel 3900 3750 0    60   Input ~ 0
-DIQ2
-Text Label 4150 3950 0    60   ~ 0
-DIQ2_D1
-Text Label 4150 4050 0    60   ~ 0
-DIQ2_D3
-Text Label 4150 4250 0    60   ~ 0
-DIQ2_D5
-Text Label 4150 4650 0    60   ~ 0
-DIQ2_D7
-Text Label 4150 4750 0    60   ~ 0
-DIQ2_D9
-Text Label 4150 4850 0    60   ~ 0
-DIQ2_D11
 Wire Wire Line
 	6400 5050 6800 5050
 Wire Wire Line
@@ -408,4 +288,97 @@ Wire Wire Line
 	6400 6150 6800 6150
 Text GLabel 6800 6150 2    60   Input ~ 0
 RFDIO_REF_CLK_IN
+Text GLabel 4100 2650 0    60   Input ~ 0
+DIQ1_D1
+Text GLabel 4100 2750 0    60   Input ~ 0
+DIQ1_D3
+Text GLabel 4100 2950 0    60   Input ~ 0
+DIQ1_D5
+Text GLabel 4100 3350 0    60   Input ~ 0
+DIQ1_D7
+Text GLabel 4100 3450 0    60   Input ~ 0
+DIQ1_D9
+Text GLabel 4100 3550 0    60   Input ~ 0
+DIQ1_D11
+Text GLabel 7150 2650 2    60   Input ~ 0
+DIQ1_D0
+Text GLabel 7150 2750 2    60   Input ~ 0
+DIQ1_D2
+Text GLabel 7150 2950 2    60   Input ~ 0
+DIQ1_D4
+Text GLabel 7150 3350 2    60   Input ~ 0
+DIQ1_D6
+Text GLabel 7150 3450 2    60   Input ~ 0
+DIQ1_D8
+Text GLabel 7150 3550 2    60   Input ~ 0
+DIQ1_D10
+Text GLabel 7150 3950 2    60   Input ~ 0
+DIQ2_D0
+Text GLabel 7150 4050 2    60   Input ~ 0
+DIQ2_D2
+Text GLabel 7150 4250 2    60   Input ~ 0
+DIQ2_D4
+Text GLabel 7150 4650 2    60   Input ~ 0
+DIQ2_D6
+Text GLabel 7150 4750 2    60   Input ~ 0
+DIQ2_D8
+Text GLabel 7150 4850 2    60   Input ~ 0
+DIQ2_D10
+Text GLabel 4100 3950 0    60   Input ~ 0
+DIQ2_D1
+Text GLabel 4100 4050 0    60   Input ~ 0
+DIQ2_D3
+Text GLabel 4100 4250 0    60   Input ~ 0
+DIQ2_D5
+Text GLabel 4100 4650 0    60   Input ~ 0
+DIQ2_D7
+Text GLabel 4100 4750 0    60   Input ~ 0
+DIQ2_D9
+Text GLabel 4100 4850 0    60   Input ~ 0
+DIQ2_D11
+NoConn ~ 6400 2150
+NoConn ~ 6400 2250
+NoConn ~ 6400 2550
+NoConn ~ 6400 1650
+NoConn ~ 6400 1550
+NoConn ~ 4800 1650
+NoConn ~ 4800 1550
+NoConn ~ 4800 2150
+NoConn ~ 4800 2250
+NoConn ~ 4800 2450
+NoConn ~ 4800 2550
+NoConn ~ 4800 3750
+NoConn ~ 4800 3850
+NoConn ~ 4800 5250
+NoConn ~ 4800 6150
+NoConn ~ 4800 6250
+NoConn ~ 6400 6250
+NoConn ~ 6400 6050
+NoConn ~ 6400 5950
+NoConn ~ 6400 5150
+NoConn ~ 6400 3850
+Wire Wire Line
+	4775 6475 4800 6475
+Wire Wire Line
+	4775 6475 4775 6650
+Wire Wire Line
+	4775 6650 6425 6650
+Wire Wire Line
+	6425 6650 6425 6475
+Wire Wire Line
+	6425 6475 6400 6475
+$Comp
+L GND #PWR23
+U 1 1 56C33F19
+P 5600 6700
+F 0 "#PWR23" H 5600 6450 50  0001 C CNN
+F 1 "GND" H 5608 6526 50  0000 C CNN
+F 2 "" H 5600 6700 50  0000 C CNN
+F 3 "" H 5600 6700 50  0000 C CNN
+	1    5600 6700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 6700 5600 6650
+Connection ~ 5600 6650
 $EndSCHEMATC
