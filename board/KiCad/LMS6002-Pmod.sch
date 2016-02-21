@@ -76,4 +76,15 @@ U 56BBAE88
 F0 "SPI_Interface" 60
 F1 "SPI_Interface.sch" 60
 $EndSheet
+$Comp
+L OSHW_Logo T1
+U 1 1 56C98252
+P 9500 3700
+F 0 "T1" H 9603 3753 60  0000 L CNN
+F 1 "OSHW_Logo" H 9603 3647 60  0000 L CNN
+F 2 "Symbols:Symbol_OSHW-Logo_SilkScreen" H 9500 3700 60  0001 C CNN
+F 3 "" H 9500 3700 60  0000 C CNN
+	1    9500 3700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -1,8 +1,8 @@
 (export (version D)
   (design
     (source /home/wallento/dev/LMS6002-Pmod/board/KiCad/LMS6002-Pmod.sch)
-    (date "Mi 17 Feb 2016 10:56:39 CET")
-    (tool "Eeschema 0.201602151416+6558~42~ubuntu15.04.1-product")
+    (date "So 21 Feb 2016 10:14:43 CET")
+    (tool "Eeschema 0.201602181416+6564~42~ubuntu15.04.1-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title)
@@ -70,6 +70,12 @@
         (comment (number 3) (value ""))
         (comment (number 4) (value "")))))
   (components
+    (comp (ref T1)
+      (value OSHW_Logo)
+      (footprint Symbols:Symbol_OSHW-Logo_SilkScreen)
+      (libsource (lib pmod) (part OSHW_Logo))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 56C98252))
     (comp (ref P1)
       (value PMOD_2x6)
       (footprint pmod:Pmod)
@@ -680,6 +686,12 @@
         (pin (num 6) (name SCK) (type input))
         (pin (num 7) (name HOLD#) (type input))
         (pin (num 8) (name VDD) (type power_in))))
+    (libpart (lib pmod) (part OSHW_Logo)
+      (footprints
+        (fp Symbol_OSHW*))
+      (fields
+        (field (name Reference) T)
+        (field (name Value) OSHW_Logo)))
     (libpart (lib pmod) (part PMOD_2x6)
       (footprints
         (fp Pmod*))
@@ -930,10 +942,10 @@
   (libraries
     (library (logical ice40_1k4k_tq144)
       (uri /home/wallento/dev/LMS6002-Pmod/board/KiCad/lib/ice40_1k4k_tq144.lib))
-    (library (logical pmod)
-      (uri /home/wallento/dev/LMS6002-Pmod/board/KiCad/lib/pmod.lib))
     (library (logical myriad)
       (uri /home/wallento/dev/LMS6002-Pmod/board/KiCad/lib/myriad.lib))
+    (library (logical pmod)
+      (uri /home/wallento/dev/LMS6002-Pmod/board/KiCad/lib/pmod.lib))
     (library (logical device)
       (uri /usr/share/kicad/library/device.lib))
     (library (logical conn)
