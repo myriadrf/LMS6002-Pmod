@@ -1,4 +1,4 @@
-EESchema-LIBRARY Version 2.3  Date: 11/20/2013 4:33:14 PM
+EESchema-LIBRARY Version 2.3
 #encoding utf-8
 #
 # +1.25V
@@ -6,8 +6,8 @@ EESchema-LIBRARY Version 2.3  Date: 11/20/2013 4:33:14 PM
 DEF +1.25V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 140 20 H I C CNN
 F1 "+1.25V" 0 110 30 H V C CNN
-F2 "~" 0 0 60 H V C CNN
-F3 "~" 0 0 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 DRAW
 P 3 0 0 0  0 0  0 40  0 40 N
 X +1.25V 1 0 0 0 U 20 20 0 0 W N
@@ -20,8 +20,8 @@ ENDDEF
 DEF +1.2V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 140 20 H I C CNN
 F1 "+1.2V" 0 110 30 H V C CNN
-F2 "~" 0 0 60 H V C CNN
-F3 "~" 0 0 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 DRAW
 P 3 0 0 0  0 0  0 40  0 40 N
 X +1.2V 1 0 0 0 U 20 20 0 0 W N
@@ -34,8 +34,8 @@ ENDDEF
 DEF +1.4V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 140 20 H I C CNN
 F1 "+1.4V" 0 110 30 H V C CNN
-F2 "~" 0 0 60 H V C CNN
-F3 "~" 0 0 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 DRAW
 P 3 0 0 0  0 0  0 40  0 40 N
 X +1.4V 1 0 0 0 U 20 20 0 0 W N
@@ -48,8 +48,8 @@ ENDDEF
 DEF +1.8V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 140 20 H I C CNN
 F1 "+1.8V" 0 110 30 H V C CNN
-F2 "~" 0 0 60 H V C CNN
-F3 "~" 0 0 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 ALIAS 1V8
 DRAW
 P 3 0 0 0  0 0  0 40  0 40 N
@@ -63,8 +63,8 @@ ENDDEF
 DEF +1.8V_DIG #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 140 20 H I C CNN
 F1 "+1.8V_DIG" 0 110 30 H V C CNN
-F2 "~" 0 0 60 H V C CNN
-F3 "~" 0 0 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 DRAW
 P 3 0 0 0  0 0  0 40  0 40 N
 X +1.8V_DIG 1 0 0 0 U 20 20 0 0 W N
@@ -77,8 +77,8 @@ ENDDEF
 DEF +12V #PWR 0 0 N Y 1 F P
 F0 "#PWR" 50 -25 20 H I C CNN
 F1 "+12V" 0 125 50 H V C CNN
-F2 "~" 0 0 60 H V C CNN
-F3 "~" 0 0 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 DRAW
 X +12V 1 0 0 0 D 20 30 1 0 W N
 C 0 75 25 0 1 0 N
@@ -91,10 +91,38 @@ ENDDEF
 DEF +3.3V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -40 30 H I C CNN
 F1 "+3.3V" 0 110 30 H V C CNN
-F2 "~" 0 0 60 H V C CNN
-F3 "~" 0 0 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 DRAW
 X +3.3V 1 0 0 0 U 30 30 0 0 W N
+C 0 60 20 0 1 0 N
+P 3 0 1 0  0 0  0 40  0 40 N
+ENDDRAW
+ENDDEF
+#
+# +3.3VIN
+#
+DEF +3.3VIN #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 140 20 H I C CNN
+F1 "+3.3VIN" 0 110 30 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+X +3.3VIN 1 0 0 0 U 20 20 0 0 W N
+C 0 60 20 0 1 0 N
+P 2 0 1 0  0 0  0 40 N
+ENDDRAW
+ENDDEF
+#
+# +3.3V_USB
+#
+DEF +3.3V_USB #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -40 30 H I C CNN
+F1 "+3.3V_USB" 0 110 30 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+X +3.3V_USB 1 0 0 0 U 30 30 0 0 W N
 C 0 60 20 0 1 0 N
 P 3 0 1 0  0 0  0 40  0 40 N
 ENDDRAW
@@ -105,8 +133,8 @@ ENDDEF
 DEF +3.3V_dig #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 140 20 H I C CNN
 F1 "+3.3V_dig" 0 110 30 H V C CNN
-F2 "~" 0 0 60 H V C CNN
-F3 "~" 0 0 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 DRAW
 P 3 0 0 0  0 0  0 40  0 40 N
 X +3.3V_dig 1 0 0 0 U 20 20 0 0 W N
@@ -119,40 +147,12 @@ ENDDEF
 DEF +3.3V_dio #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 140 20 H I C CNN
 F1 "+3.3V_dio" 0 110 30 H V C CNN
-F2 "~" 0 0 60 H V C CNN
-F3 "~" 0 0 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 DRAW
 P 3 0 0 0  0 0  0 40  0 40 N
 X +3.3V_dio 1 0 0 0 U 20 20 0 0 W N
 C 0 60 20 0 1 0 N
-ENDDRAW
-ENDDEF
-#
-# +3.3V_USB
-#
-DEF +3.3V_USB #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -40 30 H I C CNN
-F1 "+3.3V_USB" 0 110 30 H V C CNN
-F2 "~" 0 0 60 H V C CNN
-F3 "~" 0 0 60 H V C CNN
-DRAW
-X +3.3V_USB 1 0 0 0 U 30 30 0 0 W N
-C 0 60 20 0 1 0 N
-P 3 0 1 0  0 0  0 40  0 40 N
-ENDDRAW
-ENDDEF
-#
-# +3.3VIN
-#
-DEF +3.3VIN #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 140 20 H I C CNN
-F1 "+3.3VIN" 0 110 30 H V C CNN
-F2 "~" 0 0 60 H V C CNN
-F3 "~" 0 0 60 H V C CNN
-DRAW
-X +3.3VIN 1 0 0 0 U 20 20 0 0 W N
-C 0 60 20 0 1 0 N
-P 2 0 1 0  0 0  0 40 N
 ENDDRAW
 ENDDEF
 #
@@ -161,8 +161,8 @@ ENDDEF
 DEF +3V3_SYNTH #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 140 20 H I C CNN
 F1 "+3V3_SYNTH" 0 110 30 H V C CNN
-F2 "~" 0 0 60 H V C CNN
-F3 "~" 0 0 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 DRAW
 P 3 0 0 0  0 0  0 40  0 40 N
 X +3V3_SYNTH 1 0 0 0 U 20 20 0 0 W N
@@ -175,8 +175,8 @@ ENDDEF
 DEF +5V #PWR 0 40 Y Y 1 F P
 F0 "#PWR" 0 90 20 H I C CNN
 F1 "+5V" 0 90 30 H V C CNN
-F2 "~" 0 0 60 H V C CNN
-F3 "~" 0 0 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 DRAW
 X +5V 1 0 0 0 U 20 20 0 0 W N
 C 0 50 20 0 1 0 N
@@ -189,8 +189,8 @@ ENDDEF
 DEF +5V_USB #PWR 0 40 Y Y 1 F P
 F0 "#PWR" 0 90 20 H I C CNN
 F1 "+5V_USB" 0 90 30 H V C CNN
-F2 "~" 0 0 60 H V C CNN
-F3 "~" 0 0 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 DRAW
 X +5V_USB 1 0 0 0 U 20 20 0 0 W N
 C 0 50 20 0 1 0 N
@@ -203,8 +203,8 @@ ENDDEF
 DEF -5V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 140 20 H I C CNN
 F1 "-5V" 0 110 30 H V C CNN
-F2 "~" 0 0 60 H V C CNN
-F3 "~" 0 0 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 DRAW
 X -5V 1 0 0 0 U 20 20 0 0 W N
 P 3 0 1 0  0 0  0 50  0 50 N
@@ -218,7 +218,7 @@ DEF ~0.33uF_0603 C 0 10 N Y 1 F N
 F0 "C" 50 100 50 H V L CNN
 F1 "0.33uF_0603" -200 350 50 H I L CNN
 F2 "C_SM0603" 0 450 60 H I C CNN
-F3 "~" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 F4 "Digi-Key" 50 850 60 H I C CNN "Vendor"
 F5 "445-5126-1-ND" 50 950 60 H I C CNN "Vendor Part Number"
 F6 "TDK Corporation" 0 550 60 H I C CNN "Manufacturer"
@@ -244,7 +244,7 @@ DEF ~0.56uF_0603 C 0 10 N Y 1 F N
 F0 "C" 50 100 50 H V L CNN
 F1 "0.56uF_0603" -200 350 50 H I L CNN
 F2 "C_SM0603" 0 450 60 H I C CNN
-F3 "~" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 F4 "Digi-Key" 0 850 60 H I C CNN "Vendor"
 F5 "490-6421-1-ND" 50 950 60 H I C CNN "Vendor Part Number"
 F6 "Murata" 0 750 60 H I C CNN "Manufacturer"
@@ -270,7 +270,7 @@ DEF ~0.5pF_0402 C 0 10 N Y 1 F N
 F0 "C" 50 100 50 H V L CNN
 F1 "0.5pF_0402" -210 270 50 H I L CNN
 F2 "C_SM0402" -10 350 60 H I C CNN
-F3 "~" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 F4 "DigiKey" -10 740 60 H I C CNN "Vendor"
 F5 "311-1001-1-ND" -20 830 60 H I C CNN "Vendor Part Number"
 F6 "Yageo" 0 650 60 H I C CNN "Manufacturer"
@@ -296,7 +296,7 @@ DEF ~0.5pF_0402_NF C 0 10 N Y 1 F N
 F0 "C" 50 100 50 H V L CNN
 F1 "0.5pF_0402_NF" -210 270 50 H I L CNN
 F2 "C_SM0402" -10 350 60 H I C CNN
-F3 "~" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 F4 "DigiKey" -10 740 60 H I C CNN "Vendor"
 F5 "311-1001-1-ND" -20 830 60 H I C CNN "Vendor Part Number"
 F6 "Yageo" 0 650 60 H I C CNN "Manufacturer"
@@ -323,7 +323,7 @@ DEF ~0R_0201 R 0 0 N Y 1 F N
 F0 "R" -10 70 50 H V C CNN
 F1 "0R_0201" -25 175 50 H I C CNN
 F2 "SM0201" -50 250 60 H I C CNN
-F3 "~" 0 0 60 V V C CNN
+F3 "" 0 0 60 V V C CNN
 F4 "Digi-Key" 0 660 60 H I C CNN "Vendor"
 F5 "RHM0.0CCCT-ND" 20 730 60 H I C CNN "Vendor Part Number"
 F6 "Rohm Semiconductor" 10 570 60 H I C CNN "Manufacturer"
@@ -350,7 +350,7 @@ DEF ~0R_0201_NF R 0 0 N Y 1 F N
 F0 "R" -110 70 50 H V C CNN
 F1 "0R_0201_NF" -25 175 50 H I C CNN
 F2 "SM0201" -50 250 60 H I C CNN
-F3 "~" 0 0 60 V V C CNN
+F3 "" 0 0 60 V V C CNN
 F4 "Digi-Key" 0 660 60 H I C CNN "Vendor"
 F5 "RHM0.0CCCT-ND" 20 730 60 H I C CNN "Vendor Part Number"
 F6 "Rohm Semiconductor" 10 570 60 H I C CNN "Manufacturer"
@@ -378,7 +378,7 @@ DEF ~0R_0402 R 0 0 N Y 1 F N
 F0 "R" -10 70 50 H V C CNN
 F1 "0R_0402" -25 175 50 H I C CNN
 F2 "R_SM0402" -50 250 60 H I C CNN
-F3 "~" 0 0 60 V V C CNN
+F3 "" 0 0 60 V V C CNN
 F4 "Digi-Key" 0 660 60 H I C CNN "Vendor"
 F5 "311-0.0JRCT-ND" 20 730 60 H I C CNN "Vendor Part Number"
 F6 "Yageo" 10 570 60 H I C CNN "Manufacturer"
@@ -405,7 +405,7 @@ DEF ~0R_0402_NF R 0 0 N Y 1 F N
 F0 "R" -110 75 50 H V C CNN
 F1 "0R_0402_NF" -35 175 50 H I C CNN
 F2 "R_SM0402" -60 250 60 H I C CNN
-F3 "~" -10 0 60 V V C CNN
+F3 "" -10 0 60 V V C CNN
 F4 "Digi-Key" 10 670 60 H I C CNN "Vendor"
 F5 "311-0.0JRCT-ND" 20 750 60 H I C CNN "Vendor Part Number"
 F6 "Yageo" -10 580 60 H I C CNN "Manufacturer"
@@ -433,7 +433,7 @@ DEF ~0R_0603 R 0 0 N Y 1 F N
 F0 "R" 10 70 50 H V C CNN
 F1 "0R_0603" 50 150 50 H I C CNN
 F2 "R_SM0603" 0 250 60 H I C CNN
-F3 "~" 0 0 60 V V C CNN
+F3 "" 0 0 60 V V C CNN
 F4 "DigiKey" 50 700 60 H I C CNN "Vendor"
 F5 "311-0.0GRCT-ND" 50 800 60 H I C CNN "Vendor Part Number"
 F6 "Yageo" 0 600 60 H I C CNN "Manufacturer"
@@ -460,7 +460,7 @@ DEF ~0R_0603_NF R 0 0 N Y 1 F N
 F0 "R" -80 70 50 H V C CNN
 F1 "0R_0603_NF" -50 180 50 H I C CNN
 F2 "R_SM0603" -70 280 60 H I C CNN
-F3 "~" 20 -10 60 V V C CNN
+F3 "" 20 -10 60 V V C CNN
 F4 "DigiKey" -70 680 60 H I C CNN "Vendor"
 F5 "311-0.0GRCT-ND" -80 770 60 H I C CNN "Vendor Part Number"
 F6 "Yageo" -70 590 60 H I C CNN "Manufacturer"
@@ -489,7 +489,7 @@ DEF ~0R_0805 R 0 0 N Y 1 F N
 F0 "R" -10 70 50 H V C CNN
 F1 "0R_0805" -25 175 50 H I C CNN
 F2 "R_SM0805" -50 250 60 H I C CNN
-F3 "~" 0 0 60 V V C CNN
+F3 "" 0 0 60 V V C CNN
 F4 "Digi-Key" 0 660 60 H I C CNN "Vendor"
 F5 "311-0.0ARCT-ND" 20 730 60 H I C CNN "Vendor Part Number"
 F6 "Yageo" 10 570 60 H I C CNN "Manufacturer"
@@ -516,7 +516,7 @@ DEF ~0R_0805_NF R 0 0 N Y 1 F N
 F0 "R" -110 70 50 H V C CNN
 F1 "0R_0805_NF" -25 175 50 H I C CNN
 F2 "R_SM0805" -50 250 60 H I C CNN
-F3 "~" 0 0 60 V V C CNN
+F3 "" 0 0 60 V V C CNN
 F4 "Digi-Key" 0 660 60 H I C CNN "Vendor"
 F5 "311-0.0ARCT-ND" 20 730 60 H I C CNN "Vendor Part Number"
 F6 "Yageo" 10 570 60 H I C CNN "Manufacturer"
@@ -545,7 +545,7 @@ DEF ~1.2pF_0402 C 0 10 N Y 1 F N
 F0 "C" 50 100 50 H V L CNN
 F1 "1.2pF_0402" -210 270 50 H I L CNN
 F2 "C_SM0402" -10 350 60 H I C CNN
-F3 "~" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 F4 "DigiKey" -10 740 60 H I C CNN "Vendor"
 F5 "490-5927-1-ND" -20 830 60 H I C CNN "Vendor Part Number"
 F6 "Murata Electronics North America" 0 650 60 H I C CNN "Manufacturer"
@@ -571,7 +571,7 @@ DEF ~1.5uF_0603 C 0 10 N Y 1 F N
 F0 "C" 50 100 50 H V L CNN
 F1 "1.5uF_0603" -220 330 50 H I L CNN
 F2 "C_SM0603" 0 430 60 H I C CNN
-F3 "~" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 F4 "Digi-Key" 20 820 60 H I C CNN "Vendor"
 F5 "445-5173-1-ND" -10 900 60 H I C CNN "Vendor Part Number"
 F6 "TDK Corporation" 10 730 60 H I C CNN "Manufacturer"
@@ -597,7 +597,7 @@ DEF ~1.5uH_1812 L 0 40 N N 1 F N
 F0 "L" 0 75 50 H V C CNN
 F1 "1.5uH_1812" -30 210 50 H I C CNN
 F2 "IND1812" 0 350 60 H I C CNN
-F3 "~" 0 -10 60 V V C CNN
+F3 "" 0 -10 60 V V C CNN
 F4 "Coilcraft" -30 670 60 H I C CNN "Vendor"
 F5 "1812FS-152JLB" -30 570 60 H I C CNN "Vendor Part Number"
 F6 "Coilcraft" -10 760 60 H I C CNN "Manufacturer"
@@ -625,7 +625,7 @@ DEF ~1.8pF_0402 C 0 10 N Y 1 F N
 F0 "C" 50 100 50 H V L CNN
 F1 "1.8pF_0402" -230 290 50 H I L CNN
 F2 "C_SM0402" 0 380 60 H I C CNN
-F3 "~" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 F4 "Digi-Key" 0 780 60 H I C CNN "Vendor"
 F5 "311-1004-1-ND" 30 870 60 H I C CNN "Vendor Part Number"
 F6 "Yageo" 0 690 60 H I C CNN "Manufacturer"
@@ -651,7 +651,7 @@ DEF ~100K_0603 R 0 0 N Y 1 F N
 F0 "R" 10 80 50 H V C CNN
 F1 "100K_0603" 10 180 50 H I C CNN
 F2 "R_SM0603" 10 280 60 H I C CNN
-F3 "~" 20 0 60 V V C CNN
+F3 "" 20 0 60 V V C CNN
 F4 "Digi-Key" 30 670 60 H I C CNN "Vendor"
 F5 "311-100KHRCT-ND" 0 770 60 H I C CNN "Vendor Part Number"
 F6 "Yageo" 20 590 60 H I C CNN "Manufacturer"
@@ -672,65 +672,13 @@ X 2 2 270 0 100 L 60 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# 100nF_0402
-#
-DEF ~100nF_0402 C 0 10 N Y 1 F N
-F0 "C" 50 100 50 H V L CNN
-F1 "100nF_0402" -220 290 50 H I L CNN
-F2 "C_SM0402" -30 400 60 H I C CNN
-F3 "~" 0 0 60 H V C CNN
-F4 "DigiKey" -30 820 60 H I C CNN "Vendor"
-F5 "311-1047-1-ND" 20 920 60 H I C CNN "Vendor Part Number"
-F6 "Yageo" 10 730 60 H I C CNN "Manufacturer"
-F7 "CC0402ZRY5V7BB104" -30 620 60 H I C CNN "Manufacturer Part Number"
-F8 "CAP, CER, 0.1UF, 16V, Y5V, 0402," 20 490 60 H I C CNN "Description"
-F9 "100nF" 125 -100 50 H V C CNN "Component Value"
-$FPLIST
- SM*
- C?
- C1-1
-$ENDFPLIST
-DRAW
-P 2 0 1 20  -100 -30  100 -30 N
-P 2 0 1 20  -100 30  100 30 N
-X ~ 1 0 200 170 D 40 40 1 1 P
-X ~ 2 0 -200 170 U 40 40 1 1 P
-ENDDRAW
-ENDDEF
-#
-# 100pF_0402
-#
-DEF ~100pF_0402 C 0 10 N Y 1 F N
-F0 "C" 50 100 50 H V L CNN
-F1 "100pF_0402" -220 290 50 H I L CNN
-F2 "C_SM0402" 0 390 60 H I C CNN
-F3 "~" 50 100 60 H V C CNN
-F4 "Digi-Key" -10 840 60 H I C CNN "Vendor"
-F5 "311-1024-1-ND" -20 930 60 H I C CNN "Vendor Part Number"
-F6 "Yageo" -30 740 60 H I C CNN "Manufacturer"
-F7 "CC0402JRNPO9BN101" -70 620 60 H I C CNN "Manufacturer Part Number"
-F8 "CAP CER, 100PF, 50V, 5%, NPO, 0402," -40 500 60 H I C CNN "Description"
-F9 "100pF" 125 -100 50 H V C CNN "Component Value"
-$FPLIST
- SM*
- C?
- C1-1
-$ENDFPLIST
-DRAW
-P 2 0 1 20  -100 -30  100 -30 N
-P 2 0 1 20  -100 30  100 30 N
-X ~ 1 0 200 170 D 40 40 1 1 P
-X ~ 2 0 -200 170 U 40 40 1 1 P
-ENDDRAW
-ENDDEF
-#
 # 100R_0402
 #
 DEF ~100R_0402 R 0 0 N Y 1 F N
 F0 "R" -10 70 50 H V C CNN
 F1 "100R_0402" -25 175 50 H I C CNN
 F2 "R_SM0402" -50 250 60 H I C CNN
-F3 "~" 0 0 60 V V C CNN
+F3 "" 0 0 60 V V C CNN
 F4 "Digi-Key" 0 660 60 H I C CNN "Vendor"
 F5 "311-100GRCT-ND" 20 730 60 H I C CNN "Vendor Part Number"
 F6 "Yageo" 10 570 60 H I C CNN "Manufacturer"
@@ -757,7 +705,7 @@ DEF ~100R_0603 R 0 0 N Y 1 F N
 F0 "R" -13 75 50 H V C CNN
 F1 "100R_0603" 20 300 50 H I C CNN
 F2 "R_SM0603" 20 410 60 H I C CNN
-F3 "~" -20 10 60 V V C CNN
+F3 "" -20 10 60 V V C CNN
 F4 "Digi-Key" 10 890 60 H I C CNN "Vendor"
 F5 "311-100GRCT-ND" -10 990 60 H I C CNN "Vendor Part Number"
 F6 "Yageo" -10 780 60 H I C CNN "Manufacturer"
@@ -778,13 +726,65 @@ X 2 2 225 0 100 L 60 0 1 1 P
 ENDDRAW
 ENDDEF
 #
+# 100nF_0402
+#
+DEF ~100nF_0402 C 0 10 N Y 1 F N
+F0 "C" 50 100 50 H V L CNN
+F1 "100nF_0402" -220 290 50 H I L CNN
+F2 "C_SM0402" -30 400 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "DigiKey" -30 820 60 H I C CNN "Vendor"
+F5 "311-1047-1-ND" 20 920 60 H I C CNN "Vendor Part Number"
+F6 "Yageo" 10 730 60 H I C CNN "Manufacturer"
+F7 "CC0402ZRY5V7BB104" -30 620 60 H I C CNN "Manufacturer Part Number"
+F8 "CAP, CER, 0.1UF, 16V, Y5V, 0402," 20 490 60 H I C CNN "Description"
+F9 "100nF" 125 -100 50 H V C CNN "Component Value"
+$FPLIST
+ SM*
+ C?
+ C1-1
+$ENDFPLIST
+DRAW
+P 2 0 1 20  -100 -30  100 -30 N
+P 2 0 1 20  -100 30  100 30 N
+X ~ 1 0 200 170 D 40 40 1 1 P
+X ~ 2 0 -200 170 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 100pF_0402
+#
+DEF ~100pF_0402 C 0 10 N Y 1 F N
+F0 "C" 50 100 50 H V L CNN
+F1 "100pF_0402" -220 290 50 H I L CNN
+F2 "C_SM0402" 0 390 60 H I C CNN
+F3 "" 50 100 60 H V C CNN
+F4 "Digi-Key" -10 840 60 H I C CNN "Vendor"
+F5 "311-1024-1-ND" -20 930 60 H I C CNN "Vendor Part Number"
+F6 "Yageo" -30 740 60 H I C CNN "Manufacturer"
+F7 "CC0402JRNPO9BN101" -70 620 60 H I C CNN "Manufacturer Part Number"
+F8 "CAP CER, 100PF, 50V, 5%, NPO, 0402," -40 500 60 H I C CNN "Description"
+F9 "100pF" 125 -100 50 H V C CNN "Component Value"
+$FPLIST
+ SM*
+ C?
+ C1-1
+$ENDFPLIST
+DRAW
+P 2 0 1 20  -100 -30  100 -30 N
+P 2 0 1 20  -100 30  100 30 N
+X ~ 1 0 200 170 D 40 40 1 1 P
+X ~ 2 0 -200 170 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
 # 10K_0402
 #
 DEF ~10K_0402 R 0 0 N Y 1 F N
 F0 "R" 0 80 50 H V C CNN
 F1 "10K_0402" -10 220 50 H I C CNN
 F2 "R_SM0402" 0 300 60 H I C CNN
-F3 "~" 0 0 60 V V C CNN
+F3 "" 0 0 60 V V C CNN
 F4 "Digi-Key" 0 710 60 H I C CNN "Vendor"
 F5 "311-330JRCT-ND" 10 810 60 H I C CNN "Vendor Part Number"
 F6 "Yageo" -10 620 60 H I C CNN "Manufacturer"
@@ -811,7 +811,7 @@ DEF ~10K_0402_NF R 0 0 N Y 1 F N
 F0 "R" -100 70 50 H V C CNN
 F1 "10K_0402_NF" 40 140 50 H I C CNN
 F2 "R_SM0402" 10 220 60 H I C CNN
-F3 "~" 20 -30 60 V V C CNN
+F3 "" 20 -30 60 V V C CNN
 F4 "Digi-Key" -10 600 60 H I C CNN "Vendor"
 F5 "311-10.0KLRCT-ND" -10 710 60 H I C CNN "Vendor Part Number"
 F6 "Yageo" -10 510 60 H I C CNN "Manufacturer"
@@ -834,13 +834,40 @@ X 2 2 250 0 100 L 60 0 1 1 P
 ENDDRAW
 ENDDEF
 #
+# 10R_0402
+#
+DEF ~10R_0402 R 0 0 N Y 1 F N
+F0 "R" -10 70 50 H V C CNN
+F1 "10R_0402" -25 175 50 H I C CNN
+F2 "R_SM0402" -50 250 60 H I C CNN
+F3 "" 0 0 60 V V C CNN
+F4 "Digi-Key" 0 660 60 H I C CNN "Vendor"
+F5 "311-10JRCT-ND" 20 730 60 H I C CNN "Vendor Part Number"
+F6 "Yageo" 10 570 60 H I C CNN "Manufacturer"
+F7 "RC0402JR-0710RL" 20 440 60 H I C CNN "Manufacturer Part Number"
+F8 "RES, 10 OHM, 1/16W, 5%, 0402, SMD," 0 340 60 H I C CNN "Description"
+F9 "10R" 0 -10 50 H V C CNN "Component Value"
+$FPLIST
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$ENDFPLIST
+DRAW
+S 150 40 -150 -40 0 1 5 N
+X 1 1 250 0 100 L 60 0 1 1 P
+X 2 2 -250 0 100 R 60 0 1 1 P
+ENDDRAW
+ENDDEF
+#
 # 10nF_0402
 #
 DEF ~10nF_0402 C 0 10 N Y 1 F N
 F0 "C" 50 100 50 H V L CNN
 F1 "10nF_0402" -140 290 50 H I L CNN
 F2 "C_SM0402" 10 390 60 H I C CNN
-F3 "~" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 F4 "DigiKey" 0 840 60 H I C CNN "Vendor"
 F5 "311-1349-1-ND" 50 940 60 H I C CNN "Vendor Part Number"
 F6 "Yageo" -50 740 60 H I C CNN "Manufacturer"
@@ -866,7 +893,7 @@ DEF ~10pF_0402 C 0 10 N Y 1 F N
 F0 "C" 50 100 50 H V L CNN
 F1 "10pF_0402" -180 310 50 H I L CNN
 F2 "C_SM0402" -20 410 60 H I C CNN
-F3 "~" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 F4 "Digi-Key" -30 810 60 H I C CNN "Vendor"
 F5 "311-1014-1-ND" -20 890 60 H I C CNN "Vendor Part Number"
 F6 "Yageo" -20 720 60 H I C CNN "Manufacturer"
@@ -886,40 +913,13 @@ X ~ 2 0 -200 170 U 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# 10R_0402
-#
-DEF ~10R_0402 R 0 0 N Y 1 F N
-F0 "R" -10 70 50 H V C CNN
-F1 "10R_0402" -25 175 50 H I C CNN
-F2 "R_SM0402" -50 250 60 H I C CNN
-F3 "~" 0 0 60 V V C CNN
-F4 "Digi-Key" 0 660 60 H I C CNN "Vendor"
-F5 "311-10JRCT-ND" 20 730 60 H I C CNN "Vendor Part Number"
-F6 "Yageo" 10 570 60 H I C CNN "Manufacturer"
-F7 "RC0402JR-0710RL" 20 440 60 H I C CNN "Manufacturer Part Number"
-F8 "RES, 10 OHM, 1/16W, 5%, 0402, SMD," 0 340 60 H I C CNN "Description"
-F9 "10R" 0 -10 50 H V C CNN "Component Value"
-$FPLIST
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$ENDFPLIST
-DRAW
-S 150 40 -150 -40 0 1 5 N
-X 1 1 250 0 100 L 60 0 1 1 P
-X 2 2 -250 0 100 R 60 0 1 1 P
-ENDDRAW
-ENDDEF
-#
 # 10uF_0402
 #
 DEF ~10uF_0402 C 0 10 N Y 1 F N
 F0 "C" 50 100 50 H V L CNN
 F1 "10uF_0402" -200 350 50 H I L CNN
 F2 "C_SM0402" 0 450 60 H I C CNN
-F3 "~" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 F4 "Digi-Key" 0 950 60 H I C CNN "Vendor"
 F5 "445-8919-1-ND" 50 1050 60 H I C CNN "Vendor Part Number"
 F6 "TDK Corporation" 0 850 60 H I C CNN "Manufacturer"
@@ -945,7 +945,7 @@ DEF ~10uF_0603 C 0 10 N Y 1 F N
 F0 "C" 50 100 50 H V L CNN
 F1 "10uF_0603" -230 330 50 H I L CNN
 F2 "C_SM0603" 0 420 60 H I C CNN
-F3 "~" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 F4 "Digi-Key" 0 870 60 H I C CNN "Vendor"
 F5 "311-1448-1-ND" 0 950 60 H I C CNN "Vendor Part Number"
 F6 "Yageo" -10 770 60 H I C CNN "Manufacturer"
@@ -971,7 +971,7 @@ DEF ~10uF_0805 C 0 10 N Y 1 F N
 F0 "C" 50 100 50 H V L CNN
 F1 "10uF_0805" -230 310 50 H I L CNN
 F2 "C_SM0805" -20 420 60 H I C CNN
-F3 "~" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 F4 "Digi-Key" -30 810 60 H I C CNN "Vendor"
 F5 "445-11429-1-ND" 20 910 60 H I C CNN "Vendor Part Number"
 F6 "TDK Corporation" -30 720 60 H I C CNN "Manufacturer"
@@ -997,7 +997,7 @@ DEF ~10uF_1206 C 0 10 N Y 1 F N
 F0 "C" 50 100 50 H V L CNN
 F1 "10uF_1206" -150 430 50 H I L CNN
 F2 "SM1206" 20 550 60 H I C CNN
-F3 "~" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 F4 "Digi-Key" 30 990 60 H I C CNN "Vendor"
 F5 "311-1376-1-ND" 30 1100 60 H I C CNN "Vendor Part Number"
 F6 "Yageo" 10 880 60 H I C CNN "Manufacturer"
@@ -1023,7 +1023,7 @@ DEF ~10uF_tantalum_caseA C 0 10 N Y 1 F N
 F0 "C" -175 100 50 H V L CNN
 F1 "10uF_tantalum_caseA" -350 330 50 H I L CNN
 F2 "SMD Case A" -60 430 60 H I C CNN
-F3 "~" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 F4 "Digi-Key" -40 870 60 H I C CNN "Vendor"
 F5 "478-3243-1-ND" 0 950 60 H I C CNN "Vendor Part Number"
 F6 "AVX Corporation" -40 760 60 H I C CNN "Manufacturer"
@@ -1051,7 +1051,7 @@ DEF ~12K_0402 R 0 0 N Y 1 F N
 F0 "R" 50 75 50 H V C CNN
 F1 "12K_0402" -10 200 50 H I C CNN
 F2 "R_SM0402" -10 310 60 H I C CNN
-F3 "~" 50 -20 60 V V C CNN
+F3 "" 50 -20 60 V V C CNN
 F4 "Digi-Key" -40 810 60 H I C CNN "Vendor"
 F5 "311-12.0KLRCT-ND" -50 900 60 H I C CNN "Vendor Part Number"
 F6 "Yageo" -30 700 60 H I C CNN "Manufacturer"
@@ -1078,7 +1078,7 @@ DEF ~12nH_0402 L 0 40 N N 1 F N
 F0 "L" -85 30 50 V V C CNN
 F1 "12nH_0402" 50 250 50 H I C CNN
 F2 "L_SM0402" 0 350 60 H I C CNN
-F3 "~" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 F4 "Coilcraft" 0 650 60 H I C CNN "Vendor"
 F5 "0402HP-12NX_LU" 50 550 60 H I C CNN "Vendor Part Number"
 F6 "Coilcraft" 0 750 60 H I C CNN "Manufacturer"
@@ -1106,7 +1106,7 @@ DEF ~12nH_0402_NF L 0 40 N N 1 F N
 F0 "L" -100 100 50 H V C CNN
 F1 "12nH_0402_NF" 50 250 50 H I C CNN
 F2 "L_SM0402" 0 350 60 H I C CNN
-F3 "~" 0 0 60 V V C CNN
+F3 "" 0 0 60 V V C CNN
 F4 "Coilcraft" 0 650 60 H I C CNN "Vendor"
 F5 "0402HP-12NX_LU" 50 550 60 H I C CNN "Vendor Part Number"
 F6 "Coilcraft" 0 750 60 H I C CNN "Manufacturer"
@@ -1129,39 +1129,13 @@ X 2 2 -200 0 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# 150pF_0402
-#
-DEF ~150pF_0402 C 0 10 N Y 1 F N
-F0 "C" 50 100 50 H V L CNN
-F1 "150pF_0402" -210 270 50 H I L CNN
-F2 "C_SM0402" -10 350 39 H I C CNN
-F3 "~" 0 0 60 H V C CNN
-F4 "DigiKey" -10 740 60 H I C CNN "Vendor"
-F5 "311-1025-1-ND" -20 830 60 H I C CNN "Vendor Part Number"
-F6 "Yageo" 0 650 60 H I C CNN "Manufacturer"
-F7 "CC0402JRNPO9BN151" -60 550 60 H I C CNN "Manufacturer Part Number"
-F8 "CAP, CER, 150PF, 50V, 5%, NPO, 0402," 20 440 60 H I C CNN "Description"
-F9 "150pF" 125 -100 50 H V C CNN "Component Value"
-$FPLIST
- SM*
- C?
- C1-1
-$ENDFPLIST
-DRAW
-P 2 0 1 20  -100 -30  100 -30 N
-P 2 0 1 20  -100 30  100 30 N
-X ~ 1 0 200 170 D 40 40 1 1 P
-X ~ 2 0 -200 170 U 40 40 1 1 P
-ENDDRAW
-ENDDEF
-#
 # 150R_0402
 #
 DEF ~150R_0402 R 0 0 N Y 1 F N
 F0 "R" -10 70 50 H V C CNN
 F1 "150R_0402" -25 175 50 H I C CNN
 F2 "R_SM0402" -50 250 60 H I C CNN
-F3 "~" 0 0 60 V V C CNN
+F3 "" 0 0 60 V V C CNN
 F4 "Digi-Key" 0 660 60 H I C CNN "Vendor"
 F5 "RMCF0402FT150RCT-ND" 20 730 60 H I C CNN "Vendor Part Number"
 F6 "Stackpole Electronics Inc" 10 570 60 H I C CNN "Manufacturer"
@@ -1182,13 +1156,39 @@ X 2 2 -250 0 100 R 60 0 1 1 P
 ENDDRAW
 ENDDEF
 #
+# 150pF_0402
+#
+DEF ~150pF_0402 C 0 10 N Y 1 F N
+F0 "C" 50 100 50 H V L CNN
+F1 "150pF_0402" -210 270 50 H I L CNN
+F2 "C_SM0402" -10 350 39 H I C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "DigiKey" -10 740 60 H I C CNN "Vendor"
+F5 "311-1025-1-ND" -20 830 60 H I C CNN "Vendor Part Number"
+F6 "Yageo" 0 650 60 H I C CNN "Manufacturer"
+F7 "CC0402JRNPO9BN151" -60 550 60 H I C CNN "Manufacturer Part Number"
+F8 "CAP, CER, 150PF, 50V, 5%, NPO, 0402," 20 440 60 H I C CNN "Description"
+F9 "150pF" 125 -100 50 H V C CNN "Component Value"
+$FPLIST
+ SM*
+ C?
+ C1-1
+$ENDFPLIST
+DRAW
+P 2 0 1 20  -100 -30  100 -30 N
+P 2 0 1 20  -100 30  100 30 N
+X ~ 1 0 200 170 D 40 40 1 1 P
+X ~ 2 0 -200 170 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
 # 15K8_0402
 #
 DEF ~15K8_0402 R 0 0 N Y 1 F N
 F0 "R" -10 70 50 H V C CNN
 F1 "15K8_0402" -25 175 50 H I C CNN
 F2 "R_SM0402" -50 250 60 H I C CNN
-F3 "~" 0 0 60 V V C CNN
+F3 "" 0 0 60 V V C CNN
 F4 "Digi-Key" 0 660 60 H I C CNN "Vendor"
 F5 "541-15.8KLCT-ND" 20 730 60 H I C CNN "Vendor Part Number"
 F6 "Vishay Dale" 10 570 60 H I C CNN "Manufacturer"
@@ -1215,7 +1215,7 @@ DEF ~15K_0402 R 0 0 N Y 1 F N
 F0 "R" -100 75 50 H V C CNN
 F1 "15K_0402" 0 200 50 H I C CNN
 F2 "R_SM0402" 0 325 60 H I C CNN
-F3 "~" 0 0 60 V V C CNN
+F3 "" 0 0 60 V V C CNN
 F4 "Digi-Key" -50 725 60 H I C CNN "Vendor"
 F5 "311-15.0KLRCT-ND" 0 825 60 H I C CNN "Vendor Part Number"
 F6 "Yageo" -50 525 60 H I C CNN "Manufacturer"
@@ -1242,7 +1242,7 @@ DEF ~15nH_0402 L 0 40 N N 1 F N
 F0 "L" -85 30 50 V V C CNN
 F1 "15nH_0402" 50 250 50 H I C CNN
 F2 "L_SM0402" 0 350 60 H I C CNN
-F3 "~" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 F4 "Coilcraft" 0 650 60 H I C CNN "Vendor"
 F5 "0402HP-15NX_LU" 50 550 60 H I C CNN "Vendor Part Number"
 F6 "Coilcraft" 0 750 60 H I C CNN "Manufacturer"
@@ -1270,7 +1270,7 @@ DEF ~17R8_0402 R 0 0 N Y 1 F N
 F0 "R" 25 75 50 H V C CNN
 F1 "17R8_0402" -20 170 50 H I C CNN
 F2 "R_SM0402" -10 390 60 H I C CNN
-F3 "~" 20 -10 60 V V C CNN
+F3 "" 20 -10 60 V V C CNN
 F4 "Digi-Key" -40 660 60 H I C CNN "Vendor"
 F5 "A102654CT-ND" -10 750 60 H I C CNN "Vendor Part Number"
 F6 "TE Connectivity" -20 560 60 H I C CNN "Manufacturer"
@@ -1297,7 +1297,7 @@ DEF ~18pF_0402 C 0 10 N Y 1 F N
 F0 "C" 50 100 50 H V L CNN
 F1 "18pF_0402" -200 300 50 H I L CNN
 F2 "C_SM0402" -50 400 60 H I C CNN
-F3 "~" 50 100 60 H V C CNN
+F3 "" 50 100 60 H V C CNN
 F4 "Digi-Key" 0 900 60 H I C CNN "Vendor"
 F5 "311-1415-1-ND" 0 1000 60 H I C CNN "Vendor Part Number"
 F6 "Yageo" -50 800 60 H I C CNN "Manufacturer"
@@ -1323,7 +1323,7 @@ DEF ~1K2_0402 R 0 0 N Y 1 F N
 F0 "R" 20 70 50 H V C CNN
 F1 "1K2_0402" -20 170 50 H I C CNN
 F2 "R_SM0402" -10 390 60 H I C CNN
-F3 "~" 20 15 60 V V C CNN
+F3 "" 20 15 60 V V C CNN
 F4 "Digi-Key" -40 660 60 H I C CNN "Vendor"
 F5 "311-1.20KLRCT-ND" -10 750 60 H I C CNN "Vendor Part Number"
 F6 "Yageo" -20 560 60 H I C CNN "Manufacturer"
@@ -1344,40 +1344,13 @@ X 2 2 275 0 100 L 60 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# 1k_0402
-#
-DEF ~1k_0402 R 0 0 N Y 1 F N
-F0 "R" -10 70 50 H V C CNN
-F1 "1k_0402" -25 175 50 H I C CNN
-F2 "R_SM0402" -50 250 60 H I C CNN
-F3 "~" 0 0 60 V V C CNN
-F4 "Digi-Key" 0 660 60 H I C CNN "Vendor"
-F5 "RMCF0402FT1K00CT-ND" 20 730 60 H I C CNN "Vendor Part Number"
-F6 "Stackpole Electronics Inc" 10 570 60 H I C CNN "Manufacturer"
-F7 "RMCF0402FT1K00" 20 440 60 H I C CNN "Manufacturer Part Number"
-F8 "RES, 1K OHM, 1/16W, 1%, 0402," 0 340 60 H I C CNN "Description"
-F9 "1K" 0 -10 50 H V C CNN "Component Value"
-$FPLIST
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$ENDFPLIST
-DRAW
-S 150 40 -150 -40 0 1 5 N
-X 1 1 250 0 100 L 60 0 1 1 P
-X 2 2 -250 0 100 R 60 0 1 1 P
-ENDDRAW
-ENDDEF
-#
 # 1M_0402
 #
 DEF ~1M_0402 R 0 0 N Y 1 F N
 F0 "R" -25 75 50 H V C CNN
 F1 "1M_0402" 40 140 50 H I C CNN
 F2 "R_SM0402" 10 220 60 H I C CNN
-F3 "~" 20 -30 60 V V C CNN
+F3 "" 20 -30 60 V V C CNN
 F4 "Digi-Key" -10 600 60 H I C CNN "Vendor"
 F5 "311-1.00MLRCT-ND" -10 710 60 H I C CNN "Vendor Part Number"
 F6 "Yageo" -10 510 60 H I C CNN "Manufacturer"
@@ -1398,13 +1371,40 @@ X 2 2 250 0 100 L 60 0 1 1 P
 ENDDRAW
 ENDDEF
 #
+# 1k_0402
+#
+DEF ~1k_0402 R 0 0 N Y 1 F N
+F0 "R" -10 70 50 H V C CNN
+F1 "1k_0402" -25 175 50 H I C CNN
+F2 "R_SM0402" -50 250 60 H I C CNN
+F3 "" 0 0 60 V V C CNN
+F4 "Digi-Key" 0 660 60 H I C CNN "Vendor"
+F5 "RMCF0402FT1K00CT-ND" 20 730 60 H I C CNN "Vendor Part Number"
+F6 "Stackpole Electronics Inc" 10 570 60 H I C CNN "Manufacturer"
+F7 "RMCF0402FT1K00" 20 440 60 H I C CNN "Manufacturer Part Number"
+F8 "RES, 1K OHM, 1/16W, 1%, 0402," 0 340 60 H I C CNN "Description"
+F9 "1K" 0 -10 50 H V C CNN "Component Value"
+$FPLIST
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$ENDFPLIST
+DRAW
+S 150 40 -150 -40 0 1 5 N
+X 1 1 250 0 100 L 60 0 1 1 P
+X 2 2 -250 0 100 R 60 0 1 1 P
+ENDDRAW
+ENDDEF
+#
 # 1pF_0402
 #
 DEF ~1pF_0402 C 0 10 N Y 1 F N
 F0 "C" 50 100 50 H V L CNN
 F1 "1pF_0402" -210 270 50 H I L CNN
 F2 "C_SM0402" -10 350 39 H I C CNN
-F3 "~" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 F4 "DigiKey" -10 740 60 H I C CNN "Vendor"
 F5 "445-4854-1-ND" -20 830 60 H I C CNN "Vendor Part Number"
 F6 "TDK Corporation" 0 650 60 H I C CNN "Manufacturer"
@@ -1430,7 +1430,7 @@ DEF ~1uF_0402 C 0 10 N Y 1 F N
 F0 "C" 50 100 50 H V L CNN
 F1 "1uF_0402" -180 300 50 H I L CNN
 F2 "C_SM0402" 10 410 60 H I C CNN
-F3 "~" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 F4 "Digi-Key" 0 820 60 H I C CNN "Vendor"
 F5 "311-1377-1-ND" 50 900 60 H I C CNN "Vendor Part Number"
 F6 "Yageo" 0 730 60 H I C CNN "Manufacturer"
@@ -1456,7 +1456,7 @@ DEF ~1uF_0603 C 0 10 N Y 1 F N
 F0 "C" 50 100 50 H V L CNN
 F1 "1uF_0603" -140 330 50 H I L CNN
 F2 "C_SM0603" 20 450 60 H I C CNN
-F3 "~" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 F4 "Digi-Key" 30 890 60 H I C CNN "Vendor"
 F5 "311-1372-1-ND" 40 970 60 H I C CNN "Vendor Part Number"
 F6 "Yageo" 10 800 60 H I C CNN "Manufacturer"
@@ -1482,7 +1482,7 @@ DEF ~2.2nF_0402 C 0 10 N Y 1 F N
 F0 "C" 50 100 50 H V L CNN
 F1 "2.2nF_0402" -180 270 50 H I L CNN
 F2 "C_SM0402" 10 380 60 H I C CNN
-F3 "~" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 F4 "Digi-Key" 10 850 60 H I C CNN "Vendor"
 F5 "311-1442-1-ND" -30 960 60 H I C CNN "Vendor Part Number"
 F6 "Yageo" 10 740 60 H I C CNN "Manufacturer"
@@ -1508,7 +1508,7 @@ DEF ~2.2uF_0402 C 0 10 N Y 1 F N
 F0 "C" 50 100 50 H V L CNN
 F1 "2.2uF_0402" -200 300 50 H I L CNN
 F2 "C_SM0402" -50 400 60 H I C CNN
-F3 "~" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 F4 "Digi-Key" 50 900 60 H I C CNN "Vendor"
 F5 "311-1442-1-ND" 100 1000 60 H I C CNN "Vendor Part Number"
 F6 "Yageo" 0 800 60 H I C CNN "Manufacturer"
@@ -1534,7 +1534,7 @@ DEF ~2.2uF_0603 C 0 10 N Y 1 F N
 F0 "C" 50 100 50 H V L CNN
 F1 "2.2uF_0603" -180 300 50 H I L CNN
 F2 "C_SM0603" 0 420 60 H I C CNN
-F3 "~" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 F4 "Digi-Key" 10 870 60 H I C CNN "Vendor"
 F5 "311-1450-1-ND" 40 980 60 H I C CNN "Vendor Part Number"
 F6 "Yageo" -10 770 60 H I C CNN "Manufacturer"
@@ -1560,7 +1560,7 @@ DEF ~2.2uH_1812 L 0 40 N N 1 F N
 F0 "L" -85 30 50 V V C CNN
 F1 "2.2uH_1812" 10 310 50 H I C CNN
 F2 "IND1812" 0 430 60 H I C CNN
-F3 "~" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 F4 "Coilcraft" -10 770 60 H I C CNN "Vendor"
 F5 "1812FS-222JLB" 20 960 60 H I C CNN "Vendor Part Number"
 F6 "Coilcraft" -20 860 60 H I C CNN "Manufacturer"
@@ -1588,7 +1588,7 @@ DEF ~2.7uH_1812 L 0 40 N N 1 F N
 F0 "L" -85 30 50 V V C CNN
 F1 "2.7uH_1812" 0 330 50 H I C CNN
 F2 "IND1812" -20 430 60 H I C CNN
-F3 "~" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 F4 "Coilcraft" -20 870 60 H I C CNN "Vendor"
 F5 "1812FS-272JLB" -30 980 60 H I C CNN "Vendor Part Number"
 F6 "Coilcraft" -30 770 60 H I C CNN "Manufacturer"
@@ -1616,7 +1616,7 @@ DEF ~200K_0402 R 0 0 N Y 1 F N
 F0 "R" 20 70 50 H V C CNN
 F1 "200K_0402" -20 170 50 H I C CNN
 F2 "R_SM0402" -10 390 60 H I C CNN
-F3 "~" 20 15 60 V V C CNN
+F3 "" 20 15 60 V V C CNN
 F4 "Digi-Key" -40 660 60 H I C CNN "Vendor"
 F5 "311-200KLRCT-ND" -10 750 60 H I C CNN "Vendor Part Number"
 F6 "Yageo" -20 560 60 H I C CNN "Manufacturer"
@@ -1643,7 +1643,7 @@ DEF ~200R_0402 R 0 0 N Y 1 F N
 F0 "R" 20 70 50 H V C CNN
 F1 "200R_0402" -20 170 50 H I C CNN
 F2 "R_SM0402" -10 390 60 H I C CNN
-F3 "~" 20 15 60 V V C CNN
+F3 "" 20 15 60 V V C CNN
 F4 "Digi-Key" -40 660 60 H I C CNN "Vendor"
 F5 "311-200LRCT-ND" -10 750 60 H I C CNN "Vendor Part Number"
 F6 "Yageo" -20 560 60 H I C CNN "Manufacturer"
@@ -1670,7 +1670,7 @@ DEF ~20BQ030 D 0 40 Y N 1 F N
 F0 "D" 0 100 50 H V C CNN
 F1 "20BQ030" 10 270 50 H I C CNN
 F2 "SMB" 10 360 60 H I C CNN
-F3 "~" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 F4 "Digi-Key" 20 830 60 H I C CNN "Vendor"
 F5 "20BQ030PBFCT-ND" -10 910 60 H I C CNN "Vendor Part Number"
 F6 "Vishay Semiconductor Diodes Division" 10 710 60 H I C CNN "Manufacturer"
@@ -1702,7 +1702,7 @@ DEF ~220nF_0402 C 0 10 N Y 1 F N
 F0 "C" 50 100 50 H V L CNN
 F1 "220nF_0402" -220 340 50 H I L CNN
 F2 "C_SM0402" 0 440 60 H I C CNN
-F3 "~" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 F4 "DigiKey" -30 900 60 H I C CNN "Vendor"
 F5 "311-1421-1-ND" 20 1000 60 H I C CNN "Vendor Part Number"
 F6 "Yageo" 0 790 60 H I C CNN "Manufacturer"
@@ -1728,7 +1728,7 @@ DEF ~220pF_0402 C 0 10 N Y 1 F N
 F0 "C" 50 100 50 H V L CNN
 F1 "220pF_0402" -230 300 50 H I L CNN
 F2 "C_SM0402" -10 420 60 H I C CNN
-F3 "~" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 F4 "DigiKey" -10 850 60 H I C CNN "Vendor"
 F5 "311-1035-1-ND" 40 950 60 H I C CNN "Vendor Part Number"
 F6 "Yageo" 0 760 60 H I C CNN "Manufacturer"
@@ -1754,7 +1754,7 @@ DEF ~22K1_0402 R 0 0 N Y 1 F N
 F0 "R" -10 70 50 H V C CNN
 F1 "22K1_0402" -25 175 50 H I C CNN
 F2 "R_SM0402" -50 250 60 H I C CNN
-F3 "~" 0 0 60 V V C CNN
+F3 "" 0 0 60 V V C CNN
 F4 "Digi-Key" 0 660 60 H I C CNN "Vendor"
 F5 "311-22.1KLRCT-ND" 20 730 60 H I C CNN "Vendor Part Number"
 F6 "Yageo" 10 570 60 H I C CNN "Manufacturer"
@@ -1775,13 +1775,66 @@ X 2 2 -250 0 100 R 60 0 1 1 P
 ENDDRAW
 ENDDEF
 #
+# 22R_0402
+#
+DEF ~22R_0402 R 0 0 N Y 1 F N
+F0 "R" 25 75 50 H V C CNN
+F1 "22R_0402" -20 170 50 H I C CNN
+F2 "R_SM0402" -10 390 60 H I C CNN
+F3 "" 20 -10 60 V V C CNN
+F4 "Digi-Key" -40 660 60 H I C CNN "Vendor"
+F5 "311-22.0LRCT-ND" -10 750 60 H I C CNN "Vendor Part Number"
+F6 "Yageo" -20 560 60 H I C CNN "Manufacturer"
+F7 "RC0402FR-0722RL" -50 480 60 H I C CNN "Manufacturer Part Number"
+F8 "RES, 22.0 OHM, 1/16W, 1%, 0402, SMD," 0 270 60 H I C CNN "Description"
+F9 "22R" 25 0 50 H V C CNN "Component Value"
+$FPLIST
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$ENDFPLIST
+DRAW
+S -125 -40 175 40 0 1 5 N
+X 1 1 -225 0 100 R 60 0 1 1 P
+X 2 2 275 0 100 L 60 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 22R_RA
+#
+DEF ~22R_RA R 0 0 N N 4 F N
+F0 "R" 0 100 50 H V C CNN
+F1 "22R_RA" 30 180 50 H I C CNN
+F2 "R_array" 40 250 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "Digi-Key" -20 600 60 H I C CNN "Vendor"
+F5 "RES ARRAY, 22 OHM ,4 RES, 0804," -100 330 60 H I C CNN "Description"
+F6 "Yageo" -10 520 60 H I C CNN "Manufacturer"
+F7 "YC124-JR-0722RL" 0 430 60 H I C CNN "Manufacturer Part Number"
+F8 "YC124J-22CT-ND" -60 700 60 H I C CNN "Vendor Part Number"
+F9 "22R" 0 0 50 H V C CNN "Component Value"
+DRAW
+S -150 40 150 -35 0 1 5 N
+X ~ 1 -225 0 73 R 50 50 1 1 P
+X ~ 8 225 0 73 L 50 50 1 1 P
+X ~ 2 -225 0 73 R 50 50 2 1 P
+X ~ 7 225 0 73 L 50 50 2 1 P
+X ~ 3 -225 0 73 R 50 50 3 1 P
+X ~ 6 225 0 73 L 50 50 3 1 P
+X ~ 4 -225 0 73 R 50 50 4 1 P
+X ~ 5 225 0 73 L 50 50 4 1 P
+ENDDRAW
+ENDDEF
+#
 # 22nF_0402
 #
 DEF ~22nF_0402 C 0 10 N Y 1 F N
 F0 "C" 50 100 50 H V L CNN
 F1 "22nF_0402" -190 300 50 H I L CNN
 F2 "R_SM0402" -10 400 60 H I C CNN
-F3 "~" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 F4 "DigiKey" 10 880 60 H I C CNN "Vendor"
 F5 "311-1378-1-ND" 60 980 60 H I C CNN "Vendor Part Number"
 F6 "Yageo" 10 770 60 H I C CNN "Manufacturer"
@@ -1807,7 +1860,7 @@ DEF ~22nH_0402 L 0 40 N N 1 F N
 F0 "L" -85 30 50 V V C CNN
 F1 "22nH_0402" 50 250 50 H I C CNN
 F2 "L_SM0402" 0 350 60 H I C CNN
-F3 "~" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 F4 "Coilcraft" 0 650 60 H I C CNN "Vendor"
 F5 "0402HP-22NX_LU" 50 550 60 H I C CNN "Vendor Part Number"
 F6 "Coilcraft" 0 750 60 H I C CNN "Manufacturer"
@@ -1835,7 +1888,7 @@ DEF ~22pF_0402 C 0 10 N Y 1 F N
 F0 "C" 50 100 50 H V L CNN
 F1 "22pF_0402" -180 280 50 H I L CNN
 F2 "C_SM0402" 10 380 39 H I C CNN
-F3 "~" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 F4 "DigiKey" 10 820 60 H I C CNN "Vendor"
 F5 "311-1018-1-ND" 20 910 60 H I C CNN "Vendor Part Number"
 F6 "Yageo" 10 730 60 H I C CNN "Manufacturer"
@@ -1855,66 +1908,13 @@ X ~ 2 0 -200 170 U 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# 22R_0402
-#
-DEF ~22R_0402 R 0 0 N Y 1 F N
-F0 "R" 25 75 50 H V C CNN
-F1 "22R_0402" -20 170 50 H I C CNN
-F2 "R_SM0402" -10 390 60 H I C CNN
-F3 "~" 20 -10 60 V V C CNN
-F4 "Digi-Key" -40 660 60 H I C CNN "Vendor"
-F5 "311-22.0LRCT-ND" -10 750 60 H I C CNN "Vendor Part Number"
-F6 "Yageo" -20 560 60 H I C CNN "Manufacturer"
-F7 "RC0402FR-0722RL" -50 480 60 H I C CNN "Manufacturer Part Number"
-F8 "RES, 22.0 OHM, 1/16W, 1%, 0402, SMD," 0 270 60 H I C CNN "Description"
-F9 "22R" 25 0 50 H V C CNN "Component Value"
-$FPLIST
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$ENDFPLIST
-DRAW
-S -125 -40 175 40 0 1 5 N
-X 1 1 -225 0 100 R 60 0 1 1 P
-X 2 2 275 0 100 L 60 0 1 1 P
-ENDDRAW
-ENDDEF
-#
-# 22R_RA
-#
-DEF ~22R_RA R 0 0 N N 4 F N
-F0 "R" 0 100 50 H V C CNN
-F1 "22R_RA" 30 180 50 H I C CNN
-F2 "R_array" 40 250 60 H I C CNN
-F3 "~" 0 0 60 H V C CNN
-F4 "Digi-Key" -20 600 60 H I C CNN "Vendor"
-F5 "RES ARRAY, 22 OHM ,4 RES, 0804," -100 330 60 H I C CNN "Description"
-F6 "Yageo" -10 520 60 H I C CNN "Manufacturer"
-F7 "YC124-JR-0722RL" 0 430 60 H I C CNN "Manufacturer Part Number"
-F8 "YC124J-22CT-ND" -60 700 60 H I C CNN "Vendor Part Number"
-F9 "22R" 0 0 50 H V C CNN "Component Value"
-DRAW
-S -150 40 150 -35 0 1 5 N
-X ~ 1 -225 0 73 R 50 50 1 1 P
-X ~ 8 225 0 73 L 50 50 1 1 P
-X ~ 2 -225 0 73 R 50 50 2 1 P
-X ~ 7 225 0 73 L 50 50 2 1 P
-X ~ 3 -225 0 73 R 50 50 3 1 P
-X ~ 6 225 0 73 L 50 50 3 1 P
-X ~ 4 -225 0 73 R 50 50 4 1 P
-X ~ 5 225 0 73 L 50 50 4 1 P
-ENDDRAW
-ENDDEF
-#
 # 22uF_0805
 #
 DEF ~22uF_0805 C 0 10 N Y 1 F N
 F0 "C" 50 100 50 H V L CNN
 F1 "22uF_0805" -210 310 50 H I L CNN
 F2 "C_SM0805" 0 410 60 H I C CNN
-F3 "~" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 F4 "Digi-Key" -30 900 60 H I C CNN "Vendor"
 F5 "445-1422-1-ND" -10 1000 60 H I C CNN "Vendor Part Number"
 F6 "TDK Corporation" -10 780 60 H I C CNN "Manufacturer"
@@ -1940,7 +1940,7 @@ DEF ~22uH_XAL60xx_series L 0 40 N N 1 F N
 F0 "L" -85 30 50 V V C CNN
 F1 "22uH_XAL60xx_series" 50 400 50 H I C CNN
 F2 "XAL60xx series" 40 520 60 H I C CNN
-F3 "~" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 F4 "Coilcraft" 10 1010 60 H I C CNN "Vendor"
 F5 "XAL6060-223MEB" 10 1120 60 H I C CNN "Vendor Part Number"
 F6 "Coilcraft" -10 920 60 H I C CNN "Manufacturer"
@@ -1968,7 +1968,7 @@ DEF ~232R_0402 R 0 0 N Y 1 F N
 F0 "R" 0 80 50 H V C CNN
 F1 "232R_0402" 100 175 50 H I C CNN
 F2 "R_SM0402" 100 275 60 H I C CNN
-F3 "~" 0 0 60 V V C CNN
+F3 "" 0 0 60 V V C CNN
 F4 "Digi-Key" 50 700 60 H I C CNN "Vendor"
 F5 "P232DCCT-ND" 0 800 60 H I C CNN "Vendor Part Number"
 F6 "Panasonic Electronic Components" 25 600 60 H I C CNN "Manufacturer"
@@ -1995,7 +1995,7 @@ DEF ~24LC128SN U 0 40 Y Y 1 L N
 F0 "U" -400 450 50 H V L BNN
 F1 "24LC128SN" -200 650 50 H I L BNN
 F2 "SO-08" 20 770 50 H I C CNN
-F3 "~" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 F4 "24LC128T-I/SN" 0 1010 60 H I C CNN "Manufacturer Part Number"
 F5 "24LC128T-I/SNCT-ND" 70 1320 60 H I C CNN "Vendor Part Number"
 F6 "Digi-Key" -30 1220 60 H I C CNN "Vendor"
@@ -2055,7 +2055,7 @@ DEF ~24LC256 U 0 40 Y Y 1 L N
 F0 "U" -300 250 50 H V L BNN
 F1 "24LC256" -140 510 50 H I L BNN
 F2 "SO-08" 20 620 50 H I C CNN
-F3 "~" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 F4 "24LC256T-I/SN" 30 860 60 H I C CNN "Manufacturer Part Number"
 F5 "24LC256T-I/SNCT-ND" -40 1180 60 H I C CNN "Vendor Part Number"
 F6 "Digi-Key" 10 1080 60 H I C CNN "Vendor"
@@ -2081,7 +2081,7 @@ DEF ~24LC64T U 0 40 Y Y 1 F N
 F0 "U" 100 50 60 H V C CNN
 F1 "24LC64T" 425 75 60 H I C CNN
 F2 "SOT-23" 325 225 60 H I C CNN
-F3 "~" 350 50 60 H V C CNN
+F3 "" 350 50 60 H V C CNN
 F4 "Digi-Key" 325 650 60 H I C CNN "Vendor"
 F5 "24LC64T-I/OTCT-ND" 325 425 60 H I C CNN "Vendor Part Number"
 F6 "Microchip Technology" 325 550 60 H I C CNN "Manufacturer"
@@ -2104,7 +2104,7 @@ DEF ~28K_0402 R 0 0 N Y 1 F N
 F0 "R" -10 70 50 H V C CNN
 F1 "28K_0402" -25 175 50 H I C CNN
 F2 "R_SM0402" -50 250 60 H I C CNN
-F3 "~" 0 0 60 V V C CNN
+F3 "" 0 0 60 V V C CNN
 F4 "Digi-Key" 0 660 60 H I C CNN "Vendor"
 F5 "311-28.0KLRCT-ND" 20 730 60 H I C CNN "Vendor Part Number"
 F6 "Yageo" 10 570 60 H I C CNN "Manufacturer"
@@ -2131,7 +2131,7 @@ DEF ~294R_0402 R 0 0 N Y 1 F N
 F0 "R" 0 75 50 H V C CNN
 F1 "294R_0402" -20 170 50 H I C CNN
 F2 "R_SM0402" -10 390 60 H I C CNN
-F3 "~" 20 -10 60 V V C CNN
+F3 "" 20 -10 60 V V C CNN
 F4 "Digi-Key" -40 660 60 H I C CNN "Vendor"
 F5 "P294DCCT-ND" -10 750 60 H I C CNN "Vendor Part Number"
 F6 "Panasonic Electronic Components" -20 560 60 H I C CNN "Manufacturer"
@@ -2158,7 +2158,7 @@ DEF ~2K2_0402 R 0 0 N Y 1 F N
 F0 "R" 10 70 50 H V C CNN
 F1 "2K2_0402" 50 200 50 H I C CNN
 F2 "R_SM0402" 50 300 60 H I C CNN
-F3 "~" 0 0 60 V V C CNN
+F3 "" 0 0 60 V V C CNN
 F4 "Digi-Key" 0 750 60 H I C CNN "Vendor"
 F5 "311-2.20KLRCT-ND" 0 850 60 H I C CNN "Vendor Part Number"
 F6 "Yageo" 0 650 60 H I C CNN "Manufacturer"
@@ -2185,7 +2185,7 @@ DEF ~2K2_0603 R 0 0 N Y 1 F N
 F0 "R" -2 73 50 H V C CNN
 F1 "2K2_0603" 10 190 50 H I C CNN
 F2 "R_SM0603" 10 300 60 H I C CNN
-F3 "~" -10 -10 60 V V C CNN
+F3 "" -10 -10 60 V V C CNN
 F4 "DigiKey" 0 730 60 H I C CNN "Vendor"
 F5 "311-2.2KGRCT-ND" 30 820 60 H I C CNN "Vendor Part Number"
 F6 "Yageo" 20 630 60 H I C CNN "Manufacturer"
@@ -2212,7 +2212,7 @@ DEF ~2N700PS Q 0 40 Y N 2 F N
 F0 "Q" 40 110 50 H V C CNN
 F1 "2N700PS" 0 330 50 H I C CNN
 F2 "SOT363" -10 420 60 H I C CNN
-F3 "~" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 F4 "2N7002PS,115" 20 660 60 H I C CNN "Manufacturer Part Number"
 F5 "568-5984-1-ND" 0 940 60 H I C CNN "Vendor Part Number"
 F6 "Digi-Key" -10 860 60 H I C CNN "Vendor"
@@ -2250,7 +2250,7 @@ DEF ~2R2_1206 R 0 0 N Y 1 F N
 F0 "R" -10 70 50 H V C CNN
 F1 "2R2_1206" -25 175 50 H I C CNN
 F2 "SM1206" -50 250 60 H I C CNN
-F3 "~" 0 0 60 V V C CNN
+F3 "" 0 0 60 V V C CNN
 F4 "Digi-Key" 0 660 60 H I C CNN "Vendor"
 F5 "RMCF1206FT2R20CT-ND" 20 730 60 H I C CNN "Vendor Part Number"
 F6 "Stackpole Electronics Inc" 10 570 60 H I C CNN "Manufacturer"
@@ -2277,7 +2277,7 @@ DEF ~3.9K_0402 R 0 0 N Y 1 F N
 F0 "R" 20 70 50 H V C CNN
 F1 "3.9K_0402" -20 170 50 H I C CNN
 F2 "R_SM0402" -10 390 60 H I C CNN
-F3 "~" 20 15 60 V V C CNN
+F3 "" 20 15 60 V V C CNN
 F4 "Digi-Key" -40 660 60 H I C CNN "Vendor"
 F5 "311-3.90KLRCT-ND" -10 750 60 H I C CNN "Vendor Part Number"
 F6 "Yageo" -20 560 60 H I C CNN "Manufacturer"
@@ -2304,7 +2304,7 @@ DEF ~3.9nH_0402 L 0 40 N N 1 F N
 F0 "L" -85 30 50 V V C CNN
 F1 "3.9nH_0402" 50 250 50 H I C CNN
 F2 "L_SM0402" 0 350 60 H I C CNN
-F3 "~" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 F4 "Coilcraft" 0 650 60 H I C CNN "Vendor"
 F5 "0402HP-3N9X_LU" 50 550 60 H I C CNN "Vendor Part Number"
 F6 "Coilcraft" 0 750 60 H I C CNN "Manufacturer"
@@ -2332,7 +2332,7 @@ DEF ~3.9pF_0402 C 0 10 N Y 1 F N
 F0 "C" 50 100 50 H V L CNN
 F1 "3.9pF_0402" -220 350 50 H I L CNN
 F2 "C_SM0402" -10 460 60 H I C CNN
-F3 "~" 50 100 60 H V C CNN
+F3 "" 50 100 60 H V C CNN
 F4 "Digi-Key" 20 920 60 H I C CNN "Vendor"
 F5 "490-5940-1-ND" 30 1020 60 H I C CNN "Vendor Part Number"
 F6 "Murata Electronics North America" 10 810 60 H I C CNN "Manufacturer"
@@ -2358,7 +2358,7 @@ DEF ~330R_0402 R 0 0 N Y 1 F N
 F0 "R" 0 70 50 H V C CNN
 F1 "330R_0402" 10 200 50 H I C CNN
 F2 "R_SM0402" 0 310 60 H I C CNN
-F3 "~" 0 -10 60 V V C CNN
+F3 "" 0 -10 60 V V C CNN
 F4 "Digi-Key" -30 770 60 H I C CNN "Vendor"
 F5 "311-330JRCT-ND" 0 860 60 H I C CNN "Vendor Part Number"
 F6 "Yageo" -20 660 60 H I C CNN "Manufacturer"
@@ -2385,7 +2385,7 @@ DEF ~33K_0402 R 0 0 N Y 1 F N
 F0 "R" -10 70 50 H V C CNN
 F1 "33K_0402" -25 175 50 H I C CNN
 F2 "R_SM0402" -50 250 60 H I C CNN
-F3 "~" 0 0 60 V V C CNN
+F3 "" 0 0 60 V V C CNN
 F4 "Digi-Key" 0 660 60 H I C CNN "Vendor"
 F5 "311-33KJRCT-ND" 20 730 60 H I C CNN "Vendor Part Number"
 F6 "Yageo" 10 570 60 H I C CNN "Manufacturer"
@@ -2412,7 +2412,7 @@ DEF ~33nH_0402 L 0 40 N N 1 F N
 F0 "L" -85 30 50 V V C CNN
 F1 "33nH_0402" 50 250 50 H I C CNN
 F2 "L_SM0402" 0 350 60 H I C CNN
-F3 "~" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 F4 "Coilcraft" 0 650 60 H I C CNN "Vendor"
 F5 "0402CS-33NX_LU" 50 550 60 H I C CNN "Vendor Part Number"
 F6 "Coilcraft" 0 750 60 H I C CNN "Manufacturer"
@@ -2440,7 +2440,7 @@ DEF ~33pF_0402 C 0 10 N Y 1 F N
 F0 "C" 50 100 50 H V L CNN
 F1 "33pF_0402" -210 270 50 H I L CNN
 F2 "C_SM0402" -10 350 39 H I C CNN
-F3 "~" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 F4 "DigiKey" -10 740 60 H I C CNN "Vendor"
 F5 "311-1020-1-ND" -20 830 60 H I C CNN "Vendor Part Number"
 F6 "Yageo" 0 650 60 H I C CNN "Manufacturer"
@@ -2466,7 +2466,7 @@ DEF ~36nH_0402 L 0 40 N N 1 F N
 F0 "L" -85 30 50 V V C CNN
 F1 "36nH_0402" 50 250 50 H I C CNN
 F2 "L_SM0402" 0 350 60 H I C CNN
-F3 "~" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 F4 "Coilcraft" 0 650 60 H I C CNN "Vendor"
 F5 "0402CS-36NX_LU" 50 550 60 H I C CNN "Vendor Part Number"
 F6 "Coilcraft" 0 750 60 H I C CNN "Manufacturer"
@@ -2494,7 +2494,7 @@ DEF ~390R_0402 R 0 0 N Y 1 F N
 F0 "R" 10 80 50 H V C CNN
 F1 "390R_0402" 20 200 50 H I C CNN
 F2 "R_SM0402" 20 290 60 H I C CNN
-F3 "~" 0 0 60 V V C CNN
+F3 "" 0 0 60 V V C CNN
 F4 "Digi-Key" 0 750 60 H I C CNN "Vendor"
 F5 "311-390LRCT-ND" -50 850 60 H I C CNN "Vendor Part Number"
 F6 "Yageo" 0 650 60 H I C CNN "Manufacturer"
@@ -2521,7 +2521,7 @@ DEF ~3K48_0402 R 0 0 N Y 1 F N
 F0 "R" 0 75 50 H V C CNN
 F1 "3K48_0402" -20 170 50 H I C CNN
 F2 "R_SM0402" 0 270 60 H I C CNN
-F3 "~" 20 -10 60 V V C CNN
+F3 "" 20 -10 60 V V C CNN
 F4 "Digi-Key" -40 660 60 H I C CNN "Vendor"
 F5 "P3.48KDCCT-ND" -10 750 60 H I C CNN "Vendor Part Number"
 F6 "Panasonic Electronic Components" -20 560 60 H I C CNN "Manufacturer"
@@ -2548,7 +2548,7 @@ DEF ~3K5_0402 R 0 0 N Y 1 F N
 F0 "R" 15 76 50 H V C CNN
 F1 "3K5_0402" 0 190 50 H I C CNN
 F2 "R_SM0402" 40 280 60 H I C CNN
-F3 "~" 20 -10 60 V V C CNN
+F3 "" 20 -10 60 V V C CNN
 F4 "Digi-Key" -40 660 60 H I C CNN "Vendor"
 F5 "311-1.20KLRCT-ND" -10 750 60 H I C CNN "Vendor Part Number"
 F6 "Yageo" -20 560 60 H I C CNN "Manufacturer"
@@ -2575,7 +2575,7 @@ DEF ~4.7nH_0402 L 0 40 N N 1 F N
 F0 "L" -85 30 50 V V C CNN
 F1 "4.7nH_0402" 50 250 50 H I C CNN
 F2 "L_SM0402" 0 350 60 H I C CNN
-F3 "~" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 F4 "Coilcraft" 0 650 60 H I C CNN "Vendor"
 F5 "0402HP-4N7X_LU" 50 550 60 H I C CNN "Vendor Part Number"
 F6 "Coilcraft" 0 750 60 H I C CNN "Manufacturer"
@@ -2603,7 +2603,7 @@ DEF ~4.7uF_0402 C 0 10 N Y 1 F N
 F0 "C" 50 100 50 H V L CNN
 F1 "4.7uF_0402" -200 300 50 H I L CNN
 F2 "C_SM0402" -50 400 60 H I C CNN
-F3 "~" 50 100 60 H V C CNN
+F3 "" 50 100 60 H V C CNN
 F4 "Digi-Key" 0 900 60 H I C CNN "Vendor"
 F5 "445-7395-1-ND" 0 1000 60 H I C CNN "Vendor Part Number"
 F6 "TDK Corporation" -50 800 60 H I C CNN "Manufacturer"
@@ -2629,7 +2629,7 @@ DEF ~4.7uF_C_Tant C 0 10 N Y 1 F N
 F0 "C" -150 120 50 H V L CNN
 F1 "4.7uF_C_Tant" -220 280 50 H I L CNN
 F2 "C_TANT_SM0603" -40 380 60 H I C CNN
-F3 "~" 10 0 60 V V C CNN
+F3 "" 10 0 60 V V C CNN
 F4 "718-1676-1-ND" -20 920 60 H I C CNN "Vendor Part Number"
 F5 "CAP, TANT, 4.7UF, 16V, 20%, 0603," -30 480 60 H I C CNN "Description"
 F6 "Digi-Key" -20 850 60 H I C CNN "Vendor"
@@ -2655,7 +2655,7 @@ DEF ~4.7uH_1008 L 0 40 N N 1 F N
 F0 "L" -85 30 50 V V C CNN
 F1 "4.7uH_1008" -10 300 50 H I C CNN
 F2 "L_SM1008" -20 430 60 H I C CNN
-F3 "~" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 F4 "Digi-Key" -20 850 60 H I C CNN "Vendor"
 F5 "PCD1090CT-ND" -20 950 60 H I C CNN "Vendor Part Number"
 F6 "Panasonic Electronic Components" -20 740 60 H I C CNN "Manufacturer"
@@ -2677,39 +2677,13 @@ X 2 2 0 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# 470pF_0402
-#
-DEF ~470pF_0402 C 0 10 N Y 1 F N
-F0 "C" 50 100 50 H V L CNN
-F1 "470pF_0402" -210 270 50 H I L CNN
-F2 "C_SM0402" -10 350 39 H I C CNN
-F3 "~" 0 0 60 H V C CNN
-F4 "DigiKey" -10 740 60 H I C CNN "Vendor"
-F5 "311-1028-1-ND" -20 830 60 H I C CNN "Vendor Part Number"
-F6 "Yageo" 0 650 60 H I C CNN "Manufacturer"
-F7 "CC0402KRX7R9BB471" -60 550 60 H I C CNN "Manufacturer Part Number"
-F8 "CAP, CER, 470PF, 50V, 10%, X7R, 0402," 20 440 60 H I C CNN "Description"
-F9 "470pF" 125 -100 50 H V C CNN "Component Value"
-$FPLIST
- SM*
- C?
- C1-1
-$ENDFPLIST
-DRAW
-P 2 0 1 20  -100 -30  100 -30 N
-P 2 0 1 20  -100 30  100 30 N
-X ~ 1 0 200 170 D 40 40 1 1 P
-X ~ 2 0 -200 170 U 40 40 1 1 P
-ENDDRAW
-ENDDEF
-#
 # 470R_0402
 #
 DEF ~470R_0402 R 0 0 N Y 1 F N
 F0 "R" -8 73 50 H V C CNN
 F1 "470R_0402" 10 210 50 H I C CNN
 F2 "R_SM0402" 30 290 60 H I C CNN
-F3 "~" -10 0 60 V V C CNN
+F3 "" -10 0 60 V V C CNN
 F4 "Digi-Key" -40 700 60 H I C CNN "Vendor"
 F5 "P470DECT-ND" -10 790 60 H I C CNN "Vendor Part Number"
 F6 "Panasonic Electronic Components" 20 610 60 H I C CNN "Manufacturer"
@@ -2730,13 +2704,39 @@ X 2 2 250 0 100 L 60 0 1 1 P
 ENDDRAW
 ENDDEF
 #
+# 470pF_0402
+#
+DEF ~470pF_0402 C 0 10 N Y 1 F N
+F0 "C" 50 100 50 H V L CNN
+F1 "470pF_0402" -210 270 50 H I L CNN
+F2 "C_SM0402" -10 350 39 H I C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "DigiKey" -10 740 60 H I C CNN "Vendor"
+F5 "311-1028-1-ND" -20 830 60 H I C CNN "Vendor Part Number"
+F6 "Yageo" 0 650 60 H I C CNN "Manufacturer"
+F7 "CC0402KRX7R9BB471" -60 550 60 H I C CNN "Manufacturer Part Number"
+F8 "CAP, CER, 470PF, 50V, 10%, X7R, 0402," 20 440 60 H I C CNN "Description"
+F9 "470pF" 125 -100 50 H V C CNN "Component Value"
+$FPLIST
+ SM*
+ C?
+ C1-1
+$ENDFPLIST
+DRAW
+P 2 0 1 20  -100 -30  100 -30 N
+P 2 0 1 20  -100 30  100 30 N
+X ~ 1 0 200 170 D 40 40 1 1 P
+X ~ 2 0 -200 170 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
 # 47K_0402
 #
 DEF ~47K_0402 R 0 0 N Y 1 F N
 F0 "R" -10 70 50 H V C CNN
 F1 "47K_0402" -25 175 50 H I C CNN
 F2 "R_SM0402" -50 250 60 H I C CNN
-F3 "~" 0 0 60 V V C CNN
+F3 "" 0 0 60 V V C CNN
 F4 "Digi-Key" 0 660 60 H I C CNN "Vendor"
 F5 "311-47.0KLRCT-ND" 20 730 60 H I C CNN "Vendor Part Number"
 F6 "Yageo" 10 570 60 H I C CNN "Manufacturer"
@@ -2757,39 +2757,13 @@ X 2 2 -250 0 100 R 60 0 1 1 P
 ENDDRAW
 ENDDEF
 #
-# 47pF_0402
-#
-DEF ~47pF_0402 C 0 10 N Y 1 F N
-F0 "C" 50 100 50 H V L CNN
-F1 "47pF_0402" -210 270 50 H I L CNN
-F2 "C_SM0402" -10 350 39 H I C CNN
-F3 "~" 0 0 60 H V C CNN
-F4 "DigiKey" -10 740 60 H I C CNN "Vendor"
-F5 "311-1021-1-ND" -20 830 60 H I C CNN "Vendor Part Number"
-F6 "Yageo" 0 650 60 H I C CNN "Manufacturer"
-F7 "CC0402JRNPO9BN470" -60 550 60 H I C CNN "Manufacturer Part Number"
-F8 "CAP, CER, 47PF, 50V, 5%, NPO, 0402," 20 440 60 H I C CNN "Description"
-F9 "47pF" 125 -100 50 H V C CNN "Component Value"
-$FPLIST
- SM*
- C?
- C1-1
-$ENDFPLIST
-DRAW
-P 2 0 1 20  -100 -30  100 -30 N
-P 2 0 1 20  -100 30  100 30 N
-X ~ 1 0 200 170 D 40 40 1 1 P
-X ~ 2 0 -200 170 U 40 40 1 1 P
-ENDDRAW
-ENDDEF
-#
 # 47R_0402
 #
 DEF ~47R_0402 R 0 0 N Y 1 F N
 F0 "R" 10 70 50 H V C CNN
 F1 "47R_0402" -30 220 50 H I C CNN
 F2 "R_SM0402" -20 340 60 H I C CNN
-F3 "~" 10 0 60 V V C CNN
+F3 "" 10 0 60 V V C CNN
 F4 "Digi-Key" -60 790 60 H I C CNN "Vendor"
 F5 "311-47.0LRCT-ND" -70 880 60 H I C CNN "Vendor Part Number"
 F6 "Yageo" -60 700 60 H I C CNN "Manufacturer"
@@ -2810,13 +2784,39 @@ X 2 2 250 0 100 L 60 0 1 1 P
 ENDDRAW
 ENDDEF
 #
+# 47pF_0402
+#
+DEF ~47pF_0402 C 0 10 N Y 1 F N
+F0 "C" 50 100 50 H V L CNN
+F1 "47pF_0402" -210 270 50 H I L CNN
+F2 "C_SM0402" -10 350 39 H I C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "DigiKey" -10 740 60 H I C CNN "Vendor"
+F5 "311-1021-1-ND" -20 830 60 H I C CNN "Vendor Part Number"
+F6 "Yageo" 0 650 60 H I C CNN "Manufacturer"
+F7 "CC0402JRNPO9BN470" -60 550 60 H I C CNN "Manufacturer Part Number"
+F8 "CAP, CER, 47PF, 50V, 5%, NPO, 0402," 20 440 60 H I C CNN "Description"
+F9 "47pF" 125 -100 50 H V C CNN "Component Value"
+$FPLIST
+ SM*
+ C?
+ C1-1
+$ENDFPLIST
+DRAW
+P 2 0 1 20  -100 -30  100 -30 N
+P 2 0 1 20  -100 30  100 30 N
+X ~ 1 0 200 170 D 40 40 1 1 P
+X ~ 2 0 -200 170 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
 # 49R9_0402
 #
 DEF ~49R9_0402 R 0 0 N Y 1 F N
 F0 "R" -10 90 50 H V C CNN
 F1 "49R9_0402" 10 220 50 H I C CNN
 F2 "R_SM0402" 0 310 60 H I C CNN
-F3 "~" 20 -10 60 V V C CNN
+F3 "" 20 -10 60 V V C CNN
 F4 "Digi-Key" -50 700 60 H I C CNN "Vendor"
 F5 "311-49.9LRCT-ND" -20 790 60 H I C CNN "Vendor Part Number"
 F6 "Yageo" -30 600 60 H I C CNN "Manufacturer"
@@ -2843,7 +2843,7 @@ DEF ~4K12_0402 R 0 0 N Y 1 F N
 F0 "R" 10 80 50 H V C CNN
 F1 "4K12_0402" 0 190 50 H I C CNN
 F2 "R_SM0402" 10 290 60 H I C CNN
-F3 "~" 100 -75 60 H V C CNN
+F3 "" 100 -75 60 H V C CNN
 F4 "Digi-Key" 30 690 60 H I C CNN "Vendor"
 F5 "RMCF0402FT4K12CT-ND" 40 800 60 H I C CNN "Vendor Part Number"
 F6 "Stackpole Electronics Inc" 30 590 60 H I C CNN "Manufacturer"
@@ -2870,7 +2870,7 @@ DEF ~5.6nH_0402 L 0 40 N N 1 F N
 F0 "L" -85 30 50 V V C CNN
 F1 "5.6nH_0402" 50 250 50 H I C CNN
 F2 "L_SM0402" 0 350 60 H I C CNN
-F3 "~" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 F4 "Coilcraft" 0 650 60 H I C CNN "Vendor"
 F5 "0402HP-5N6XJLU" 50 550 60 H I C CNN "Vendor Part Number"
 F6 "Coilcraft" 0 750 60 H I C CNN "Manufacturer"
@@ -2898,7 +2898,7 @@ DEF ~51R_0402 R 0 0 N Y 1 F N
 F0 "R" -10 70 50 H V C CNN
 F1 "51R_0402" 40 150 50 H I C CNN
 F2 "R_SM0402" 20 230 60 H I C CNN
-F3 "~" 0 0 60 V V C CNN
+F3 "" 0 0 60 V V C CNN
 F4 "Digi-Key" 0 660 60 H I C CNN "Vendor"
 F5 "311-51JRCT-ND" 20 730 60 H I C CNN "Vendor Part Number"
 F6 "Yageo" 10 560 60 H I C CNN "Manufacturer"
@@ -2925,7 +2925,7 @@ DEF ~5K49_0402 R 0 0 N Y 1 F N
 F0 "R" -10 70 50 H V C CNN
 F1 "5K49_0402" 0 160 50 H I C CNN
 F2 "R_SM0402" -50 250 60 H I C CNN
-F3 "~" 0 0 60 V V C CNN
+F3 "" 0 0 60 V V C CNN
 F4 "Digi-Key" 0 660 60 H I C CNN "Vendor"
 F5 "311-5.49KLRCT-ND" 20 730 60 H I C CNN "Vendor Part Number"
 F6 "Yageo" 10 570 60 H I C CNN "Manufacturer"
@@ -2952,7 +2952,7 @@ DEF ~5K76_0402 R 0 0 N Y 1 F N
 F0 "R" 10 80 50 H V C CNN
 F1 "5K76_0402" 0 200 50 H I C CNN
 F2 "R_SM0402" 0 325 60 H I C CNN
-F3 "~" 0 0 60 V V C CNN
+F3 "" 0 0 60 V V C CNN
 F4 "Digi-Key" -50 725 60 H I C CNN "Vendor"
 F5 "P5.76KLCT-ND" 0 825 60 H I C CNN "Vendor Part Number"
 F6 "Panasonic Electronic Components" -50 525 60 H I C CNN "Manufacturer"
@@ -2979,7 +2979,7 @@ DEF ~680R_0402 R 0 0 N Y 1 F N
 F0 "R" 0 75 50 H V C CNN
 F1 "680R_0402" 30 250 50 H I C CNN
 F2 "R_SM0402" 20 370 60 H I C CNN
-F3 "~" 10 -5 60 V V C CNN
+F3 "" 10 -5 60 V V C CNN
 F4 "Digi-Key" 30 820 60 H I C CNN "Vendor"
 F5 "311-680LRCT-ND" 10 920 60 H I C CNN "Vendor Part Number"
 F6 "Yageo" 20 730 60 H I C CNN "Manufacturer"
@@ -3006,7 +3006,7 @@ DEF ~68R_RA_0804 R 0 0 N N 4 F N
 F0 "R" -20 80 50 H V C CNN
 F1 "68R_RA_0804" 10 160 50 H I C CNN
 F2 "R_array" 10 240 60 H I C CNN
-F3 "~" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 F4 "Digi-Key" -20 600 60 H I C CNN "Vendor"
 F5 "RES ARRAY 68 OHM 4 RES 0804" -100 330 60 H I C CNN "Description"
 F6 "Yageo" -10 520 60 H I C CNN "Manufacturer"
@@ -3032,7 +3032,7 @@ DEF ~6K8_0402 R 0 0 N Y 1 F N
 F0 "R" 0 75 50 H V C CNN
 F1 "6K8_0402" 10 180 50 H I C CNN
 F2 "R_SM0402" 30 280 60 H I C CNN
-F3 "~" 20 -10 60 V V C CNN
+F3 "" 20 -10 60 V V C CNN
 F4 "Digi-Key" -10 710 60 H I C CNN "Vendor"
 F5 "311-6.80KLRCT-ND" 20 800 60 H I C CNN "Vendor Part Number"
 F6 "Yageo" 10 610 60 H I C CNN "Manufacturer"
@@ -3059,7 +3059,7 @@ DEF ~7R8_0402 R 0 0 N Y 1 F N
 F0 "R" 20 70 50 H V C CNN
 F1 "7R8_0402" -20 170 50 H I C CNN
 F2 "R_SM0402" 0 280 60 H I C CNN
-F3 "~" 20 -10 60 V V C CNN
+F3 "" 20 -10 60 V V C CNN
 F4 "Digi-Key" 10 730 60 H I C CNN "Vendor"
 F5 "P294DCCT-ND" 30 830 60 H I C CNN "Vendor Part Number"
 F6 "Panasonic_Electronic_Components" 10 630 60 H I C CNN "Manufacturer"
@@ -3086,7 +3086,7 @@ DEF ~8.2nH_0402 L 0 40 N N 1 F N
 F0 "L" -85 30 50 V V C CNN
 F1 "8.2nH_0402" 50 250 50 H I C CNN
 F2 "L_SM0402" 0 350 60 H I C CNN
-F3 "~" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 F4 "Coilcraft" 0 650 60 H I C CNN "Vendor"
 F5 "0402HP-8N2X_LU" 50 550 60 H I C CNN "Vendor Part Number"
 F6 "Coilcraft" 0 750 60 H I C CNN "Manufacturer"
@@ -3114,7 +3114,7 @@ DEF ~8.2pF_0402 C 0 10 N Y 1 F N
 F0 "C" 50 100 50 H V L CNN
 F1 "8.2pF_0402" -240 280 50 H I L CNN
 F2 "C_SM0402" -10 380 60 H I C CNN
-F3 "~" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 F4 "Digi-Key" 10 830 60 H I C CNN "Vendor"
 F5 "311-1012-1-ND" 10 920 60 H I C CNN "Vendor Part Number"
 F6 "Yageo" -10 730 60 H I C CNN "Manufacturer"
@@ -3140,7 +3140,7 @@ DEF ~820R_0402 R 0 0 N Y 1 F N
 F0 "R" 20 70 50 H V C CNN
 F1 "820R_0402" -20 170 50 H I C CNN
 F2 "R_SM0402" -20 270 60 H I C CNN
-F3 "~" 20 -10 60 V V C CNN
+F3 "" 20 -10 60 V V C CNN
 F4 "Digi-Key" 0 690 60 H I C CNN "Vendor"
 F5 "311-820LRCT-ND" 30 780 60 H I C CNN "Vendor Part Number"
 F6 "Yageo" 20 590 60 H I C CNN "Manufacturer"
@@ -3167,7 +3167,7 @@ DEF ~8K_0402 R 0 0 N Y 1 F N
 F0 "R" 20 70 50 H V C CNN
 F1 "8K_0402" 20 190 50 H I C CNN
 F2 "R_SM0402" -10 290 60 H I C CNN
-F3 "~" 20 -10 60 V V C CNN
+F3 "" 20 -10 60 V V C CNN
 F4 "Digi-Key" -30 700 60 H I C CNN "Vendor"
 F5 "311-6.80KLRCT-ND" 0 790 60 H I C CNN "Vendor Part Number"
 F6 "Yageo" -10 600 60 H I C CNN "Manufacturer"
@@ -3194,7 +3194,7 @@ DEF ~8MHZ X 0 40 Y Y 1 F N
 F0 "X" 0 175 60 H V C CNN
 F1 "8MHZ" 50 325 60 H I C CNN
 F2 "HC49_US" 50 450 60 H I C CNN
-F3 "~" -100 0 60 V V C CNN
+F3 "" -100 0 60 V V C CNN
 F4 "1611765" 0 900 60 H I C CNN "Vendor Part Number"
 F5 "XT49M-8M" 0 650 60 H I C CNN "Manufacturer Part Number"
 F6 "Farnell" 0 825 60 H I C CNN "Vendor"
@@ -3216,7 +3216,7 @@ DEF ~AD8130 U 0 40 Y Y 1 F N
 F0 "U" 150 250 60 H V C CNN
 F1 "AD8130" 300 500 60 H I C CNN
 F2 "SOIC-8" 300 600 60 H I C CNN
-F3 "~" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 F4 "Digi-Key" 300 1000 60 H I C CNN "Vendor"
 F5 "AD8130ARZ-ND" 350 1100 60 H I C CNN "Vendor Part Number"
 F6 "Analog Devices Inc" 300 900 60 H I C CNN "Manufacturer"
@@ -3242,7 +3242,7 @@ DEF ~ADF4002 U 0 40 Y Y 1 F N
 F0 "U" 60 50 60 H V C CNN
 F1 "ADF4002" 600 300 60 H I C CNN
 F2 "LFCSP 20" 600 400 60 H I C CNN
-F3 "~" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 F4 "Digi-Key" 600 800 60 H I C CNN "Vendor"
 F5 "ADF4002BCPZ-RL7CT-ND" 650 900 60 H I C CNN "Vendor Part Number"
 F6 "Analog Devices Inc" 600 700 60 H I C CNN "Manufacturer"
@@ -3281,7 +3281,7 @@ DEF ~ASP-122952-01_(HSMC) J 0 40 Y Y 1 F N
 F0 "J" -10 2570 50 H V C CNN
 F1 "ASP-122952-01_(HSMC)" -30 2750 60 H I C CNN
 F2 "HSMC" -70 2850 60 H I C CNN
-F3 "~" 225 -25 60 H V C CNN
+F3 "" 225 -25 60 H V C CNN
 F4 "ASP-122952-01" -60 3070 60 H I C CNN "Manufacturer Part Number"
 F5 "ASP-122952-01" -20 3360 60 H I C CNN "Vendor Part Number"
 F6 "HSMC Connector" -60 2950 60 H I C CNN "Description"
@@ -3474,7 +3474,7 @@ DEF ~ASP-134604-01_(FMC) J 0 40 Y Y 4 F N
 F0 "J" 160 40 50 H V C CNN
 F1 "ASP-134604-01_(FMC)" 160 130 60 H I C CNN
 F2 "FMC" 150 220 60 H I C CNN
-F3 "~" 250 0 60 H V C CNN
+F3 "" 250 0 60 H V C CNN
 F4 "ASP-134604-01" 160 430 60 H I C CNN "Manufacturer Part Number"
 F5 "ASP-134604-01" 160 730 60 H I C CNN "Vendor Part Number"
 F6 "FMC_Connector" 140 330 60 H I C CNN "Description"
@@ -3666,7 +3666,7 @@ DEF ~AT90USB162-16AU U 0 40 Y Y 1 F N
 F0 "U" 100 50 60 H V C CNN
 F1 "AT90USB162-16AU" 800 300 60 H I C CNN
 F2 "TQFP32" 800 400 60 H I C CNN
-F3 "~" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 F4 "Digi-Key" 800 800 60 H I C CNN "Vendor"
 F5 "AT90USB162-16AU-ND" 800 900 60 H I C CNN "Vendor Part Number"
 F6 "Atmel" 800 700 60 H I C CNN "Manufacturer"
@@ -3715,8 +3715,8 @@ ENDDEF
 DEF C+ C 0 10 N Y 1 F N
 F0 "C" 50 100 50 H V L CNN
 F1 "C+" 50 -100 50 H V L CNN
-F2 "~" 0 0 60 H V C CNN
-F3 "~" 0 0 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 $FPLIST
  SM*
  C?
@@ -3740,7 +3740,7 @@ DEF ~CDCV304PWR U 0 40 Y Y 1 F N
 F0 "U" -200 300 60 H V C CNN
 F1 "CDCV304PWR" 20 480 60 H I C CNN
 F2 "TSSOP8" 10 580 60 H I C CNN
-F3 "~" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 F4 "296-9436-1-ND" 50 1100 60 H I C CNN "Vendor Part Number"
 F5 "CDCV304PWR" 20 820 60 H I C CNN "Manufacturer Part Number"
 F6 "Digi-Key" 20 1020 60 H I C CNN "Vendor"
@@ -3780,7 +3780,7 @@ DEF ~CY7C68013A-56QFNLFXC U 0 40 Y Y 1 F N
 F0 "U" -680 1630 50 H V L BNN
 F1 "CY7C68013A-56QFNLFXC" -470 2040 50 H I L BNN
 F2 "QFN56" 0 2140 50 H I C CNN
-F3 "~" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 F4 "428-2933-ND" 20 2660 60 H I C CNN "Vendor Part Number"
 F5 "CY7C68013A-56LTXC" 10 2370 60 H I C CNN "Manufacturer"
 F6 "Cypress Semiconductor Corp" -10 2470 60 H I C CNN "Manufacturer Part Number"
@@ -3861,7 +3861,7 @@ DEF ~CYUSB3011 U 0 40 Y Y 3 L N
 F0 "U" -700 1650 50 H V L BNN
 F1 "CYUSB3011" -190 1860 50 H I L BNN
 F2 "CYUSB3011-121-ballBGA" 20 1970 50 H I C CNN
-F3 "~" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 F4 "428-3179-ND" -20 2500 60 H I C CNN "Vendor Part Number"
 F5 "ARM9, USB3, CONTROLLER, X16, GPIF II," -20 2070 60 H I C CNN "Description"
 F6 "Cypress Semiconductor Corp" 0 2270 60 H I C CNN "Manufacturer"
@@ -4032,7 +4032,7 @@ DEF ~DE0_NANO_Conn J 0 40 Y Y 1 F N
 F0 "J" -680 2290 60 H V C CNN
 F1 "DE0_NANO_Conn" -10 2500 60 H I C CNN
 F2 "Connector Array For DEO-NANO" -50 2630 60 H I C CNN
-F3 "~" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 F4 "2 units of: CONN, RCPT, 40POS, .100\", DUAL TIN," -20 2750 60 H I C CNN "Description"
 F5 "CES-120-01-T-D" -20 2900 60 H I C CNN "Manufacturer Part Number"
 F6 "Digi-Key" -20 3130 60 H I C CNN "Vendor"
@@ -4137,7 +4137,7 @@ DEF ~FIDUCIAL FD 0 40 Y Y 1 F N
 F0 "FD" 0 100 60 H V C CNN
 F1 "FIDUCIAL" 0 200 60 H I C CNN
 F2 "Fiducial" -100 0 60 H I C CNN
-F3 "~" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 DRAW
 C 0 0 50 0 1 0 N
 ENDDRAW
@@ -4149,7 +4149,7 @@ DEF ~FR_600R_0402 FR 0 40 N N 1 F N
 F0 "FR" -50 50 50 H V L BNN
 F1 "FR_600R_0402" -270 180 50 H I L BNN
 F2 "R_SM0402" -10 290 50 H I C CNN
-F3 "~" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 F4 "445-2162-1-ND" 60 770 60 H I C CNN "Vendor Part Number"
 F5 "Digi-Key" 30 690 60 H I C CNN "Vendor"
 F6 "FERRITE, CHIP, BEAD, 600 OHM, SMD," -60 390 60 H I C CNN "Description"
@@ -4177,7 +4177,7 @@ DEF ~FR_60R_0805 FR 0 40 N N 1 F N
 F0 "FR" 0 75 60 H V C CNN
 F1 "FR_60R_0805" 0 230 60 H I C CNN
 F2 "R_SM0805" 0 330 60 H I C CNN
-F3 "~" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 F4 "Digi-Key" 0 750 60 H I C CNN "Vendor"
 F5 "445-2204-1-ND" -20 860 60 H I C CNN "Vendor Part Number"
 F6 "TDK Corporation" -10 640 60 H I C CNN "Manufacturer"
@@ -4202,7 +4202,7 @@ DEF ~FX10B_80P_8 J 0 40 Y Y 1 F N
 F0 "J" -30 2820 60 H V C CNN
 F1 "FX10B_80P_8" -40 2950 60 H I C CNN
 F2 "FX10B_80P_8" -60 3060 60 H I C CNN
-F3 "~" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 F4 "CONN HEADER, 80POS, W/O, POST, SMD," -50 3180 60 H I C CNN "Description"
 F5 "Digi-Key" -40 3520 60 H I C CNN "Vendor"
 F6 "FX10B-80P/8-SV1(71)" -10 3300 60 H I C CNN "Manufacturer Part Number"
@@ -4310,13 +4310,16 @@ DEF ~FX10B_80S_8 J 0 40 Y Y 1 F N
 F0 "J" 10 2800 60 H V C CNN
 F1 "FX10B_80S_8" -20 2970 60 H I C CNN
 F2 "FX10B_80S_8" -10 3090 60 H I C CNN
-F3 "~" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 F4 "CONN RECEPT, 80POS, W/O, POST, SMD," 30 3200 60 H I C CNN "Description"
 F5 "Digi-Key" 10 3530 60 H I C CNN "Vendor"
 F6 "FX10B-80S/8-SV(71)" 20 3310 60 H I C CNN "Manufacturer Part Number"
 F7 "H11236-ND" -20 3620 60 H I C CNN "Vendor Part Number"
 F8 "Hirose Electric Co Ltd" 10 3420 60 H I C CNN "Manufacturer"
 F9 "FX10B_80S_8" 20 -2880 60 H V C CNN "Component Value"
+$FPLIST
+ FX10B_80S*
+$ENDFPLIST
 DRAW
 X P86 86 -800 -700 300 R 50 50 1 0 P
 P 4 0 1 0  600 2500  600 2600  450 2750  100 2750 N
@@ -4419,8 +4422,8 @@ ENDDEF
 DEF GND #PWR 0 0 N N 1 F P
 F0 "#PWR" 0 100 40 H I C CNN
 F1 "GND" 0 -70 40 H V C CNN
-F2 "~" 0 0 60 H V C CNN
-F3 "~" 0 0 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 DRAW
 P 2 0 1 0  -50 0  50 0 N
 P 2 0 1 0  -35 -15  35 -15 N
@@ -4436,7 +4439,7 @@ DEF ~JACK-PLUG1 J 0 40 Y Y 1 F N
 F0 "J" -50 230 50 H V L BNN
 F1 "JACK-PLUG1" -210 460 50 H I L BNN
 F2 "Jack_Socket_SMD" 30 590 50 H I C CNN
-F3 "~" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 F4 "1654842" 10 1160 60 H I C CNN "Vendor Part Number"
 F5 "Farnell" 0 1070 60 H I C CNN "Vendor"
 F6 "MULTICOMP" 20 960 60 H I C CNN "Manufacturer"
@@ -4470,7 +4473,7 @@ DEF ~LD1117DT33 U 0 40 Y Y 1 F N
 F0 "U" -170 200 60 H V C CNN
 F1 "LD1117DT33" 50 330 60 H I C CNN
 F2 "DPAK2" 40 430 60 H I C CNN
-F3 "~" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 F4 "497-1235-1-ND" 40 970 60 H I C CNN "Vendor Part Number"
 F5 "Digi-Key" 40 870 60 H I C CNN "Vendor"
 F6 "IC REG, LDO, 3.3V, 0.95A, DPAK," 80 550 60 H I C CNN "Description"
@@ -4491,7 +4494,7 @@ DEF ~LDO1117 U 0 40 Y Y 1 F N
 F0 "U" -140 240 50 H V C CNN
 F1 "LDO1117" 50 360 60 H I C CNN
 F2 "SOT-223-3" 50 460 60 H I C CNN
-F3 "~" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 F4 "Digi-Key" 40 900 60 H I C CNN "Vendor"
 F5 "Diodes Inc" 40 800 60 H I C CNN "Manufacturer"
 F6 "IC, REG LDO, 3.3V, 1A, SOT223," 0 570 60 H I C CNN "Description"
@@ -4519,7 +4522,7 @@ DEF ~LED_0603 LD 0 40 Y N 1 F N
 F0 "LD" 0 100 50 H V C CNN
 F1 "LED_0603" 10 270 50 H I C CNN
 F2 "LED_0603" 10 480 60 H I C CNN
-F3 "~" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 F4 "475-1409-1-ND" -10 900 60 H I C CNN "Vendor Part Number"
 F5 "Digi-Key" 10 790 60 H I C CNN "Vendor"
 F6 "LED, CHIPLED, 570NM, GREEN, 0603, SMD," 60 350 60 H I C CNN "Description"
@@ -4551,7 +4554,7 @@ DEF ~LMK00105 U 0 40 Y Y 1 F N
 F0 "U" 60 60 60 H V C CNN
 F1 "LMK00105" 700 -400 60 H I C CNN
 F2 "24LLP" 730 290 60 H I C CNN
-F3 "~" 100 100 60 H V C CNN
+F3 "" 100 100 60 H V C CNN
 F4 "Digi-Key" 650 760 60 H I C CNN "Vendor"
 F5 "LMK00105SQ/NOPBCT-ND" 650 870 60 H I C CNN "Vendor Part Number"
 F6 "Texas Instruments" 680 640 60 H I C CNN "Manufacturer"
@@ -4594,7 +4597,7 @@ DEF ~LMS6002DR2 U 0 40 Y Y 4 F N
 F0 "U" -630 1950 60 H V C CNN
 F1 "LMS6002DR2" 10 2140 60 H I C CNN
 F2 "DQFN-120_off pad" -40 2250 60 H I C CNN
-F3 "~" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 F4 "1434-1000-1-ND" -60 2760 60 H I C CNN "Vendor Part Number"
 F5 "Digi-Key" -70 2670 60 H I C CNN "Vendor"
 F6 "IC, MULTI-FUNCTION, TRANSCEIVER," -70 2340 60 H I C CNN "Description"
@@ -4733,7 +4736,7 @@ DEF ~LP2985IM5-1.8 U 0 40 Y Y 1 F N
 F0 "U" -200 290 60 H V C CNN
 F1 "LP2985IM5-1.8" 30 420 60 H I C CNN
 F2 "SOT23-5" 20 550 60 H I C CNN
-F3 "~" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 F4 "Digi-Key" 10 1010 60 H I C CNN "Vendor"
 F5 "IC, REG LDO, 1.8V, 0.15A, SOT23-5," 60 660 60 H I C CNN "Description"
 F6 "LP2985IM5-1.8/NOPB" 20 780 60 H I C CNN "Manufacturer Part Number"
@@ -4756,7 +4759,7 @@ DEF ~LP5900SD-3.3 U 0 40 Y Y 1 F N
 F0 "U" 50 50 60 H V C CNN
 F1 "LP5900SD-3.3" 330 210 60 H I C CNN
 F2 "SC70" 300 325 60 H I C CNN
-F3 "~" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 F4 "Digi-Key" 225 850 60 H I C CNN "Vendor"
 F5 "LP5900SD-3.3/NOPBCT-ND" 225 950 60 H I C CNN "Vendor Part Number"
 F6 "NATIONAL SEMICONDUCTOR" 250 600 60 H I C CNN "Manufacturer"
@@ -4781,7 +4784,7 @@ DEF ~M25P40 U 0 40 Y Y 1 L N
 F0 "U" -230 360 50 H V L BNN
 F1 "M25P40" -150 500 50 H I L BNN
 F2 "SOIC-8" -40 620 50 H I C CNN
-F3 "~" 0 100 60 H V C CNN
+F3 "" 0 100 60 H V C CNN
 F4 "Digi-Key" -40 1050 60 H I C CNN "Vendor"
 F5 "IC FLASH, 4MBIT, 75MHZ, 8SO," 40 710 60 H I C CNN "Description"
 F6 "M25P40-VMN6TPB" 20 830 60 H I C CNN "Manufacturer Part Number"
@@ -4807,7 +4810,7 @@ DEF ~MIC37122Y U 0 40 Y Y 1 F N
 F0 "U" 50 40 60 H V C CNN
 F1 "MIC37122Y" 250 250 60 H I C CNN
 F2 "SOIC8" 250 350 60 H I C CNN
-F3 "~" 250 150 60 H V C CNN
+F3 "" 250 150 60 H V C CNN
 F4 "Digi-Key" 250 750 60 H I C CNN "Vendor"
 F5 "576-4334-1-ND" 300 850 60 H I C CNN "Vendor Part Number"
 F6 "Micrel Inc" 300 650 60 H I C CNN "Manufacturer"
@@ -4833,7 +4836,7 @@ DEF ~MICRO_USB3_B J 0 40 Y Y 1 F N
 F0 "J" 60 130 50 H V L BNN
 F1 "MICRO_USB3_B" 200 350 50 H I L BNN
 F2 "SMD_MICRO_USB3_B" 500 500 50 H I C CNN
-F3 "~" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 F4 "2065838" 470 1090 60 H I C CNN "Vendor Part Number"
 F5 "Farnell" 490 990 60 H I C CNN "Vendor"
 F6 "GLOBAL CONNECTOR TECHNOLOGY" 570 870 60 H I C CNN "Manufacturer"
@@ -4933,7 +4936,7 @@ DEF ~MINI_USB2_B J 0 40 Y N 1 F N
 F0 "J" -50 450 50 H V L BNN
 F1 "MINI_USB2_B" -200 620 50 H I L BNN
 F2 "SMD_MINI-USB2_B" 40 760 50 H I C CNN
-F3 "~" 150 0 60 H V C CNN
+F3 "" 150 0 60 H V C CNN
 F4 "DigiKey" 0 1190 60 H I C CNN "Vendor"
 F5 "H2961CT-ND" -20 1290 60 H I C CNN "Vendor Part Number"
 F6 "Hirose" -10 1090 60 H I C CNN "Manufacturer"
@@ -4998,7 +5001,7 @@ DEF ~MMBT3904 Q 0 0 N N 1 F N
 F0 "Q" -10 130 60 H V C CNN
 F1 "MMBT3904" 0 280 60 H I C CNN
 F2 "SOT-23" -20 400 60 H I C CNN
-F3 "~" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 F4 "568-4510-1-ND" 0 960 60 H I C CNN "Vendor Part Number"
 F5 "Digi-Key" -10 870 60 H I C CNN "Vendor"
 F6 "MMBT3904,215" -30 660 60 H I C CNN "Manufacturer Part Number"
@@ -5024,7 +5027,7 @@ DEF ~MMCX J 0 40 N N 1 F N
 F0 "J" -10 420 60 H V C CNN
 F1 "MMCX" -10 550 60 H I C CNN
 F2 "MMCX_V" 0 700 60 H I C CNN
-F3 "~" 10 670 60 H I C CNN
+F3 "" 10 670 60 H I C CNN
 F4 "A101965-ND" -30 1230 60 H I C CNN "Vendor Part Number"
 F5 "CONN, MMCX, JACK, STR 50 OHM, PCB," 20 810 60 H I C CNN "Description"
 F6 "Digi-Key" 0 1140 60 H I C CNN "Vendor"
@@ -5050,7 +5053,7 @@ DEF ~NC7SV74 U 0 40 Y Y 1 F N
 F0 "U" 40 140 60 H V C CNN
 F1 "NC7SV74" 310 270 60 H I C CNN
 F2 "US8" 310 370 60 H I C CNN
-F3 "~" 250 150 60 H V C CNN
+F3 "" 250 150 60 H V C CNN
 F4 "Digi-Key" 260 770 60 H I C CNN "Vendor"
 F5 "NC7SV74K8XCT-ND" 260 870 60 H I C CNN "Vendor Part Number"
 F6 "Fairchild Semiconductor" 310 670 60 H I C CNN "Manufacturer"
@@ -5076,7 +5079,7 @@ DEF ~PE4210G U 0 40 Y Y 1 F N
 F0 "U" -170 400 60 H V C CNN
 F1 "PE4210G" 20 550 60 H I C CNN
 F2 "MSOP_8" 0 650 60 H I C CNN
-F3 "~" 10 660 60 H I C CNN
+F3 "" 10 660 60 H I C CNN
 F4 "1046-1015-1-ND" 10 1140 60 H I C CNN "Vendor Part Number"
 F5 "Digi-Key" 0 1040 60 H I C CNN "Vendor"
 F6 "IC RF SWITCH; SPT; 50 Ohm; 8-MOSP;" 100 740 60 H I C CNN "Description"
@@ -5102,7 +5105,7 @@ DEF ~PE42422 U 0 40 Y Y 1 F N
 F0 "U" -330 440 60 H V C CNN
 F1 "PE42422" 0 700 60 H I C CNN
 F2 "QFN12" 0 800 60 H I C CNN
-F3 "~" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 F4 "1046-1062-1-ND" 0 1300 60 H I C CNN "Vendor Part Number"
 F5 "Digi-Key" -100 1200 60 H I C CNN "Vendor"
 F6 "IC, RF SWITCH, SPDT, 50 OHM, 12QFN," 100 1000 60 H I C CNN "Description"
@@ -5133,7 +5136,7 @@ DEF ~PE42440 U 0 40 Y Y 1 F N
 F0 "U" -340 510 60 H V C CNN
 F1 "PE42440" 30 750 60 H I C CNN
 F2 "QFN16" 20 860 60 H I C CNN
-F3 "~" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 F4 "1046-1038-1-ND" 0 1430 60 H I C CNN "Vendor Part Number"
 F5 "Digi-Key" 0 1310 60 H I C CNN "Vendor"
 F6 "IC, RF SWITCH, SP4T, 50 OHM, 16QFN," -30 950 60 H I C CNN "Description"
@@ -5168,7 +5171,7 @@ DEF ~PE636040 U 0 40 Y Y 1 F N
 F0 "U" -300 500 60 H V C CNN
 F1 "PE636040" 30 1090 60 H I C CNN
 F2 "QFN16" 20 870 60 H I C CNN
-F3 "~" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 F4 "Broad band filter" 50 980 60 H I C CNN "Description"
 F5 "Lime Mirosystems" 30 1320 60 H I C CNN "Vendor"
 F6 "PE636040" 10 1430 60 H I C CNN "Vendor Part Number"
@@ -5197,149 +5200,133 @@ X DGND 17 150 -750 200 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Pinheader_1x2_TH
+# PINHEADER_2X2_SMD
 #
-DEF ~Pinheader_1x2_TH J 0 40 Y N 1 F N
-F0 "J" 20 140 60 H V C CNN
-F1 "Pinheader_1x2_TH" 40 250 60 H I C CNN
-F2 "Pinhead_1x2_TH" 30 350 60 H I C CNN
-F3 "~" 0 0 60 H V C CNN
-F4 "5-146285-2" 30 580 60 H I C CNN "Manufacturer Part Number"
-F5 "5-146285-2-ND" 10 910 60 H I C CNN "Vendor Part Number"
-F6 "CONN, HEADR, BRKWAY, .100 2POS, STR," 40 470 60 H I C CNN "Description"
-F7 "Digi-Key" -10 800 60 H I C CNN "Vendor"
-F8 "TE Connectivity" 10 690 60 H I C CNN "Manufacturer"
-F9 "PinH_2_TH" 10 -170 60 H V C CNN "Component Value"
+DEF ~PINHEADER_2X2_SMD J 0 40 Y Y 1 F N
+F0 "J" 75 50 60 H V C CNN
+F1 "PINHEADER_2X2_SMD" 75 225 60 H I C CNN
+F2 "Pinhead_2x2_SMD" 50 350 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "Digi-Key" 25 800 60 H I C CNN "Vendor"
+F5 "WM9514-ND" 25 900 60 H I C CNN "Vendor Part Number"
+F6 "Molex Inc" 50 700 60 H I C CNN "Manufacturer"
+F7 "0015912040" 0 575 60 H I C CNN "Manufacturer Part Number"
+F8 "CONN HEADER, 4POS, TIN, SMD," 50 450 60 H I C CNN "Description"
+F9 "PinH_2X2_SMD" 100 -250 60 H V C CNN "Component Value"
 DRAW
-S -50 100 50 -100 0 1 5 f
-X 1 1 150 50 100 L 50 50 1 1 w
-X 2 2 150 -50 100 L 50 50 1 1 w
+S 0 0 150 -200 0 1 0 f
+X ~ 1 -150 -50 150 R 50 50 1 1 I
+X ~ 2 300 -50 150 L 50 50 1 1 I
+X ~ 3 -150 -150 150 R 50 50 1 1 I
+X ~ 4 300 -150 150 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Pinheader_1x2_TH_RA
+# PINHEADER_2X2_TH
 #
-DEF ~Pinheader_1x2_TH_RA J 0 40 Y N 1 F N
-F0 "J" 20 140 60 H V C CNN
-F1 "Pinheader_1x2_TH_RA" -30 250 60 H I C CNN
-F2 "Pinhead_1x2_TH_RA" -60 330 60 H I C CNN
-F3 "~" 0 0 60 H V C CNN
-F4 "M20-9960245" -20 510 60 H I C CNN "Manufacturer Part Number"
-F5 "952-2244-ND" -30 780 60 H I C CNN "Vendor Part Number"
-F6 "SIL, HORIZ PC TAIL, PIN HEADER," -50 420 60 H I C CNN "Description"
-F7 "Digi-Key" -50 700 60 H I C CNN "Vendor"
-F8 "Harwin Inc" -10 610 60 H I C CNN "Manufacturer"
-F9 "PinH_2_TH_RA" 10 -150 60 H V C CNN "Component Value"
+DEF ~PINHEADER_2X2_TH J 0 40 Y Y 1 F N
+F0 "J" 75 50 60 H V C CNN
+F1 "PINHEADER_2X2_TH" 75 225 60 H I C CNN
+F2 "Pinhead_2x2_TH" 50 350 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "Digi-Key" 25 800 60 H I C CNN "Vendor"
+F5 "609-3242-ND" 25 900 60 H I C CNN "Vendor Part Number"
+F6 "FCI" 50 700 60 H I C CNN "Manufacturer"
+F7 "67997-404HLF" 0 575 60 H I C CNN "Manufacturer Part Number"
+F8 "CONN HEADER, 4POS, .100, STR, TIN," 50 450 60 H I C CNN "Description"
+F9 "PinH_2X2_TH" 100 -250 60 H V C CNN "Component Value"
 DRAW
-S -50 100 50 -100 0 1 5 f
-X 1 1 150 50 100 L 50 50 1 1 w
-X 2 2 150 -50 100 L 50 50 1 1 w
+S 0 0 150 -200 0 1 0 f
+X ~ 1 -150 -50 150 R 50 50 1 1 I
+X ~ 2 300 -50 150 L 50 50 1 1 I
+X ~ 3 -150 -150 150 R 50 50 1 1 I
+X ~ 4 300 -150 150 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Pinheader_1x3_TH
+# PINHEADER_2X4_SMD
 #
-DEF ~Pinheader_1x3_TH J 0 40 Y N 1 F N
-F0 "J" 0 250 60 H V C CNN
-F1 "Pinheader_1x3_TH" 0 390 60 H I C CNN
-F2 "Pinhead_1x3_TH" -10 500 60 H I C CNN
-F3 "~" 0 0 60 H V C CNN
-F4 "609-3461-ND" -20 1020 60 H I C CNN "Vendor Part Number"
-F5 "68000-103HLF" -30 730 60 H I C CNN "Manufacturer Part Number"
-F6 "BERGSTIK II, .100\", SR, STRAIGHT," -50 610 60 H I C CNN "Description"
-F7 "Digi-Key" -30 930 60 H I C CNN "Vendor"
-F8 "FCI" -40 820 60 H I C CNN "Manufacturer"
-F9 "PinH_1x3_TH" 10 -150 60 H V C CNN "Component Value"
+DEF ~PINHEADER_2X4_SMD J 0 40 Y Y 1 F N
+F0 "J" 75 50 60 H V C CNN
+F1 "PINHEADER_2X4_SMD" 100 200 60 H I C CNN
+F2 "Pinhead_2x4_SMD" 100 300 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "Digi-Key" 100 700 60 H I C CNN "Vendor"
+F5 "WM17450-ND" 100 800 60 H I C CNN "Vendor Part Number"
+F6 "Molex Inc" 100 600 60 H I C CNN "Manufacturer"
+F7 "0015912080" 100 500 60 H I C CNN "Manufacturer Part Number"
+F8 "CONN, HEADER, 8POS, .100\", VERT TIN," 100 400 60 H I C CNN "Description"
+F9 "PinH_2x4_SMD" 100 -450 60 H V C CNN "Component Value"
 DRAW
-S -100 200 100 -100 0 0 0 f
-X 1 1 250 150 150 L 50 50 1 1 P
-X 2 2 250 50 150 L 50 50 1 1 P
-X 3 3 250 -50 150 L 50 50 1 1 P
+S 0 0 150 -400 0 1 0 f
+X ~ 1 -100 -50 101 R 50 50 1 1 I
+X ~ 2 250 -50 101 L 50 50 1 1 I
+X ~ 3 -100 -150 101 R 50 50 1 1 I
+X ~ 4 250 -150 101 L 50 50 1 1 I
+X ~ 5 -100 -250 101 R 50 50 1 1 I
+X ~ 6 250 -250 101 L 50 50 1 1 I
+X ~ 7 -100 -350 101 R 50 50 1 1 I
+X ~ 8 250 -350 101 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Pinheader_1x5_TH
+# PINHEADER_2X4_TH
 #
-DEF ~Pinheader_1x5_TH J 0 40 Y Y 1 F N
-F0 "J" 10 290 50 H V C CNN
-F1 "Pinheader_1x5_TH" -20 390 50 H I C CNN
-F2 "Pinhead_1x5_TH" -30 470 60 H I C CNN
-F3 "~" 0 0 60 H V C CNN
-F4 "609-3462-ND" -70 960 60 H I C CNN "Vendor Part Number"
-F5 "68000-105HLF" -50 680 60 H I C CNN "Manufacturer Part Number"
-F6 "BERGSTIK II, .100\", SR STRAIGHT," 20 550 60 H I C CNN "Description"
-F7 "Digi-Key" -10 880 60 H I C CNN "Vendor"
-F8 "FCI" -40 780 60 H I C CNN "Manufacturer"
-F9 "PinH_1x5_TH" 0 0 50 V V C CNN "Component Value"
+DEF ~PINHEADER_2X4_TH J 0 40 Y Y 1 F N
+F0 "J" 75 50 60 H V C CNN
+F1 "PINHEADER_2X4_TH" 100 200 60 H I C CNN
+F2 "Pinhead_2x4_TH" 100 300 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "Digi-Key" 100 700 60 H I C CNN "Vendor"
+F5 "609-3362-ND" 100 800 60 H I C CNN "Vendor Part Number"
+F6 "FCI" 100 600 60 H I C CNN "Manufacturer"
+F7 "68602-108HLF" 100 500 60 H I C CNN "Manufacturer Part Number"
+F8 "CONN HEADER, 8POS, .100 STR, 30AU," 100 400 60 H I C CNN "Description"
+F9 "PinH_2x4_TH" 100 -450 60 H V C CNN "Component Value"
 DRAW
-S -100 250 100 -250 0 1 0 f
-X ~ 1 250 200 150 L 50 50 1 1 I
-X ~ 2 250 100 150 L 50 50 1 1 I
-X ~ 3 250 0 150 L 50 50 1 1 I
-X ~ 4 250 -100 150 L 50 50 1 1 I
-X ~ 5 250 -200 150 L 50 50 1 1 I
+S 0 0 150 -400 0 1 0 f
+X ~ 1 -100 -50 101 R 50 50 1 1 I
+X ~ 2 250 -50 101 L 50 50 1 1 I
+X ~ 3 -100 -150 101 R 50 50 1 1 I
+X ~ 4 250 -150 101 L 50 50 1 1 I
+X ~ 5 -100 -250 101 R 50 50 1 1 I
+X ~ 6 250 -250 101 L 50 50 1 1 I
+X ~ 7 -100 -350 101 R 50 50 1 1 I
+X ~ 8 250 -350 101 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Pinheader_1x6_TH
+# PINHEADER_2X8_SMD
 #
-DEF ~Pinheader_1x6_TH J 0 30 Y N 1 F N
-F0 "J" 0 340 60 H V C CNN
-F1 "Pinheader_1x6_TH" 40 580 60 H I C CNN
-F2 "Pinhead_1x6_TH" 40 470 60 H I C CNN
-F3 "~" 0 0 60 H V C CNN
-F4 "609-3263-ND" 60 1120 60 H I C CNN "Vendor Part Number"
-F5 "68000-406HLF" -10 820 60 H I C CNN "Manufacturer Part Number"
-F6 "CONN HEADER, 6POS, .100, STR TIN," 60 720 60 H I C CNN "Description"
-F7 "Digi-Key" -40 1020 60 H I C CNN "Vendor"
-F8 "FCI" 0 910 60 H I C CNN "Manufacturer"
-F9 "PinH_1x6_TH" 10 10 60 V V C CNN "Component Value"
+DEF ~PINHEADER_2X8_SMD J 0 40 Y Y 1 F N
+F0 "J" 75 50 60 H V C CNN
+F1 "PINHEADER_2X8_SMD" 90 160 60 H I C CNN
+F2 "Pinhead_2x8_SMD" 90 270 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "Digi-Key" 100 660 60 H I C CNN "Vendor"
+F5 "1175-1624-ND" 130 770 60 H I C CNN "Vendor Part Number"
+F6 "CNC Tech" 100 570 60 H I C CNN "Manufacturer"
+F7 "3020-16-0300-00" 90 470 60 H I C CNN "Manufacturer Part Number"
+F8 "IDC BOX HEADER .100\" 16POS" 140 370 60 H I C CNN "Description"
+F9 "PinH_2X8_SMD" 80 -400 60 V V C CNN "Component Value"
 DRAW
-S -100 300 100 -300 0 1 0 f
-X 1 1 250 250 150 L 60 60 1 1 P
-X 2 2 250 150 150 L 60 60 1 1 P
-X 3 3 250 50 150 L 60 60 1 1 P
-X 4 4 250 -50 150 L 60 60 1 1 P
-X 5 5 250 -150 150 L 60 60 1 1 P
-X 6 6 250 -250 150 L 60 60 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Pinheader_2x10_TH_RA
-#
-DEF ~Pinheader_2x10_TH_RA J 0 30 Y N 1 F N
-F0 "J" 0 350 59 H V C CNN
-F1 "Pinheader_2x10_TH_RA" -25 475 59 H I C CNN
-F2 "Pinhead_2x10_TH_RA" 25 575 60 H I C CNN
-F3 "~" 0 0 60 H V C CNN
-F4 "609-3338-ND" 75 1125 60 H I C CNN "Vendor Part Number"
-F5 "68021-120HLF" 25 825 60 H I C CNN "Manufacturer Part Number"
-F6 "CONN HEADER, 20POS, .100 R/A, 30AU," 75 675 60 H I C CNN "Description"
-F7 "Digi-Key" -25 1025 60 H I C CNN "Vendor"
-F8 "FCI" -25 925 60 H I C CNN "Manufacturer"
-F9 "PinH_2x10" 0 -400 60 V V C CNN "Component Value"
-DRAW
-S -100 300 100 -1150 0 1 0 f
-X 1 1 -250 250 150 R 60 60 1 1 P
-X 2 2 250 250 150 L 60 60 1 1 P
-X 3 3 -250 100 150 R 60 60 1 1 P
-X 4 4 250 100 150 L 60 60 1 1 P
-X 5 5 -250 -50 150 R 60 60 1 1 P
-X 6 6 250 -50 150 L 60 60 1 1 P
-X 7 7 -250 -200 150 R 60 60 1 1 P
-X 8 8 250 -200 150 L 60 60 1 1 P
-X 9 9 -250 -350 150 R 60 60 1 1 P
-X 10 10 250 -350 150 L 60 60 1 1 P
-X 20 20 250 -1100 150 L 60 60 1 1 P
-X 11 11 -250 -500 150 R 60 60 1 1 P
-X 12 12 250 -500 150 L 60 60 1 1 P
-X 13 13 -250 -650 150 R 60 60 1 1 P
-X 14 14 250 -650 150 L 60 60 1 1 P
-X 15 15 -250 -800 150 R 60 60 1 1 P
-X 16 16 250 -800 150 L 60 60 1 1 P
-X 17 17 -250 -950 150 R 60 60 1 1 P
-X 18 18 250 -950 150 L 60 60 1 1 P
-X 19 19 -250 -1100 150 R 60 60 1 1 P
+S 0 0 150 -800 0 1 0 f
+X ~ 1 -100 -50 101 R 50 50 1 1 I
+X ~ 2 250 -50 101 L 50 50 1 1 I
+X ~ 3 -100 -150 101 R 50 50 1 1 I
+X ~ 4 250 -150 101 L 50 50 1 1 I
+X ~ 5 -100 -250 101 R 50 50 1 1 I
+X ~ 6 250 -250 101 L 50 50 1 1 I
+X ~ 7 -100 -350 101 R 50 50 1 1 I
+X ~ 8 250 -350 101 L 50 50 1 1 I
+X ~ 9 -100 -450 101 R 50 50 1 1 I
+X ~ 10 250 -450 101 L 50 50 1 1 I
+X ~ 11 -100 -550 101 R 50 50 1 1 I
+X ~ 12 250 -550 101 L 50 50 1 1 I
+X ~ 13 -100 -650 101 R 50 50 1 1 I
+X ~ 14 250 -650 101 L 50 50 1 1 I
+X ~ 15 -100 -750 101 R 50 50 1 1 I
+X ~ 16 250 -750 101 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
@@ -5349,7 +5336,7 @@ DEF ~PINHEADER_2x22_SMD J 0 40 Y Y 1 F N
 F0 "J" 100 50 60 H V C CNN
 F1 "PINHEADER_2x22_SMD" 100 225 60 H I C CNN
 F2 "Pinhead_2x22_SMD" 75 325 60 H I C CNN
-F3 "~" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 F4 "RS" 175 750 60 H I C CNN "Vendor"
 F5 "155-923" 175 850 60 H I C CNN "Vendor Part Number"
 F6 "Kontek" 175 650 60 H I C CNN "Manufacturer"
@@ -5405,13 +5392,189 @@ X ~ 39 -150 -1950 150 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# PWR
+#
+DEF PWR #PWR 0 40 Y Y 1 F P
+F0 "#PWR" 0 90 20 H I C CNN
+F1 "PWR" 0 90 30 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+X PWR 1 0 0 0 U 20 20 0 0 W N
+C 0 50 20 0 1 0 N
+P 4 0 1 0  0 0  0 30  0 30  0 30 N
+ENDDRAW
+ENDDEF
+#
+# PWR_FLAG
+#
+DEF PWR_FLAG #FLG 0 0 N N 1 F P
+F0 "#FLG" 0 -75 30 H I C CNN
+F1 "PWR_FLAG" 0 50 30 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+X ~ 1 0 -25 0 U 20 20 0 0 W N
+P 2 0 1 0  -25 0  0 25 N
+P 2 0 1 0  0 -25  -25 0 N
+P 2 0 1 0  0 25  25 0 N
+P 2 0 1 0  25 0  0 -25 N
+ENDDRAW
+ENDDEF
+#
+# Pinheader_1x2_TH
+#
+DEF ~Pinheader_1x2_TH J 0 40 Y N 1 F N
+F0 "J" 20 140 60 H V C CNN
+F1 "Pinheader_1x2_TH" 40 250 60 H I C CNN
+F2 "Pinhead_1x2_TH" 30 350 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "5-146285-2" 30 580 60 H I C CNN "Manufacturer Part Number"
+F5 "5-146285-2-ND" 10 910 60 H I C CNN "Vendor Part Number"
+F6 "CONN, HEADR, BRKWAY, .100 2POS, STR," 40 470 60 H I C CNN "Description"
+F7 "Digi-Key" -10 800 60 H I C CNN "Vendor"
+F8 "TE Connectivity" 10 690 60 H I C CNN "Manufacturer"
+F9 "PinH_2_TH" 10 -170 60 H V C CNN "Component Value"
+DRAW
+S -50 100 50 -100 0 1 5 f
+X 1 1 150 50 100 L 50 50 1 1 w
+X 2 2 150 -50 100 L 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
+# Pinheader_1x2_TH_RA
+#
+DEF ~Pinheader_1x2_TH_RA J 0 40 Y N 1 F N
+F0 "J" 20 140 60 H V C CNN
+F1 "Pinheader_1x2_TH_RA" -30 250 60 H I C CNN
+F2 "Pinhead_1x2_TH_RA" -60 330 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "M20-9960245" -20 510 60 H I C CNN "Manufacturer Part Number"
+F5 "952-2244-ND" -30 780 60 H I C CNN "Vendor Part Number"
+F6 "SIL, HORIZ PC TAIL, PIN HEADER," -50 420 60 H I C CNN "Description"
+F7 "Digi-Key" -50 700 60 H I C CNN "Vendor"
+F8 "Harwin Inc" -10 610 60 H I C CNN "Manufacturer"
+F9 "PinH_2_TH_RA" 10 -150 60 H V C CNN "Component Value"
+DRAW
+S -50 100 50 -100 0 1 5 f
+X 1 1 150 50 100 L 50 50 1 1 w
+X 2 2 150 -50 100 L 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
+# Pinheader_1x3_TH
+#
+DEF ~Pinheader_1x3_TH J 0 40 Y N 1 F N
+F0 "J" 0 250 60 H V C CNN
+F1 "Pinheader_1x3_TH" 0 390 60 H I C CNN
+F2 "Pinhead_1x3_TH" -10 500 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "609-3461-ND" -20 1020 60 H I C CNN "Vendor Part Number"
+F5 "68000-103HLF" -30 730 60 H I C CNN "Manufacturer Part Number"
+F6 "BERGSTIK II, .100\", SR, STRAIGHT," -50 610 60 H I C CNN "Description"
+F7 "Digi-Key" -30 930 60 H I C CNN "Vendor"
+F8 "FCI" -40 820 60 H I C CNN "Manufacturer"
+F9 "PinH_1x3_TH" 10 -150 60 H V C CNN "Component Value"
+DRAW
+S -100 200 100 -100 0 0 0 f
+X 1 1 250 150 150 L 50 50 1 1 P
+X 2 2 250 50 150 L 50 50 1 1 P
+X 3 3 250 -50 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Pinheader_1x5_TH
+#
+DEF ~Pinheader_1x5_TH J 0 40 Y Y 1 F N
+F0 "J" 10 290 50 H V C CNN
+F1 "Pinheader_1x5_TH" -20 390 50 H I C CNN
+F2 "Pinhead_1x5_TH" -30 470 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "609-3462-ND" -70 960 60 H I C CNN "Vendor Part Number"
+F5 "68000-105HLF" -50 680 60 H I C CNN "Manufacturer Part Number"
+F6 "BERGSTIK II, .100\", SR STRAIGHT," 20 550 60 H I C CNN "Description"
+F7 "Digi-Key" -10 880 60 H I C CNN "Vendor"
+F8 "FCI" -40 780 60 H I C CNN "Manufacturer"
+F9 "PinH_1x5_TH" 0 0 50 V V C CNN "Component Value"
+DRAW
+S -100 250 100 -250 0 1 0 f
+X ~ 1 250 200 150 L 50 50 1 1 I
+X ~ 2 250 100 150 L 50 50 1 1 I
+X ~ 3 250 0 150 L 50 50 1 1 I
+X ~ 4 250 -100 150 L 50 50 1 1 I
+X ~ 5 250 -200 150 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Pinheader_1x6_TH
+#
+DEF ~Pinheader_1x6_TH J 0 30 Y N 1 F N
+F0 "J" 0 340 60 H V C CNN
+F1 "Pinheader_1x6_TH" 40 580 60 H I C CNN
+F2 "Pinhead_1x6_TH" 40 470 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "609-3263-ND" 60 1120 60 H I C CNN "Vendor Part Number"
+F5 "68000-406HLF" -10 820 60 H I C CNN "Manufacturer Part Number"
+F6 "CONN HEADER, 6POS, .100, STR TIN," 60 720 60 H I C CNN "Description"
+F7 "Digi-Key" -40 1020 60 H I C CNN "Vendor"
+F8 "FCI" 0 910 60 H I C CNN "Manufacturer"
+F9 "PinH_1x6_TH" 10 10 60 V V C CNN "Component Value"
+DRAW
+S -100 300 100 -300 0 1 0 f
+X 1 1 250 250 150 L 60 60 1 1 P
+X 2 2 250 150 150 L 60 60 1 1 P
+X 3 3 250 50 150 L 60 60 1 1 P
+X 4 4 250 -50 150 L 60 60 1 1 P
+X 5 5 250 -150 150 L 60 60 1 1 P
+X 6 6 250 -250 150 L 60 60 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Pinheader_2x10_TH_RA
+#
+DEF ~Pinheader_2x10_TH_RA J 0 30 Y N 1 F N
+F0 "J" 0 350 59 H V C CNN
+F1 "Pinheader_2x10_TH_RA" -25 475 59 H I C CNN
+F2 "Pinhead_2x10_TH_RA" 25 575 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+F4 "609-3338-ND" 75 1125 60 H I C CNN "Vendor Part Number"
+F5 "68021-120HLF" 25 825 60 H I C CNN "Manufacturer Part Number"
+F6 "CONN HEADER, 20POS, .100 R/A, 30AU," 75 675 60 H I C CNN "Description"
+F7 "Digi-Key" -25 1025 60 H I C CNN "Vendor"
+F8 "FCI" -25 925 60 H I C CNN "Manufacturer"
+F9 "PinH_2x10" 0 -400 60 V V C CNN "Component Value"
+DRAW
+S -100 300 100 -1150 0 1 0 f
+X 1 1 -250 250 150 R 60 60 1 1 P
+X 2 2 250 250 150 L 60 60 1 1 P
+X 3 3 -250 100 150 R 60 60 1 1 P
+X 4 4 250 100 150 L 60 60 1 1 P
+X 5 5 -250 -50 150 R 60 60 1 1 P
+X 6 6 250 -50 150 L 60 60 1 1 P
+X 7 7 -250 -200 150 R 60 60 1 1 P
+X 8 8 250 -200 150 L 60 60 1 1 P
+X 9 9 -250 -350 150 R 60 60 1 1 P
+X 10 10 250 -350 150 L 60 60 1 1 P
+X 20 20 250 -1100 150 L 60 60 1 1 P
+X 11 11 -250 -500 150 R 60 60 1 1 P
+X 12 12 250 -500 150 L 60 60 1 1 P
+X 13 13 -250 -650 150 R 60 60 1 1 P
+X 14 14 250 -650 150 L 60 60 1 1 P
+X 15 15 -250 -800 150 R 60 60 1 1 P
+X 16 16 250 -800 150 L 60 60 1 1 P
+X 17 17 -250 -950 150 R 60 60 1 1 P
+X 18 18 250 -950 150 L 60 60 1 1 P
+X 19 19 -250 -1100 150 R 60 60 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Pinheader_2x25_SMD
 #
 DEF ~Pinheader_2x25_SMD J 0 40 Y Y 1 F N
 F0 "J" 100 50 50 H V C CNN
 F1 "Pinheader_2x25_SMD" 175 150 60 H I C CNN
 F2 "Pinhead_2x25_SMD" 200 275 60 H I C CNN
-F3 "~" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 F4 "RS" 150 675 60 H I C CNN "Vendor"
 F5 "673-7341" 150 775 60 H I C CNN "Vendor Part Number"
 F6 "FCI" 150 575 60 H I C CNN "Manufacturer"
@@ -5473,109 +5636,13 @@ X ~ 49 -150 -2450 150 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# PINHEADER_2X2_SMD
-#
-DEF ~PINHEADER_2X2_SMD J 0 40 Y Y 1 F N
-F0 "J" 75 50 60 H V C CNN
-F1 "PINHEADER_2X2_SMD" 75 225 60 H I C CNN
-F2 "Pinhead_2x2_SMD" 50 350 60 H I C CNN
-F3 "~" 0 0 60 H V C CNN
-F4 "Digi-Key" 25 800 60 H I C CNN "Vendor"
-F5 "WM9514-ND" 25 900 60 H I C CNN "Vendor Part Number"
-F6 "Molex Inc" 50 700 60 H I C CNN "Manufacturer"
-F7 "0015912040" 0 575 60 H I C CNN "Manufacturer Part Number"
-F8 "CONN HEADER, 4POS, TIN, SMD," 50 450 60 H I C CNN "Description"
-F9 "PinH_2X2_SMD" 100 -250 60 H V C CNN "Component Value"
-DRAW
-S 0 0 150 -200 0 1 0 f
-X ~ 1 -150 -50 150 R 50 50 1 1 I
-X ~ 2 300 -50 150 L 50 50 1 1 I
-X ~ 3 -150 -150 150 R 50 50 1 1 I
-X ~ 4 300 -150 150 L 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# PINHEADER_2X2_TH
-#
-DEF ~PINHEADER_2X2_TH J 0 40 Y Y 1 F N
-F0 "J" 75 50 60 H V C CNN
-F1 "PINHEADER_2X2_TH" 75 225 60 H I C CNN
-F2 "Pinhead_2x2_TH" 50 350 60 H I C CNN
-F3 "~" 0 0 60 H V C CNN
-F4 "Digi-Key" 25 800 60 H I C CNN "Vendor"
-F5 "609-3242-ND" 25 900 60 H I C CNN "Vendor Part Number"
-F6 "FCI" 50 700 60 H I C CNN "Manufacturer"
-F7 "67997-404HLF" 0 575 60 H I C CNN "Manufacturer Part Number"
-F8 "CONN HEADER, 4POS, .100, STR, TIN," 50 450 60 H I C CNN "Description"
-F9 "PinH_2X2_TH" 100 -250 60 H V C CNN "Component Value"
-DRAW
-S 0 0 150 -200 0 1 0 f
-X ~ 1 -150 -50 150 R 50 50 1 1 I
-X ~ 2 300 -50 150 L 50 50 1 1 I
-X ~ 3 -150 -150 150 R 50 50 1 1 I
-X ~ 4 300 -150 150 L 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# PINHEADER_2X4_SMD
-#
-DEF ~PINHEADER_2X4_SMD J 0 40 Y Y 1 F N
-F0 "J" 75 50 60 H V C CNN
-F1 "PINHEADER_2X4_SMD" 100 200 60 H I C CNN
-F2 "Pinhead_2x4_SMD" 100 300 60 H I C CNN
-F3 "~" 0 0 60 H V C CNN
-F4 "Digi-Key" 100 700 60 H I C CNN "Vendor"
-F5 "WM17450-ND" 100 800 60 H I C CNN "Vendor Part Number"
-F6 "Molex Inc" 100 600 60 H I C CNN "Manufacturer"
-F7 "0015912080" 100 500 60 H I C CNN "Manufacturer Part Number"
-F8 "CONN, HEADER, 8POS, .100\", VERT TIN," 100 400 60 H I C CNN "Description"
-F9 "PinH_2x4_SMD" 100 -450 60 H V C CNN "Component Value"
-DRAW
-S 0 0 150 -400 0 1 0 f
-X ~ 1 -100 -50 101 R 50 50 1 1 I
-X ~ 2 250 -50 101 L 50 50 1 1 I
-X ~ 3 -100 -150 101 R 50 50 1 1 I
-X ~ 4 250 -150 101 L 50 50 1 1 I
-X ~ 5 -100 -250 101 R 50 50 1 1 I
-X ~ 6 250 -250 101 L 50 50 1 1 I
-X ~ 7 -100 -350 101 R 50 50 1 1 I
-X ~ 8 250 -350 101 L 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# PINHEADER_2X4_TH
-#
-DEF ~PINHEADER_2X4_TH J 0 40 Y Y 1 F N
-F0 "J" 75 50 60 H V C CNN
-F1 "PINHEADER_2X4_TH" 100 200 60 H I C CNN
-F2 "Pinhead_2x4_TH" 100 300 60 H I C CNN
-F3 "~" 0 0 60 H V C CNN
-F4 "Digi-Key" 100 700 60 H I C CNN "Vendor"
-F5 "609-3362-ND" 100 800 60 H I C CNN "Vendor Part Number"
-F6 "FCI" 100 600 60 H I C CNN "Manufacturer"
-F7 "68602-108HLF" 100 500 60 H I C CNN "Manufacturer Part Number"
-F8 "CONN HEADER, 8POS, .100 STR, 30AU," 100 400 60 H I C CNN "Description"
-F9 "PinH_2x4_TH" 100 -450 60 H V C CNN "Component Value"
-DRAW
-S 0 0 150 -400 0 1 0 f
-X ~ 1 -100 -50 101 R 50 50 1 1 I
-X ~ 2 250 -50 101 L 50 50 1 1 I
-X ~ 3 -100 -150 101 R 50 50 1 1 I
-X ~ 4 250 -150 101 L 50 50 1 1 I
-X ~ 5 -100 -250 101 R 50 50 1 1 I
-X ~ 6 250 -250 101 L 50 50 1 1 I
-X ~ 7 -100 -350 101 R 50 50 1 1 I
-X ~ 8 250 -350 101 L 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
 # Pinheader_2x6_TH
 #
 DEF ~Pinheader_2x6_TH J 0 30 Y N 1 F N
 F0 "J" 0 440 60 H V C CNN
 F1 "Pinheader_2x6_TH" -30 530 60 H I C CNN
 F2 "Pinhead_2x6_TH" -20 630 60 H I C CNN
-F3 "~" 0 100 60 H V C CNN
+F3 "" 0 100 60 H V C CNN
 F4 "609-3219-ND" 20 1100 60 H I C CNN "Vendor Part Number"
 F5 "67996-412HLF" -50 810 60 H I C CNN "Manufacturer Part Number"
 F6 "CONN, HEADER, 12POS, .100, STR TIN," 50 720 60 H I C CNN "Description"
@@ -5599,77 +5666,13 @@ X ~ 12 250 -150 150 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# PINHEADER_2X8_SMD
-#
-DEF ~PINHEADER_2X8_SMD J 0 40 Y Y 1 F N
-F0 "J" 75 50 60 H V C CNN
-F1 "PINHEADER_2X8_SMD" 90 160 60 H I C CNN
-F2 "Pinhead_2x8_SMD" 90 270 60 H I C CNN
-F3 "~" 0 0 60 H V C CNN
-F4 "Digi-Key" 100 660 60 H I C CNN "Vendor"
-F5 "1175-1624-ND" 130 770 60 H I C CNN "Vendor Part Number"
-F6 "CNC Tech" 100 570 60 H I C CNN "Manufacturer"
-F7 "3020-16-0300-00" 90 470 60 H I C CNN "Manufacturer Part Number"
-F8 "IDC BOX HEADER .100\" 16POS" 140 370 60 H I C CNN "Description"
-F9 "PinH_2X8_SMD" 80 -400 60 V V C CNN "Component Value"
-DRAW
-S 0 0 150 -800 0 1 0 f
-X ~ 1 -100 -50 101 R 50 50 1 1 I
-X ~ 2 250 -50 101 L 50 50 1 1 I
-X ~ 3 -100 -150 101 R 50 50 1 1 I
-X ~ 4 250 -150 101 L 50 50 1 1 I
-X ~ 5 -100 -250 101 R 50 50 1 1 I
-X ~ 6 250 -250 101 L 50 50 1 1 I
-X ~ 7 -100 -350 101 R 50 50 1 1 I
-X ~ 8 250 -350 101 L 50 50 1 1 I
-X ~ 9 -100 -450 101 R 50 50 1 1 I
-X ~ 10 250 -450 101 L 50 50 1 1 I
-X ~ 11 -100 -550 101 R 50 50 1 1 I
-X ~ 12 250 -550 101 L 50 50 1 1 I
-X ~ 13 -100 -650 101 R 50 50 1 1 I
-X ~ 14 250 -650 101 L 50 50 1 1 I
-X ~ 15 -100 -750 101 R 50 50 1 1 I
-X ~ 16 250 -750 101 L 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# PWR
-#
-DEF PWR #PWR 0 40 Y Y 1 F P
-F0 "#PWR" 0 90 20 H I C CNN
-F1 "PWR" 0 90 30 H V C CNN
-F2 "~" 0 0 60 H V C CNN
-F3 "~" 0 0 60 H V C CNN
-DRAW
-X PWR 1 0 0 0 U 20 20 0 0 W N
-C 0 50 20 0 1 0 N
-P 4 0 1 0  0 0  0 30  0 30  0 30 N
-ENDDRAW
-ENDDEF
-#
-# PWR_FLAG
-#
-DEF PWR_FLAG #FLG 0 0 N N 1 F P
-F0 "#FLG" 0 -75 30 H I C CNN
-F1 "PWR_FLAG" 0 50 30 H V C CNN
-F2 "~" 0 0 60 H V C CNN
-F3 "~" 0 0 60 H V C CNN
-DRAW
-X ~ 1 0 -25 0 U 20 20 0 0 W N
-P 2 0 1 0  -25 0  0 25 N
-P 2 0 1 0  0 -25  -25 0 N
-P 2 0 1 0  0 25  25 0 N
-P 2 0 1 0  25 0  0 -25 N
-ENDDRAW
-ENDDEF
-#
 # RT_10K
 #
 DEF ~RT_10K RT 0 40 Y N 1 F N
 F0 "RT" 90 80 50 H V C CNN
 F1 "RT_10K" 75 225 50 H I C CNN
 F2 "SMD_TRIMMER" 75 325 60 H I C CNN
-F3 "~" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 F4 "3214W-1-103E" 75 525 60 H I C CNN "Manufacturer"
 F5 "3214W-103ECT-ND" 50 825 60 H I C CNN "Vendor Part Number"
 F6 "Bourns Inc." 50 625 60 H I C CNN "Manufacturer Part Number"
@@ -5691,7 +5694,7 @@ DEF ~SC18IS602B U 0 40 Y Y 1 F N
 F0 "U" -470 700 60 H V C CNN
 F1 "SC18IS602B" 20 860 60 H I C CNN
 F2 "TSSOP16" 50 970 60 H I C CNN
-F3 "~" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 F4 "568-4785-5-ND" 30 1480 60 H I C CNN "Vendor Part Number"
 F5 "DigiKey" 0 1400 60 H I C CNN "Vendor"
 F6 "IC; BRIDGE; SPI/I2C; 16-TSSOP," 40 1090 60 H I C CNN "Description"
@@ -5725,7 +5728,7 @@ DEF ~SC4524 U 0 40 Y Y 1 F N
 F0 "U" 100 50 60 H V C CNN
 F1 "SC4524" 450 250 60 H I C CNN
 F2 "SOIC-8" 450 350 60 H I C CNN
-F3 "~" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 F4 "Digi-Key" 450 750 60 H I C CNN "Vendor"
 F5 "SC4524CSECT-ND" 450 850 60 H I C CNN "Vendor Part Number"
 F6 "Semtech" 450 650 60 H I C CNN "Manufacturer"
@@ -5752,7 +5755,7 @@ DEF ~SHIELD_13.66x12.70 EK 0 0 N N 1 F N
 F0 "EK" 100 -200 60 H V C CNN
 F1 "SHIELD_13.66x12.70" 50 125 60 H I C CNN
 F2 "SHIELD_13.66x12.70" 50 225 60 H I C CNN
-F3 "~" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 F4 " Digi-Key" 0 650 60 H I C CNN "Vendor"
 F5 "903-1050-2-ND, 903-1013-ND," 50 750 60 H I C CNN "Vendor Part Number"
 F6 "BMI-S-201-F, BMI-S-201-C," 25 450 60 H I C CNN "Manufacturer Part Number"
@@ -5826,7 +5829,7 @@ DEF ~SHIELD_32x32 EK 0 0 N N 1 F N
 F0 "EK" 100 -200 60 H V C CNN
 F1 "SHIELD_32x32" 25 75 60 H I C CNN
 F2 "SHIELD_32x32" 25 200 60 H I C CNN
-F3 "~" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 F4 "903-1053-1-ND, 903-1016-ND," 25 875 60 H I C CNN "Vendor Part Number"
 F5 "BMI-S-204-F, BMI-S-204-C," 50 450 60 H I C CNN "Manufacturer Part Number"
 F6 "BOARD SHIELD, 1.26X1.26\", FRAME, COVER," 75 325 60 H I C CNN "Description"
@@ -5914,7 +5917,7 @@ DEF ~SHIELD_36.83x33.68 EK 0 0 N N 1 F N
 F0 "EK" 100 -175 60 H V C CNN
 F1 "SHIELD_36.83x33.68" 75 125 60 H I C CNN
 F2 "SHIELD_36.83x33.68" 75 225 60 H I C CNN
-F3 "~" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 F4 "903-1055-1-ND, 903-1018-ND," 50 750 60 H I C CNN "Vendor Part Number"
 F5 "BMI-S-206-F,BMI-S-206-C," 50 425 60 H I C CNN "Manufacturer Part Number"
 F6 "BOARD SHIELD, 1.326X1.45\", FRAME, COVER," 75 325 60 H I C CNN "Description"
@@ -6002,7 +6005,7 @@ DEF ~SI5351C U 0 40 Y Y 1 F N
 F0 "U" -500 800 60 H V C CNN
 F1 "SI5351C" 0 1200 60 H I C CNN
 F2 "QFN20" 0 1300 60 H I C CNN
-F3 "~" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 F4 "DigiKey" -50 1700 60 H I C CNN "Vendor"
 F5 "336-2402-5-ND" -50 1800 60 H I C CNN "Vendor Part Number"
 F6 "Silicon Laboratories Inc" -50 1600 60 H I C CNN "Manufacturer"
@@ -6041,7 +6044,7 @@ DEF ~SI5356A U 0 40 Y Y 1 F N
 F0 "U" -475 800 60 H V C CNN
 F1 "SI5356A" 0 1100 60 H I C CNN
 F2 "QFN24" 0 1200 60 H I C CNN
-F3 "~" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 F4 "SILICON LAB." 0 1500 60 H I C CNN "Manufacturer"
 F5 "336-1749-5-ND" 0 1700 60 H I C CNN "Vendor Part Number"
 F6 "DigiKey" 0 1600 60 H I C CNN "Vendor"
@@ -6084,7 +6087,7 @@ DEF ~SMA_H J 0 40 N N 1 F N
 F0 "J" 0 450 60 H V C CNN
 F1 "SMA_H" -100 600 60 H I C CNN
 F2 "SMA_H" -100 700 60 H I C CNN
-F3 "~" 125 315 60 H V C CNN
+F3 "" 125 315 60 H V C CNN
 F4 "Digi-Key" -100 1150 60 H I C CNN "Vendor"
 F5 "J629-ND" -100 1250 60 H I C CNN "Vendor Part Number"
 F6 "Emerson Network Power Connectivity Johnson" -100 1050 60 H I C CNN "Manufacturer"
@@ -6110,7 +6113,7 @@ DEF ~SMA_V J 0 40 N N 1 F N
 F0 "J" 0 450 60 H V C CNN
 F1 "SMA_V" -100 600 60 H I C CNN
 F2 "SMA_V" -100 700 60 H I C CNN
-F3 "~" 125 315 60 H V C CNN
+F3 "" 125 315 60 H V C CNN
 F4 "Digi-Key" -100 1150 60 H I C CNN "Vendor"
 F5 "991-1046-ND" -100 1250 60 H I C CNN "Vendor Part Number"
 F6 "Bomar Interconnect Products Inc" -100 1050 60 H I C CNN "Manufacturer"
@@ -6136,7 +6139,7 @@ DEF ~SN74LVC162244A U 0 40 Y Y 1 F N
 F0 "U" 100 50 60 H V C CNN
 F1 "SN74LVC162244A" 300 250 60 H I C CNN
 F2 "TSSOP-48" 300 350 60 H I C CNN
-F3 "~" 300 150 60 H V C CNN
+F3 "" 300 150 60 H V C CNN
 F4 "Digi-Key" 400 750 60 H I C CNN "Vendor"
 F5 "296-13237-1-ND" 400 850 60 H I C CNN "Vendor Part Number"
 F6 "Texas Instruments" 400 650 60 H I C CNN "Manufacturer"
@@ -6204,7 +6207,7 @@ DEF ~SN74LVC1G04DBVR U 0 40 Y Y 1 F N
 F0 "U" -150 300 60 H V C CNN
 F1 "SN74LVC1G04DBVR" 100 450 60 H I C CNN
 F2 "SOT23-5" 100 550 60 H I C CNN
-F3 "~" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 F4 "Digi-Key " 150 950 60 H I C CNN "Vendor"
 F5 "296-11599-1-ND" 150 1050 60 H I C CNN "Vendor Part Number"
 F6 "Texas Instruments" 100 850 60 H I C CNN "Manufacturer"
@@ -6221,47 +6224,13 @@ X ~ 5 0 300 200 D 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Sony_PA
-#
-DEF ~Sony_PA U 0 40 Y Y 1 F N
-F0 "U" -325 400 60 H V C CNN
-F1 "Sony_PA" 50 850 60 H I C CNN
-F2 "VQFN_22" 100 650 60 H I C CNN
-F3 "~" -325 400 60 H I C CNN
-F4 "AP-4000-22012S" 50 1150 60 H I C CNN "Vendor Part Number"
-F5 "AP-4000-22012S" 100 950 60 H I C CNN "Manufacturer Part Number"
-F6 "Lime Microsystems" 100 1050 60 H I C CNN "Vendor"
-F7 "PA, Sony" 50 550 60 H I C CNN "Description"
-F8 "Sony" 50 750 60 H I C CNN "Manufacturer"
-F9 "Sony_PA" 425 -125 60 H V C CNN "Component Value"
-DRAW
-P 2 0 1 0  -375 0  -375 -250 N
-P 2 0 1 0  -375 0  -375 250 N
-P 2 0 1 0  -375 250  425 0 N
-P 2 0 1 0  425 0  -375 -250 N
-X ~ 2 -200 -400 203 U 50 50 1 1 B
-X ~ 4 -100 -375 209 U 50 50 1 1 B
-X ~ 6 0 -325 191 U 50 50 1 1 B
-X ~ 8 625 0 200 L 50 50 1 1 P
-X ~ 10 200 275 203 D 50 50 1 1 B
-X ~ 20 -575 0 200 R 50 50 1 1 P
-X ~ 21 -575 100 200 R 50 50 1 1 P
-X ~ 12 200 -275 203 U 50 50 1 1 B
-X ~ 22 -575 -200 200 R 50 50 1 1 P
-X ~ 23 -575 200 200 R 50 50 1 1 P
-X ~ 14 0 325 191 D 50 50 1 1 B
-X ~ 16 100 -300 196 U 50 50 1 1 B
-X ~ 18 -200 400 203 D 50 50 1 1 B
-ENDDRAW
-ENDDEF
-#
 # SP3010-04UTG
 #
 DEF ~SP3010-04UTG U 0 40 Y Y 1 F N
 F0 "U" -100 300 60 H V C CNN
 F1 "SP3010-04UTG" 150 450 60 H I C CNN
 F2 "uDFN-10" 100 550 60 H I C CNN
-F3 "~" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 F4 "Digi-Key" 100 950 60 H I C CNN "Vendor"
 F5 "F3507TR-ND" 150 1050 60 H I C CNN "Vendor Part Number"
 F6 "Littelfuse Inc" 100 850 60 H I C CNN "Manufacturer"
@@ -6289,7 +6258,7 @@ DEF ~SW_2way SW 0 40 Y Y 1 F N
 F0 "SW" 100 50 60 H V C CNN
 F1 "SW_2way" 100 200 60 H I C CNN
 F2 "Switch 2way" 100 275 60 H I C CNN
-F3 "~" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 F4 "Digi-Key" 175 625 60 H I C CNN "Vendor"
 F5 "450-1431-ND" 175 700 60 H I C CNN "Vendor Part Number"
 F6 "TE Connectivity" 125 550 60 H I C CNN "Manufacturer"
@@ -6315,7 +6284,7 @@ DEF ~SW_Position SW 0 0 Y N 1 F N
 F0 "SW" 50 150 60 H V C CNN
 F1 "SW_Position" 50 300 60 H I C CNN
 F2 "SW_2POS_TH" 20 410 60 H I C CNN
-F3 "~" 0 -25 60 H V C CNN
+F3 "" 0 -25 60 H V C CNN
 F4 "679-1860-ND" 50 930 60 H I C CNN "Vendor Part Number"
 F5 "Apem Inc." 40 730 60 H I C CNN "Manufacturer"
 F6 "Digi-Key" 10 840 60 H I C CNN "Vendor"
@@ -6339,7 +6308,7 @@ DEF ~SW_Tactile SW 0 0 N N 1 F N
 F0 "SW" 0 75 60 H V C CNN
 F1 "SW_Tactile" 25 200 60 H I C CNN
 F2 "SW_B3U-1000P" 50 325 60 H I C CNN
-F3 "~" 0 -25 60 H V C CNN
+F3 "" 0 -25 60 H V C CNN
 F4 "B3U-1000P" 25 525 60 H I C CNN "Manufacturer Part Number"
 F5 "Digi-Key" 25 750 60 H I C CNN "Vendor"
 F6 "Omron Electronics Inc-EMC Div" -25 650 60 H I C CNN "Manufacturer"
@@ -6356,13 +6325,47 @@ X Coll 2 75 0 24 L 40 40 1 1 I
 ENDDRAW
 ENDDEF
 #
+# Sony_PA
+#
+DEF ~Sony_PA U 0 40 Y Y 1 F N
+F0 "U" -325 400 60 H V C CNN
+F1 "Sony_PA" 50 850 60 H I C CNN
+F2 "VQFN_22" 100 650 60 H I C CNN
+F3 "" -325 400 60 H I C CNN
+F4 "AP-4000-22012S" 50 1150 60 H I C CNN "Vendor Part Number"
+F5 "AP-4000-22012S" 100 950 60 H I C CNN "Manufacturer Part Number"
+F6 "Lime Microsystems" 100 1050 60 H I C CNN "Vendor"
+F7 "PA, Sony" 50 550 60 H I C CNN "Description"
+F8 "Sony" 50 750 60 H I C CNN "Manufacturer"
+F9 "Sony_PA" 425 -125 60 H V C CNN "Component Value"
+DRAW
+P 2 0 1 0  -375 0  -375 -250 N
+P 2 0 1 0  -375 0  -375 250 N
+P 2 0 1 0  -375 250  425 0 N
+P 2 0 1 0  425 0  -375 -250 N
+X ~ 2 -200 -400 203 U 50 50 1 1 B
+X ~ 4 -100 -375 209 U 50 50 1 1 B
+X ~ 6 0 -325 191 U 50 50 1 1 B
+X ~ 8 625 0 200 L 50 50 1 1 P
+X ~ 10 200 275 203 D 50 50 1 1 B
+X ~ 20 -575 0 200 R 50 50 1 1 P
+X ~ 21 -575 100 200 R 50 50 1 1 P
+X ~ 12 200 -275 203 U 50 50 1 1 B
+X ~ 22 -575 -200 200 R 50 50 1 1 P
+X ~ 23 -575 200 200 R 50 50 1 1 P
+X ~ 14 0 325 191 D 50 50 1 1 B
+X ~ 16 100 -300 196 U 50 50 1 1 B
+X ~ 18 -200 400 203 D 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
 # TCXO_19.2MHZ
 #
 DEF ~TCXO_19.2MHZ XO 0 0 N N 1 F N
 F0 "XO" -110 110 50 H V L BNN
 F1 "TCXO_19.2MHZ" -220 210 50 H I L BNN
 F2 "4-SMD" 30 320 50 H I C CNN
-F3 "~" -8 0 60 V V C CNN
+F3 "" -8 0 60 V V C CNN
 F4 "405C35B19M20000" 10 500 60 H I C CNN "Manufacturer Part Number"
 F5 "CRYSTAL 19.200000MHZ, 13PF, SMD," 30 400 60 H I C CNN "Description"
 F6 "CTS-Frequency Controls" 0 600 60 H I C CNN "Manufacturer"
@@ -6391,7 +6394,7 @@ DEF ~TCXO_25MHZ XO 0 0 N N 1 F N
 F0 "XO" -40 90 50 H V L BNN
 F1 "TCXO_25MHZ" -240 190 50 H I L BNN
 F2 "HC49_US" 0 300 50 H I C CNN
-F3 "~" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 F4 "535-9078-1-ND" 20 840 60 H I C CNN "Vendor Part Number"
 F5 "ABLS-25.000MHZ-B2F-T" -20 500 60 H I C CNN "Manufacturer Part Number"
 F6 "ABRACON" 0 620 60 H I C CNN "Manufacturer"
@@ -6419,7 +6422,7 @@ DEF ~TCXO_30.72MHZ XO 0 40 Y Y 1 F N
 F0 "XO" 90 50 60 H V C CNN
 F1 "TCXO_30.72MHZ" 350 400 60 H I C CNN
 F2 "SMD_TCXO" 350 300 60 H I C CNN
-F3 "~" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 F4 "Rakon" 350 600 60 H I C CNN "Vendor"
 F5 "E5280LF" 350 500 60 H I C CNN "Vendor Part Number"
 F6 "Rakon" 350 700 60 H I C CNN "Manufacturer"
@@ -6441,7 +6444,7 @@ DEF ~TCXO_30.72MHZ_RACON_P+ XO 0 40 Y Y 1 F N
 F0 "XO" -160 190 60 H V C CNN
 F1 "TCXO_30.72MHZ_RACON_P+" 0 350 60 H I C CNN
 F2 "SMD_TXCO_Pluto+" -10 470 60 H I C CNN
-F3 "~" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 F4 "30.72MHz, RPT7050A, Pluto+," 50 570 60 H I C CNN "Description"
 F5 "E6245LF" 0 690 60 H I C CNN "Vendor Part Number"
 F6 "E6245LF" 0 980 60 H I C CNN "Manufacturer Part Number"
@@ -6465,7 +6468,7 @@ DEF ~TCXO_61.44MHZ XO 0 40 Y Y 1 F N
 F0 "XO" 100 50 60 H V C CNN
 F1 "TCXO_61.44MHZ" 300 200 60 H I C CNN
 F2 "TCXO CFPT-6144MHz" 300 300 60 H I C CNN
-F3 "~" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 F4 "Rakon" 250 600 60 H I C CNN "Vendor"
 F5 "E5405LF" 250 500 60 H I C CNN "Vendor Part Number"
 F6 "Rakon" 250 700 60 H I C CNN "Manufacturer"
@@ -6487,7 +6490,7 @@ DEF ~TCXO_8MHZ XO 0 0 N N 1 F N
 F0 "XO" -50 80 50 H V L BNN
 F1 "TCXO_8MHZ" -220 230 50 H I L BNN
 F2 "HC49_US" 20 330 50 H I C CNN
-F3 "~" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 F4 "1611765" 0 820 60 H I C CNN "Vendor Part Number"
 F5 "CRYSTAL, 8M, AT MODE, HC49 / 4HSMX," 40 410 60 H I C CNN "Description"
 F6 "Farnell" 0 710 60 H I C CNN "Vendor"
@@ -6515,7 +6518,7 @@ DEF ~TESTPOINT TP 0 40 Y Y 1 F N
 F0 "TP" -100 150 60 H V C CNN
 F1 "TESTPOINT" 0 350 60 H I C CNN
 F2 "TP" 0 475 60 H I C CNN
-F3 "~" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 F4 "81-MM8030-2600RK0" 25 700 60 H I C CNN "Vendor Part Number"
 F5 "Mouser" 25 875 60 H I C CNN "Vendor"
 F6 "MM8030-2600RK0" 0 950 60 H I C CNN "Manufacturer Part Number"
@@ -6536,8 +6539,8 @@ ENDDEF
 DEF ~TP TP 0 40 N N 1 F N
 F0 "TP" 120 -10 60 H V C CNN
 F1 "TP" 10 -90 60 H I C CNN
-F2 "~" 0 0 60 H V C CNN
-F3 "~" 0 0 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 DRAW
 S -25 25 25 -25 0 1 0 N
 X ~ 1 -75 0 50 R 0 0 1 1 P
@@ -6550,7 +6553,7 @@ DEF ~TPS60403DBVT U 0 40 Y Y 1 F N
 F0 "U" 50 50 60 H V C CNN
 F1 "TPS60403DBVT" 400 300 60 H I C CNN
 F2 "SOT-23" 350 400 60 H I C CNN
-F3 "~" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 F4 "Digi-Key" 400 800 60 H I C CNN "Vendor"
 F5 "296-27005-1-ND" 450 900 60 H I C CNN "Vendor Part Number"
 F6 "Texas Instruments" 400 700 60 H I C CNN "Manufacturer"
@@ -6573,7 +6576,7 @@ DEF ~TQP3M9005 U 0 40 Y Y 1 F N
 F0 "U" -300 500 60 H V C CNN
 F1 "TQP3M9005" 0 700 60 H I C CNN
 F2 "QFN16" 0 800 60 H I C CNN
-F3 "~" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 F4 "772-TQP3M9005" 50 1300 60 H I C CNN "Vendor Part Number"
 F5 "Mouser" -50 1200 60 H I C CNN "Vendor"
 F6 "RF Amplifier, .1-4GHz, NF .8dB, Gain, 15.3dB," 50 900 60 H I C CNN "Description"
@@ -6608,7 +6611,7 @@ DEF ~TR_TC1 T 0 40 Y N 1 F N
 F0 "T" 0 240 50 H V C CNN
 F1 "TR_TC1" 0 375 50 H I C CNN
 F2 "AT224-1" 25 475 60 H I C CNN
-F3 "~" 0 240 60 H V C CNN
+F3 "" 0 240 60 H V C CNN
 F4 "Mini-Circuits" 50 825 60 H I C CNN "Manufacturer"
 F5 "Municom" 0 925 60 H I C CNN "Vendor"
 F6 "RF Transformer; 4.5 - 3000 MHz; RF Power 0.25 Watt; Ratio 1:1; 50 Ohm;" 225 600 60 H I C CNN "Description"
@@ -6655,7 +6658,7 @@ DEF ~TR_TC4 T 0 40 Y N 1 F N
 F0 "T" 0 240 50 H V C CNN
 F1 "TR_TC4" 25 350 50 H I C CNN
 F2 "AT224-1" 50 425 60 H I C CNN
-F3 "~" 0 240 60 H V C CNN
+F3 "" 0 240 60 H V C CNN
 F4 "Mini-Circuits" 50 625 60 H I C CNN "Manufacturer"
 F5 "Municom" 50 750 60 H I C CNN "Vendor"
 F6 "RF Transformer; 500 - 2500 MHz; RF Power 0.25 Watt; Ratio 1:4; 50 Ohm;" 50 525 60 H I C CNN "Description"
@@ -6701,7 +6704,7 @@ DEF ~TXB0102 U 0 40 Y Y 1 F N
 F0 "U" -175 300 60 H V C CNN
 F1 "TXB0102" 20 395 60 H I C CNN
 F2 "US8" 0 515 60 H I C CNN
-F3 "~" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 F4 "Digi-Key" 20 915 60 H I C CNN "Vendor"
 F5 "IC, VOLT-LVL, TRANSL, BI-DIR, US8," 0 625 60 H I C CNN "Description"
 F6 "TXB0102DCUR" -30 725 60 H I C CNN "Manufacturer Part Number"
@@ -6726,8 +6729,8 @@ ENDDEF
 DEF VBUS_+5V #PWR 0 0 N N 1 F P
 F0 "#PWR" 0 -100 40 H I C CNN
 F1 "VBUS_+5V" 0 80 40 H V C CNN
-F2 "~" 0 0 60 H V C CNN
-F3 "~" 0 0 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 DRAW
 C 0 0 25 0 1 0 N
 X VBUS_+5V 1 0 -25 0 U 40 40 1 1 W N
@@ -6739,8 +6742,8 @@ ENDDEF
 DEF Vdio #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 140 20 H I C CNN
 F1 "Vdio" 0 110 30 H V C CNN
-F2 "~" 0 0 60 H V C CNN
-F3 "~" 0 0 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
 DRAW
 P 3 0 0 0  0 0  0 40  0 40 N
 X Vdio 1 0 0 0 U 20 20 0 0 W N

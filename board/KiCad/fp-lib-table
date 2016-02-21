@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name lms6002-pmod)(type KiCad)(uri "$(KIPRJMOD)/lib/lms6002-pmod.pretty")(options "")(descr ""))
+  (lib (name MyriadRF)(type KiCad)(uri "$(KIPRJMOD)/lib/myriad.pretty")(options "")(descr ""))
+)

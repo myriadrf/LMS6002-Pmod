@@ -28,10 +28,9 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:lms6002-pmod
 LIBS:ice40_1k4k_tq144
 LIBS:myriad
-LIBS:pmod
-LIBS:LMS6002-Pmod-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268

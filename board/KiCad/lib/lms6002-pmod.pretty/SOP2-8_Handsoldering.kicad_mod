@@ -19,7 +19,7 @@
   (pad 6 smd rect (at 3.45 0.635) (size 2.2 0.5) (drill (offset 0.7 0)) (layers F.Cu F.Paste F.Mask))
   (pad 4 smd rect (at -3.45 1.905) (size 2.2 0.5) (drill (offset -0.7 0)) (layers F.Cu F.Paste F.Mask))
   (pad 5 smd rect (at 3.45 1.905) (size 2.2 0.5) (drill (offset 0.7 0)) (layers F.Cu F.Paste F.Mask))
-  (model ../../../../../home/wallento/dev/LMS6002-Pmod/board/KiCad/pmod.3dshapes/so-8.wrl
+  (model ${KIPRJMOD}/lib/lms6002-pmod.3dshapes/so-8.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1.2 1))
     (rotate (xyz 0 0 90))

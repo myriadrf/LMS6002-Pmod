@@ -28,10 +28,9 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:lms6002-pmod
 LIBS:ice40_1k4k_tq144
 LIBS:myriad
-LIBS:pmod
-LIBS:LMS6002-Pmod-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -52,7 +51,7 @@ U 1 1 56BBB08B
 P 5250 2850
 F 0 "U4" H 5050 2300 60  0000 C CNN
 F 1 "N25Q" H 4950 3750 60  0000 C CNN
-F 2 "pmod:SOP2-8_Handsoldering" H 5250 2850 60  0001 C CNN
+F 2 "lms6002-pmod:SOP2-8_Handsoldering" H 5250 2850 60  0001 C CNN
 F 3 "" H 5250 2850 60  0000 C CNN
 	1    5250 2850
 	1    0    0    -1  

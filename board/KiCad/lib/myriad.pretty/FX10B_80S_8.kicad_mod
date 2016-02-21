@@ -1,4 +1,4 @@
-(module FX10B_80S_8 (layer F.Cu) (tedit 528B6C85)
+(module FX10B_80S_8 locked (layer F.Cu) (tedit 528B6C85)
   (attr smd)
   (fp_text reference J1 (at 0.2 -4.7) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.2)))
@@ -122,8 +122,8 @@
   (pad 89 thru_hole circle (at 13.20038 0) (size 1.19888 1.19888) (drill 1.19888) (layers *.Cu F.SilkS))
   (pad 90 smd rect (at -14.95044 0) (size 1.6002 3.0988) (layers F.Cu F.Paste F.Mask))
   (pad 89 smd rect (at 14.95044 0) (size 1.6002 3.0988) (layers F.Cu F.Paste F.Mask))
-  (model ../../../../../home/wallento/dev/LMS6002-Pmod/board/KiCad/pmod.3dshapes/fx10b_80s.wrl
-    (at (xyz 0 0 0.01))
+  (model ${KIPRJMOD}/lib/myriad.3dshapes/fx10b_80s.wrl
+    (at (xyz 0 0 0))
     (scale (xyz 0.395 0.395 0.395))
     (rotate (xyz 0 0 0))
   )

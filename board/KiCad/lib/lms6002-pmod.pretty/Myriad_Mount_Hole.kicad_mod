@@ -1,0 +1,9 @@
+(module Myriad_Mount_Hole (layer F.Cu) (tedit 56C32BCD)
+  (fp_text reference "" (at 0 0.5) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value "" (at 0 -0.5) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad GND thru_hole circle (at 0 0) (size 5.4991 5.4991) (drill 3.2131) (layers *.Cu *.Mask F.SilkS))
+)
