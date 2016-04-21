@@ -1,8 +1,5 @@
-
-* N-FET - IRLML6344
-
- * http://de.farnell.com/international-rectifier/irlml6344trpbf/mosfet-n-kanal-30v-5a-sot23/dp/1857299
- * http://www.farnell.com/datasheets/1911844.pdf
+* P-FET - IRLML6401PBF
+ * http://de.farnell.com/international-rectifier/irlml6401pbf/mosfet-p-kanal-12v-4-3a-micro/dp/8660093
  
 * 1.2V LDO - LD6815TD/12H
 
